@@ -1,0 +1,417 @@
+<?xml version="1.0" ?>
+<TEI ana="#parla.agenda #reference" xml:id="ParlaMint-ES-CT_2015-10-26-0101" xml:lang="ca" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT_2015-10-26-0101 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT_2015-10-26-0101 [ParlaMint SAMPLE]</title>
+            <meeting ana="#parla:term" n="11">XI Legislatura</meeting>
+            <meeting ana="#parla:meeting" n="1">1</meeting>
+            <meeting ana="#parla.sitting" n="1">1</meeting>
+            <respStmt>
+               <persName>Nuria Bel</persName>
+               <resp>Coordinator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp>Data retrieval, first conversion to XML and to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Marilina Pisani</persName>
+               <resp>Final TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="ca">Cap financiacio</orgName>
+               <orgName xml:lang="en">No funder</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="9" unit="speeches" xml:lang="ca">9 intervencions</measure>
+            <measure quantity="9" unit="speeches" xml:lang="en">9 speeches</measure>
+            <measure quantity="4307" unit="words" xml:lang="ca">4307 paraules</measure>
+            <measure quantity="4307" unit="words" xml:lang="en">4307 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022">2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date when="2015-10-26">2015-10-26</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="21"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="9"/>
+               <tagUsage gi="seg" occurs="243"/>
+               <tagUsage gi="kinesic" occurs="8"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name key="ES" type="country">Spain</name>
+               <date when="2015-10-26">26.10.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>SESSIÓ NÚM. 1</head>
+            <note>La sessió s'obre a les onze del matí i dos minuts. Presideix el president de la Mesa d’Edat, acompanyat dels secretaris de la Mesa d’Edat, la qual és assistida pel lletrat major i el lletrat Pere Sol i Ordis.</note>
+            <note>Al banc del Govern seu el president de la Generalitat en funcions, acompanyat de tot el Govern en funcions.</note>
+            <note>ORDRE DEL DIA DE LA CONVOCATÒRIA</note>
+            <note>Punt únic: Constitució del Ple del Parlament i elecció de la Mesa del Parlament (tram. 396-00001/11 i 398-00001/11).</note>
+            <note type="speaker">El lletrat major (Antoni Bayona Rocamora)</note>
+            <u ana="member" who="BayonaAntoni" xml:id="ParlaMint-ES-CT_2015-10-26-0101.1" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.0" xml:lang="ca">Autoritats, senyores i senyors, bon dia i benvinguts al Parlament de Catalunya en aquesta sessió constitutiva de l'onzena legislatura.</seg>
+               <note>Constitució del Ple del Parlament i elecció de la Mesa del Parlament</note>
+               <note>396-00001/11 i 398-00001/11</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.1" xml:lang="ca">Com és preceptiu, d’acord amb el que estableix l’article 1 del Reglament del Parlament, aquesta sessió s’ha d’iniciar donant lectura del Decret de convocatòria de la sessió constitutiva del Parlament de Catalunya. Aquest decret és el número 229, de 21 d’octubre de 2015, publicat al Diari Oficial de la Generalitat de Catalunya del proppassat 22 d’octubre.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.2" xml:lang="ca">El decret diu així: «Realitzades les eleccions al Parlament de Catalunya el passat dia 27 de setembre i atès que les corresponents juntes electorals provincials han proclamat els resultats d’aquest procés electoral, de conformitat amb el que estableix l’article 10, lletra d, de la Llei 13/2008, del 5 de novembre, de la presidència de la Generalitat i del Govern, decreto:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.3" xml:lang="ca">»Article 1. Convocar a la sessió constitutiva del Parlament de Catalunya els diputats i diputades electes que han estat proclamats per les juntes electorals provincials de Barcelona, Girona, Lleida i Tarragona, d’acord amb el resultat de les eleccions realitzades el dia 27 de setembre de 2015.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.4" xml:lang="ca">»Article 2. La sessió constitutiva tindrà lloc el dia 26 d’octubre de 2015, a les 11 hores, al Palau del Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.5" xml:lang="ca">»Disposició final. Aquest decret entrarà en vigor el mateix dia de la seva publicació al Diari Oficial de la Generalitat de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.6" xml:lang="ca">»Barcelona, 21 d’octubre de 2015.» Signat, Artur Mas i Gavarró, president de la Generalitat de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.7" xml:lang="ca">El Reglament del Parlament, d’acord amb el que preveu l’article 2, estableix que aquesta sessió constitutiva ha d’estar presidida inicialment pel diputat o diputada electe de més edat d’entre els presents, assistit pels dos diputats més joves en qualitat de secretaris.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.8" xml:lang="ca">Segons les dades lliurades al Parlament de Catalunya, consta que l’il·lustre senyor Julià de Jòdar Muñoz, nascut el 28 de desembre de 1942, és el diputat de més edat d’entre els presents i li correspon de presidir la sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.9" xml:lang="ca">Comptarà amb la col·laboració dels dos diputats més joves, que són l’il·lustre senyor Joan Giner Miguélez, nascut 26 de juliol de 1989, i l’il·lustre senyor Gerard Gómez del Moral i Fuster, nascut el dia 17 d’octubre de 1989.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.10" xml:lang="ca">Si algú d’entre els proclamats electes considera que té un millor dret, ho haurà d’advertir ara. En cas contrari, el Parlament espera i el Reglament disposa que componguin la Mesa d’Edat per tal d’obrir la sessió constitutiva del Parlament en la seva onzena legislatura.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.11" xml:lang="ca">Els prego, doncs, que vulguin ocupar els seus llocs en la presidència.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.1.12" xml:lang="ca">Mentrestant, com a lletrat major del Parlament de Catalunya, els vull desitjar a tots i a totes els millors encerts en l’exercici de la funció representativa i de servei a les persones i al país que el poble de Catalunya els ha encomanat.</seg>
+               <note>(Pausa llarga.)</note>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat (Julià de Jòdar Muñoz)</note>
+            <u ana="member" who="DeJòdarJulià" xml:id="ParlaMint-ES-CT_2015-10-26-0101.2" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.0" xml:lang="ca">Un cop iniciada la sessió constitutiva amb la lectura del decret de convocatòria per part del lletrat major, com a president de la Mesa d’Edat, i d’acord amb l’article 2 del Reglament, declaro oberta aquesta sessió.</seg>
+               <note>Manifestació de condol per la mort de l’exdiputat Jordi Miralles i Conte</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.1" xml:lang="ca">Abans de començar, si em permeten, voldria proposar guardar un minut de silenci en memòria del senyor Jordi Miralles i Conte, que fou diputat del Parlament de Catalunya durant la setena, vuitena i novena legislatures, i també fou secretari tercer de la Mesa del Parlament en la vuitena legislatura.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.2" xml:lang="ca">Demano, doncs, un minut de silenci en la seva memòria.</seg>
+               <kinesic type="applause">
+                  <desc>(La cambra, dempeus, serva un minut de silenci. Aplaudiments.)</desc>
+               </kinesic>
+               <note>Constitució del Ple del Parlament i elecció de la Mesa del Parlament (continuació)</note>
+               <note>396-00001/11 i 398-00001/11</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.3" xml:lang="ca">President de la Generalitat, president Montilla, presidenta Núria de Gispert, president Rigol, president Benach, honorables consellers i conselleres, il·lustres diputats i diputades, autoritats que ens acompanyen, senyores i senyores assistents, treballadors del Parlament i dels mitjans de comunicació que cobreixen aquesta sessió i que faran el possible perquè arribi a tots els ciutadans, els desitjo molt bon dia a tots i a totes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.4" xml:lang="ca">És una paradoxa que l’atzar m’hagi designat president d’edat d’aquesta cambra quan el nostre grup parlamentari no hi ha volgut ocupar cap lloc. No me’n queixo: l’atzar és arbitrari, però no frívol; vaig néixer una matinada dels Sants Innocents, i aquí estic. En aquesta Mesa tenim Gerard Gómez del Moral i Fuster i Joan Giner i Miguélez, que procedeixen de famílies de l’Aragó i Catalunya, de Saldes, de San Félix de la Vega i Lleó, de Tavernes de la Valldigna; jo mateix sóc fill de cartagenera i de Vélez-Rubio. I trobar-nos aquí potser també és un producte de l’atzar, però també és producte de la voluntat de pertinença i del país que ens ha tocat viure, la seva cultura, la seva història i la seva llengua, i que podria servir d’exemple segurament a l’Europa actual, incapaç d’aixoplugar els damnats de la terra com mereixen.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.5" xml:lang="ca">Més paradoxal encara, i molt menys innocent, és que jo formi part de la generació independentista que va organitzar el Comitè Català contra la Constitució Espanyola del 1978, perquè no va significar una ruptura amb el franquisme, sinó la seva impunitat; perquè no va sorgir d’un procés constituent popular, sinó que va ser elaborada des de dalt; perquè no reconeixia Catalunya com a nació, i perquè mantenia els privilegis econòmics i de classe, les mateixes forces d’ordre públic, l’exèrcit i la judicatura del franquisme. I ens vam oposar a l’Estatut de Sau perquè emanava d’aquella Constitució i, en conseqüència, vam demanar una abstenció activa en les eleccions autonòmiques del 1980. La radicalitat independentista tenia un preu; el vam pagar amb persecució i soledat. Vam resistir mentre les institucions miraven cap a una altra banda el 1981 i el 1992. I no oblidem Guillem Agulló.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.6" xml:lang="ca">Vam treballar des de la base, vam ser perseverants i vam poder enllaçar amb la creació d’un moviment de masses democràtic, pacífic i sostingut, que va començar amb la Plataforma pel Dret de Decidir el 2006 i va continuar amb les consultes per la independència entre el 2009 i el 2011, amb la manifestació contra la sentència del Tribunal Constitucional del 2010, amb la fundació de l’Assemblea Nacional de Catalunya, amb les diades dels últims anys i amb la consulta del 9 de novembre del 2014.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.7" xml:lang="ca">Un país de carrer, que s’ha expressat amb tantes marees verdes, grogues o blanques, amb tantes vagues generals, amb tantes propostes i protestes arreu dels Països Catalans, un país que ja hi és. La composició d’aquesta cambra n’és el fruit per acció, amb una majoria independentista, i per reacció, amb una nova minoria a l’oposició.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.8" xml:lang="ca">L’última i més important de les paradoxes és que disposem d’una majoria independentista al si d’un ordre juridicopolític que li nega tota capacitat de realitzar el mandat democràtic de la ciutadania que l’ha votat. La tasca principal d’aquest Parlament serà la de resoldre el conflicte en els mateixos termes democràtics, pacífics i sostinguts del moviment que li ha conferit la majoria legal i la legitimitat moral per fundar un nou model ètic, jurídic i polític, assentat sobre la llibertat, la igualtat i la justícia social per al nostre poble, perquè fa molt de temps que els moviments pels drets socials, nacionals i civils, el teixit associatiu, estan constituint un model per a un nou país, on caldrà establir una nova i distinta relació entre continuïtats i ruptures, entre el carrer i les institucions, entre les estructures socials i la vida moral, entre la trama constitucional i les seves bases materials.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.9" xml:lang="ca">Aquest Parlament, que està essent contemplat arreu del món, també serà l’escenari de l’embat entre democràcia i règim davant d’aquest món que ens contempla.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.10" xml:lang="ca">S'ha estat molts anys ajudant a fer governs a Madrid, a construir les seves alternatives de poder, però ara no en som l’alternativa, sinó l’alteritat; una alteritat que no se’ns vol reconèixer, una alteritat que no està restringida a la utopia o al record, sinó que és concreta i factible, i necessària. Ja no ens acontenta el pinso, volem sortir de la gàbia; no canviar-la, sinó fugir-ne. No volem les molles, que diria Ovidi Montllor, és temps del pa sencer.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.11" xml:lang="ca">La majoria independentista d’aquesta cambra n’és la garantia, i el Parlament és un dels llocs on s’ha de construir políticament aquesta alteritat. Però no oblidem que també hi ha una alteritat que afecta la majoria i una alteritat que afecta les minories. El problema del pa i del treball afecta la majoria; el problema de les retallades i les creixents desigualtats afecta la majoria; el problema del patriarcat ens afecta a tots, encara que colpegi les dones; el problema de la salut afecta la majoria; el problema de l’escola afecta la majoria; el problema de la cultura afecta la majoria; el problema ecològic afecta a totes i a tots. Però, en canvi, afecten la minoria i els seus interessos les privatitzacions, els rescats bancaris o la corrupció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.12" xml:lang="ca">Som un sol poble, certament, però divers i plural i complex, amb unes desigualtats i exclusions per raons de classe, d’origen, de gènere o de creences que són ja intolerables, vergonyoses. Aquest hivern, senyors diputats i senyores diputades, hi haurà milers de famílies que no podran pagar la llar, els aliments, els serveis mínims; hi haurà infants desnodrits i gent gran desatesa. Cap govern sorgit d’aquest Parlament no guanyarà la legitimitat si no aplica les mesures indispensables per pal·liar-ho. No es pot fallar a la llibertat política d'aquest poble, perquè no es pot fallar a la justícia social per a la seva gent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.13" xml:lang="ca">Però amb els pobres no s’han de fer experiments. Si les institucions han d’aplicar plans d’emergència social són ells, els pobres, que han de participar-hi i tenir-ne el control. Que cap mare de família necessitada no hagi de dir, com la portera de palau més famosa de la literatura catalana, la immortal Secundina: «Talli qui talli el bacallà, una es queda sempre de portera.»</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.14" xml:lang="ca">Són temps de llibertat i és temps de justícia. Visca la terra!</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.15" xml:lang="ca">Moltes gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.16" xml:lang="ca">De conformitat amb l’article 2.2 del Reglament, procedirem ara a la lectura de la relació dels diputats i diputades electes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.2.17" xml:lang="ca">Prego al secretari de la Mesa d’Edat senyor Gerard Gómez del Moral i Fuster que iniciï la lectura de la relació dels membres electes per la circumscripció de Barcelona.</seg>
+            </u>
+            <note type="speaker">El secretari de la Mesa d’Edat Gerard Gómez del Moral i Fuster</note>
+            <u ana="member" who="GomézGerard" xml:id="ParlaMint-ES-CT_2015-10-26-0101.3" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.0" xml:lang="ca">«La Junta Electoral Provincial, en sessió tinguda el dia 9 d’octubre de 2015, d’acord amb els resultats electorals, ha proclamat diputats electes per la circumscripció de Barcelona les senyores i els senyors següents:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.1" xml:lang="ca">»Junts pel Sí:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.2" xml:lang="ca">»Oriol Amat i Salas</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.3" xml:lang="ca">Oriol Amorós i March</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.4" xml:lang="ca">Pere Aragonès i Garcia</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.5" xml:lang="ca">David Bonvehí i Torras</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.6" xml:lang="ca">Montserrat Candini i Puig</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.7" xml:lang="ca">Muriel Casals i Couturier</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.8" xml:lang="ca">Joan Ramon Casals i Mata</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.9" xml:lang="ca">Magda Casamitjana i Aguilà</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.10" xml:lang="ca">Antoni Castellà i Clavé</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.11" xml:lang="ca">Antoni Comín i Oliveres</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.12" xml:lang="ca">Lluís Maria Corominas i Díaz</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.13" xml:lang="ca">Jordi Cuminal Roquet</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.14" xml:lang="ca">Chakir el Homrani Lesfar</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.15" xml:lang="ca">Anna Figueras i Ibàñez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.16" xml:lang="ca">Carme Forcadell i Lluís</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.17" xml:lang="ca">Gerard Gómez del Moral i Fuster</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.18" xml:lang="ca">Germà Gordó i Aubarell</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.19" xml:lang="ca">Oriol Junqueras i Vies</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.20" xml:lang="ca">Neus Lloveras i Massana</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.21" xml:lang="ca">Artur Mas i Gavarró</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.22" xml:lang="ca">Neus Munté i Fernàndez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.23" xml:lang="ca">Marta Pascal i Capdevila</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.24" xml:lang="ca">Eduardo Reyes Pino</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.25" xml:lang="ca">Irene Rigau i Oliver</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.26" xml:lang="ca">Raúl Romeva i Rueda</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.27" xml:lang="ca">Marta Rovira i Vergés</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.28" xml:lang="ca">Josep Rull i Andreu</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.29" xml:lang="ca">Marc Sanglas i Alcantarilla</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.30" xml:lang="ca">Maria Senserrich i Guitart</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.31" xml:lang="ca">Anna Simó i Castelló</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.32" xml:lang="ca">Jordi Turull i Negre</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.33" xml:lang="ca">Alba Vergés i Bosch.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.34" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.35" xml:lang="ca">»Inés Arrimadas García</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.36" xml:lang="ca">Susana Beltrán García</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.37" xml:lang="ca">Marina Bravo Sobrino</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.38" xml:lang="ca">Carlos Carrizosa Torres</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.39" xml:lang="ca">Noemí de la Calle Sifré</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.40" xml:lang="ca">Fernando de Páramo Gómez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.41" xml:lang="ca">Carmen de Rivera i Pla</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.42" xml:lang="ca">José María Espejo-Saavedra Conesa</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.43" xml:lang="ca">Antonio Espinosa Cerrato</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.44" xml:lang="ca">Jesús Galiano Gutierrez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.45" xml:lang="ca">Joan García González</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.46" xml:lang="ca">Fran Hervías Chirosa</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.47" xml:lang="ca">David Mejía Ayra</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.48" xml:lang="ca">Sergio Sanz Jiménez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.49" xml:lang="ca">Sonia Sierra Infante</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.50" xml:lang="ca">Elisabeth Valencia Mimbrero</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.51" xml:lang="ca">Laura Vilchez Sánchez.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.52" xml:lang="ca">»Partit dels Socialistes de Catalunya:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.53" xml:lang="ca">» Assumpta Escarp Gibert</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.54" xml:lang="ca">Pol Gibert Horcas</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.55" xml:lang="ca">Eva Granados Galiano</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.56" xml:lang="ca">Miquel Iceta i Llorens</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.57" xml:lang="ca">Eva Martínez Morales</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.58" xml:lang="ca">Raúl Moreno Montaña</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.59" xml:lang="ca">Marta Moreta Rovira</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.60" xml:lang="ca">Esther Niubó Cidoncha</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.61" xml:lang="ca">Ferran Pedret i Santos</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.62" xml:lang="ca">David Pérez Ibáñez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.63" xml:lang="ca">Alícia Romero Llano</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.64" xml:lang="ca">Jordi Terrades i Santacreu.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.65" xml:lang="ca">»Catalunya Sí Que Es Pot:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.66" xml:lang="ca">»Jéssica Albiach Satorres</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.67" xml:lang="ca">Joan Coscubiela Conesa</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.68" xml:lang="ca">Albano Dante Fachin Pozzi</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.69" xml:lang="ca">Josep Lluís Franco Rabell</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.70" xml:lang="ca">Joan Giner Miguélez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.71" xml:lang="ca">Gemma Lienas Massot</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.72" xml:lang="ca">Àngels Martínez Castells</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.73" xml:lang="ca">Joan Josep Nuet i Pujals</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.74" xml:lang="ca">Marta Ribas Frías.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.75" xml:lang="ca">»Partit Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.76" xml:lang="ca">»Antonio Gallego Burgos</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.77" xml:lang="ca">Xavier García Albiol</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.78" xml:lang="ca">María José García Cuevas</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.79" xml:lang="ca">Esperanza García González</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.80" xml:lang="ca">Andrea Levy Soler</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.81" xml:lang="ca">Juan Milián Querol</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.82" xml:lang="ca">Santi Rodríguez i Serra</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.83" xml:lang="ca">Alberto Vilagrasa Gil.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.84" xml:lang="ca">»Candidatura d’Unitat Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.85" xml:lang="ca">»Antonio Baños Boncompain</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.86" xml:lang="ca">Albert Botran i Pahissa</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.87" xml:lang="ca">Josep Manel Busqueta i Franco</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.88" xml:lang="ca">Julià de Jòdar Muñoz</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.89" xml:lang="ca">Anna Gabriel i Sabaté</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.90" xml:lang="ca">Eulàlia Reguant Cura</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.3.91" xml:lang="ca">Gabriela Serra Frediani.»</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u ana="member" who="DeJòdarJulià" xml:id="ParlaMint-ES-CT_2015-10-26-0101.4" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.4.0" xml:lang="ca">Prego ara al secretari de la Mesa d’Edat senyor Joan Giner Miguélez que continuï la lectura de la relació de diputats i diputades electes per les circumscripcions de Girona, Lleida i Tarragona.</seg>
+            </u>
+            <note type="speaker">El secretari de la Mesa d’Edat Joan Giner Miguélez</note>
+            <u ana="member" who="GinerJoan" xml:id="ParlaMint-ES-CT_2015-10-26-0101.5" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.0" xml:lang="ca">«La Junta Electoral Provincial, en sessió tinguda el dia 7 d’octubre de 2015, d’acord amb els resultats electorals» –votats pel poble català exceptuant aquells joves que han hagut d’estar forçosament exiliats per motius econòmics i als quals no s'ha facilitat el seu dret a vot– «ha proclamat diputats electes per la circumscripció de Girona les senyores i els senyors següents:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.1" xml:lang="ca">»Junts pel Sí:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.2" xml:lang="ca">»Dolors Bassa i Coll</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.3" xml:lang="ca">Anna Caula i Paretas</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.4" xml:lang="ca">Natàlia Figueras i Pagès</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.5" xml:lang="ca">Lluís Guinó i Subirós</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.6" xml:lang="ca">Lluís Llach i Grande</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.7" xml:lang="ca">Jordi Munell i Garcia</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.8" xml:lang="ca">Jordi Orobitg i Solé</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.9" xml:lang="ca">Carles Puigdemont i Casamajó</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.10" xml:lang="ca">Maria Dolors Rovirola i Coromí</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.11" xml:lang="ca">Sergi Sabrià i Benito</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.12" xml:lang="ca">Roger Torrent Ramió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.13" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.14" xml:lang="ca">»Jean Castel Sucarrat</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.15" xml:lang="ca">Alfons Sánchez Fisac.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.16" xml:lang="ca">»Partit Socialista de Catalunya:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.17" xml:lang="ca">»Rafel Bruguera Batalla.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.18" xml:lang="ca">»Catalunya Sí que es Pot:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.19" xml:lang="ca">»Marc Vidal i Pou.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.20" xml:lang="ca">»Partit Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.21" xml:lang="ca">»Josep Enric Millo i Rocher.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.22" xml:lang="ca">»Candidatura d’Unitat Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.23" xml:lang="ca">»Benet Salellas i Vilar.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.24" xml:lang="ca">»Circumscripció de Lleida:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.25" xml:lang="ca">»Junts pel Sí:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.26" xml:lang="ca">»Antoni Balasch i Parisi</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.27" xml:lang="ca">Ramona Barrufet i Santacana</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.28" xml:lang="ca">Albert Batalla i Siscart</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.29" xml:lang="ca">Carmina Castellví i Vallverdú</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.30" xml:lang="ca">Violant Cervera Gòdia</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.31" xml:lang="ca">Josep Maria Forné i Febrer</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.32" xml:lang="ca">Montserrat Fornells i Solé</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.33" xml:lang="ca">David Rodríguez i González</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.34" xml:lang="ca">Bernat Solé i Barril</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.35" xml:lang="ca">Marc Solsona i Aixalà.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.36" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.37" xml:lang="ca">»Javier Rivas Escamilla</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.38" xml:lang="ca">Jorge Soler González.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.39" xml:lang="ca">»Partit Socialista de Catalunya:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.40" xml:lang="ca">»Òscar Ordeig i Molist.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.41" xml:lang="ca">»Partit Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.42" xml:lang="ca">»Marisa Xandri Pujol.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.43" xml:lang="ca">»Candidatura d’Unitat Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.44" xml:lang="ca">»Ramon Usall i Santa.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.45" xml:lang="ca">»Circumscripció de Tarragona:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.46" xml:lang="ca">»Junts pel Sí:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.47" xml:lang="ca">» Albert Batet i Canadell</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.48" xml:lang="ca">Germà Bel Queralt</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.49" xml:lang="ca">Ferran Civit i Martí</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.50" xml:lang="ca">Montserrat Palau Vergés</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.51" xml:lang="ca">Meritxell Roigé i Pedrola</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.52" xml:lang="ca">Lluís Salvadó i Tenesa</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.53" xml:lang="ca">Jordi-Miquel Sendra Vellvè</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.54" xml:lang="ca">Teresa Vallverdú Albornà</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.55" xml:lang="ca">Montserrat Vilella Cuadrada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.56" xml:lang="ca">»Ciutadans - Partido de la Ciudadanía:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.57" xml:lang="ca">»Matías Alonso Ruiz</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.58" xml:lang="ca">Francisco Javier Domínguez Serrano</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.59" xml:lang="ca">Lorena Roldán Suárez</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.60" xml:lang="ca">Carlos Sánchez Martín.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.61" xml:lang="ca">»Partit dels Socialistes de Catalunya:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.62" xml:lang="ca">»Carles Castillo Rosique</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.63" xml:lang="ca">Rosa Maria Ibarra Ollé.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.64" xml:lang="ca">»Catalunya Sí que es Pot:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.65" xml:lang="ca">Gerard Bargalló Boivin.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.66" xml:lang="ca">»Partit Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.67" xml:lang="ca">»Alejandro Fernández Álvarez.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.68" xml:lang="ca">»Candidatura d’Unitat Popular:</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.5.69" xml:lang="ca">»Sergi Saladié Gil.»</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u ana="member" who="DeJòdarJulià" xml:id="ParlaMint-ES-CT_2015-10-26-0101.6" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.0" xml:lang="ca">Aquesta presidència fa constar que tots els membres del Parlament han complert els requisits que estableix l’article 23 del Reglament per accedir al ple exercici de la condició de diputat o diputada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.1" xml:lang="ca">A continuació, procedirem a l’elecció dels membres de la Mesa del Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.2" xml:lang="ca">D’acord amb l’article 43.2 del Reglament, les votacions per a l’elecció d’aquests càrrecs es fan per mitjà de paperetes que hauran de lliurar a la Mesa d’Edat perquè siguin dipositades a l’urna preparada per a aquesta finalitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.3" xml:lang="ca">La primera elecció que correspon fer és la del president o presidenta del Parlament, d’acord amb l’article 44 del Reglament. Per fer aquesta elecció cada diputat o diputada ha d’escriure un sol nom a la papereta, i surt elegit qui obté el vot de la majoria absoluta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.4" xml:lang="ca">Es consideraran nul·les les paperetes il·legibles i les que continguin un nombre de noms superior al requerit o noms relatius a persones que no són membres del Parlament. Les paperetes sense cap indicació escrita es consideraran vots en blanc.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.5" xml:lang="ca">Recordo a la cambra que els membres del Govern que siguin parlamentaris i la Mesa d’Edat votaran al final.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.6" xml:lang="ca">Prego al secretari senyor Gerard Gómez del Moral que iniciï la crida dels diputats i diputades per ordre alfabètic.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per ordre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els diputats que són membres del Govern en funcions i els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.7" xml:lang="ca">Un cop finida la votació, procedirem a fer l’escrutini per saber qui ha estat elegit president o presidenta del Parlament.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.8" xml:lang="ca">Hem acabat, doncs, el recompte de vots, i ha estat elegida presidenta del Parlament, per 77 vots a favor, 57 vots en blanc i 1 vot nul, la molt honorable senyora Carme Forcadell.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.9" xml:lang="ca">Prosseguirem ara amb la votació per a l’elecció dels dos vicepresidents. D’acord amb l’article 44.2 del Reglament cada diputat o diputada ha d’escriure un nom a la papereta i surten elegits els qui per ordre correlatiu obtenen una majoria de vots.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.10" xml:lang="ca">Prego al secretari, senyor Gerard Gómez del Moral, que iniciï novament la crida dels diputats per ordre alfabètic.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per ordre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els diputats que són membres del Govern en funcions i els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.11" xml:lang="ca">Procedirem a fer l’escrutini per saber quins han estat elegits vicepresidents del Parlament.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.12" xml:lang="ca">Ha estat elegit vicepresident primer, per 66 vots a favor, l’il·lustre senyor Lluís Corominas i Díaz.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.13" xml:lang="ca">Ha estat elegit vicepresident segon, per 56 vots a favor, l’il·lustre senyor José María Espejo-Saavedra Conesa.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.14" xml:lang="ca">Hi ha hagut 5 vots en blanc i 8 vots nuls.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.15" xml:lang="ca">Farem ara la votació per a l’elecció dels quatre secretaris. D’acord amb l’article 44.3 del Reglament, per a l’elecció dels secretaris s’ha d’escriure un sol nom a la papereta, i surten elegits per ordre de vots els quatre que n’obtenen més.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.16" xml:lang="ca">Prego al senyor secretari, Gerard Gómez del Moral, que iniciï la crida dels diputats per ordre alfabètic. Aquesta és la darrera votació.</seg>
+               <note>(D’acord amb l’article 99.2 del Reglament, els diputats són cridats nominalment per odre alfabètic perquè vagin a la taula presidencial i dipositin a l’urna les paperetes. Els diputats que són membres del Govern en funcions i els membres de la Mesa d’Edat són cridats al final.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.17" xml:lang="ca">Acabada aquesta última votació per a les secretaries, aquesta presidència pren una mica de sucre per agafar energia i acabar com Déu mana la votació i l’escrutini, i ràpidament comencem a llegir les paperetes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.18" xml:lang="ca">Gràcies.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.19" xml:lang="ca">I comencem l’escrutini.</seg>
+               <note>(Es procedeix a l’escrutini i, després, al recompte.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.6.20" xml:lang="ca">Doncs bé, de l’escrutini per a elegir secretaris de la Mesa del Parlament, el resultat de la votació és el següent: 37 vots per a Anna Simó, 36 vots per a Daniel Pérez, 25 vots per a Joan Josep Nuet i 25 vots per a Ramona Barrufet, la qual cosa vol dir que hem de desempatar entre Joan Josep Nuet i Ramona Barrufet i procedir a una nova votació.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus. El president dóna la paraula a Jordi Turull i Negre.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">Jordi Turull i Negre</note>
+            <u ana="member" who="TurrullJordi" xml:id="ParlaMint-ES-CT_2015-10-26-0101.7" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.7.0" xml:lang="ca">Sí, moltes gràcies, president. Amb un cas com aquest no ens hi havíem trobat mai. Si el Reglament ho permet, aquí hi havia un acord entre els grups parlamentaris en què Junts pel Sí tenia la quarta secretaria i que el Grup de Sí que es Pot tenia la tercera. Nosaltres mantenim aquesta proposta encara que hàgim quedat empatats, i, per tant, que el senyor Nuet fos el secretari tercer i la senyora Barrufet fos la secretària quarta és l’acord que teníem. Ens agradaria poder-lo complir, i no sé si la resta de grups hi estaran d’acord. Per no tornar a votar.</seg>
+            </u>
+            <note type="speaker">El president de la Mesa d’Edat</note>
+            <u ana="member" who="DeJòdarJulià" xml:id="ParlaMint-ES-CT_2015-10-26-0101.8" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.8.0" xml:lang="ca">La presidència, doncs, admet aquest suggeriment, i, per tant, demana a la cambra si també hi està d’acord, i, si hi està d’acord, no hi hauria votació i quedaria, doncs, organitzat d’aquesta manera. És a dir, la senyora Anna Simó, el senyor David Pérez, el senyor Nuet i la senyora Barrufet.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.8.1" xml:lang="ca">Finalitzades, doncs, les eleccions, hem de convidar els elegits: presidenta, vicepresidents i secretaris i secretària de la Mesa que ocupin els seus llocs, si us plau. Senyora Forcadell, senyor Corominas, senyora Simó, senyor Espejo-Saavedra, senyora Barrufet, senyor Nuet, senyor David Pérez i senyora Anna Simó.</seg>
+               <note>(Els membres de la Mesa del Parlament ocupen llurs llocs.)</note>
+            </u>
+            <note type="speaker">La presidenta del Parlament (Carme Forcadell i Lluís)</note>
+            <u ana="member" who="ForcadellCarme" xml:id="ParlaMint-ES-CT_2015-10-26-0101.9" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.0" xml:lang="ca">Molt honorable president de la Generalitat, honorables consellers i conselleres, il·lustres diputats i diputades, president Rigol, president Benach, presidenta de Gispert, president Montilla, digníssimes autoritats, senyores i senyors, una salutació als diputats i diputades, representants de partits, entitats i convidats que per limitació d’espai estan seguint l’acte des d’altres sales.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.1" xml:lang="ca">Les meves primeres paraules són d’agraïment: moltíssimes gràcies per l’honor que m’heu fet en designar-me per presidir aquest Parlament, i crec representar el sentir dels altres membres de la Mesa agraint també el seu nomenament i la confiança que ens heu fet amb aquesta elecció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.2" xml:lang="ca">Vaig néixer a Xerta, a les Terres de l’Ebre, i em sento orgullosa de la seva gent i de la seva parla, però també em sento orgullosa de la meva ciutat, Sabadell, que m’ha acollit des dels divuit anys, una ciutat feta amb gent d’arreu que representa la diversitat i pluralitat del nostre país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.3" xml:lang="ca">No he estat mai diputada i no pensava ser-ho, igual que alguns d’altres diputats i diputades d’aquest Parlament, però som aquí perquè les darrers eleccions van ser excepcionals i perquè hi ha hagut un canvi en la manera d’entendre i de fer política.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.4" xml:lang="ca">La meva antecessora, Núria de Gispert, quan va ser escollida presidenta de la novena legislatura, va expressar la seva satisfacció i emoció per haver estat la primera dona que va presidir aquest Parlament. Ho comparteixo. I, des de la complicitat, espero que amb dues presidentes seguides, comencem a canviar una situació anòmala durant massa temps, no només en l’àmbit polític, sinó en tots els àmbits de la vida quotidiana. Treballaré perquè la veu i les experiències de les dones siguin presents en els espais públics en la mateixa proporció que les dels homes i perquè la presència de les dones en els espais de decisió sigui una normalitat i no una excepcionalitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.5" xml:lang="ca">M’imagino l’emoció i la responsabilitat que devia sentir Enric Prat de la Riba quan va crear la Mancomunitat, el primer intent d’autogovern d’ençà del 1714. M’imagino l’emoció que devien sentir els diputats en constituir aquest Parlament l’any 1932, després que hagués estat la Ciutadella des d’on s’havia bombardejat Barcelona, i m’imagino l’emoció que devia sentir Heribert Barrera en reobrir el primer Parlament després de la dictadura.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.6" xml:lang="ca">Ara també estem vivint un moment transcendental de la història de Catalunya. El poble va parlar el 27 de setembre amb veus diferents, i aquestes veus i opinions, aquesta diversitat i pluralitat de Catalunya, estan representades en aquesta cambra, i l’obligació d’aquesta Mesa és facilitar que s’expressen de manera equànime i justa. I aquest serà el meu compromís, i estic segura que també el compromís dels que formem aquesta Mesa, perquè, com deia Abraham Lincoln, el compromís és el que transforma una promesa en realitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.7" xml:lang="ca">Em comprometo a complir i a fer complir el Reglament. Em comprometo a representar la institució amb tota la dignitat que pugui i, en temps de crisi i quan els nostres ciutadans pateixen privacions, hem de ser un exemple d’austeritat i de transparència.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.8" xml:lang="ca">Aquest Parlament està i estarà al servei de tota la ciutadania, parlin el que parlin, vinguin d’on vinguin, pensin el que pensin, votin el que votin, perquè totes les lleis emanades de la seva tasca han de ser pensades per a tothom.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.9" xml:lang="ca">Que la nostra acció com a diputats i diputades sigui profitosa dependrà del servei que acabem prestant a la ciutadania en general. Siguem lleials a la ciutadania i al bé comú, fem fora qualsevol altre interès que no sigui aquest. Donem exemple com a mostra de servei públic. Volem ser el Parlament de tots i de totes, sense exclusions, per això proposaré que a les reunions de la Mesa hi assisteixin, amb veu però sense vot, perquè la llei no ho permet, els representants dels grups parlamentaris que no tenen representació a la Mesa del Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.10" xml:lang="ca">En català hi ha una paraula molt bonica de dir «parlar»: «enraonar», que vol dir parlar utilitzant el raonament. Des de la presidència de la Mesa ens esforçarem perquè hi hagi el clima d’entesa i perquè no generem polèmiques estèrils. Continuarem foragitant els insults, les insinuacions malintencionades i les paraules buides d’aquest Parlament. Defensem les nostres posicions des del diàleg i expressem, amb claredat i, si cal, amb contundència, les nostres idees i opinions, però sempre des del respecte que ens ha caracteritzat com a poble. El diàleg és el fonament d’aquest edifici, el respecte a la discrepància són les parets i la voluntat d’entesa n’és la teulada. Sense la conjunció d’aquests tres elements, l’estructura trontolla i cau. Siguem guardians de la fortalesa d’aquest edifici, i, sobretot, tinguem sempre les finestres obertes per a escoltar la voluntat popular i la porta oberta per acollir les necessitats i els anhels del poble.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.11" xml:lang="ca">Vull un parlament sobirà, que aprovi lleis que ajudin els que més ho necessiten i facilitin i millorin la vida de tota la ciutadania; lleis que ajuden a eradicar les desigualtats socials. Vull que, com a diputats i diputades, ens sentim orgullosos en veure que la nostra feina millora i facilita la vida de la gent, que sentin que al Parlament hi ha diputats i diputades que treballen per a ells i amb ells. Som aquí per servir al poble, perquè la política és servei a la comunitat..</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.12" xml:lang="es">Eduardo Galeano, escriptor uruguaià refugiat a Catalunya, fugint de la dictadura del seu país, va escriure: «La utopía está en el horizonte. Camino dos pasos, ella se aleja dos pasos y el horizonte se corre diez pasos más allá. ¿Entonces para qué sirve la utopía? Para eso sirve, para caminar.»</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.13" xml:lang="ca">Que el Parlament es converteixi en el lloc on la utopia es manifesta, que els somnis del carrer entrin al Parlament, que els anhels de la ciutadania trobin refugi a l’hemicicle.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.14" xml:lang="ca">Diputats i diputades, estiguem a l’alçada del moment i fem present el futur en aquest procés constituent, que el llegat legislatiu d’aquest Parlament sigui la creació d’un marc jurídic propi que doni més llibertat i sobirania per a tota la ciutadania en tots els àmbits.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.15" xml:lang="ca">Nous paradigmes demanen un nou Parlament, noves voluntats demanen noves polítiques. No siguem esclaus del passat, siguem creadors de futur, treballem pensant en els propers tres-cents anys i no en els darrers tres-cents. Aquesta casa és la principal forjadora del futur, portem-lo ben lluny.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.16" xml:lang="ca">Amb aquesta onzena legislatura del Parlament modern tanquem l’etapa autonòmica i enlairem un nou escenari cap al demà. Siguem conscients que protagonitzem un moment fundacional. Ara i aquí creem un abans i un després. Des d’ara mateix constituïm un parlament sobirà, que vol representar un poble lliure, d’un parlament regional de competències limitades, retallades i recorregudes a un parlament nacional amb plenes atribucions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.17" xml:lang="ca">Aquestes són les darreres Constitucions que vam tenir i ara volem recuperar-les.</seg>
+               <note>(La presidenta mostra un full a la cambra.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.18" xml:lang="ca">Volem un parlament de tots i per a tots. Fem un país lliure, ple de ciutadans lliures, que, d’una vegada per totes, deixem d’emmirallar-nos en altres i puguem ser nosaltres el mirall i model a seguir.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.19" xml:lang="ca">Pocs dies després del 15 d’octubre és d’obligat compliment recordar la figura del que va ser el primer president del Parlament modern el 1932 i, posteriorment, president de la Generalitat, que va ser executat pel règim franquista amb l’ajuda del règim nazi. Estem parlant de Lluís Companys, executat fa setanta-cinc anys i que l’Estat espanyol encara no ha reparat la seva memòria ni la seva causa judicial. Ell i diversos diputats d’aquest hemicicle van morir defensant la causa de la llibertat, de la democràcia i de Catalunya. La seva memòria és amb nosaltres, que no s’esvaeixi mai.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.20" xml:lang="ca">Lluís Companys va succeir en la presidència de la Generalitat a Francesc Macià, el primer president que va restablir l’autogovern. El 1930, un any abans de proclamar-se la República, va escriure el pròleg a la traducció al català de la primera biografia de Mahatma Gandhi, feta per Romain Rolland. Allà hi deia: «No totes les batalles es guanyen en un dia. La força no deturarà mai un sol instant l’hora d’un poble que té la ferma voluntat d’alliberar-se i està disposat sempre a fer tots els sacrificis que la llibertat sovint costa.»</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.21" xml:lang="ca">Diputats i diputades, posem-nos a caminar, encetem el procés constituent. Queda constituïda l’onzena legislatura.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.22" xml:lang="ca">Visca la democràcia, visca el poble sobirà, visca la República catalana!</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.23" xml:lang="ca">Us convido a cantar l’himne nacional de Catalunya.</seg>
+               <kinesic type="applause">
+                  <desc>(La cambra, dempeus, canta Els segadors. Aplaudiments forts i perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2015-10-26-0101.9.24" xml:lang="ca">Aixequem la sessió.</seg>
+            </u>
+            <note>La sessió s’aixeca a la una del migdia i sis minuts.</note>
+         </div>
+      </body>
+   </text>
+</TEI>
