@@ -31,7 +31,7 @@ def process_test():
     df_nlp = nlp_spacy(doc)
     #print(df_nlp)
     df_to_conll_new(df_nlp)
-    print(doc_final)
+    #print(doc_final)
 
 def fix_dataframe(df):
     for index, row in df.iterrows():
@@ -72,6 +72,7 @@ def nlp_spacy(doc):
                 ner = token.ent_iob_ + '-' + token.ent_type_
             else:
                 ner = token.ent_iob_
+                
             if (text in case_rare and pos == 'DET') or (text == 'p' and pos == "ADP"):
                 flag_del = 1
                 value_case_rare = text
@@ -88,8 +89,12 @@ def nlp_spacy(doc):
                 text_join = ''.join([value_case_rare,text])
                 flag_verb = 0
                 flag_add = 1
-            elif flag_verb == 1:
+            elif flag_verb == 1 and pos != 'VERB':
                 flag_verb = 0
+            elif pos == 'VERB' and flag_verb == 1:
+                flag_verb = 1
+                value_case_rare = text
+            
             if int(text.find("'")) == 0:
                 if text == "'n":
                     lemma = "ne"
@@ -173,7 +178,7 @@ def df_to_conll_new(df_ner):
             morph = "_"
         else:
             morph = row["morph"]
-        row_conll = str(row["token_id"])+"\t"+str(row["text"])+"\t"+str(row["lemma"])+"\t"+str(row["pos"])+"\t"+str(row["pos"])+"\t"+str(morph)+"\t"+ str(heads)+"\t"+str(row["deprel"])+"\t"+str("_")+"\t"+str(misc)+"\t"+str(row["token_ner_type"])+"\t"+str(row["misc_"])+"\t"+str(row["join"])+"\n"
+        row_conll = str(row["token_id"])+"\t"+str(row["text"])+"\t"+str(row["lemma"])+"\t"+str(row["pos"])+"\t"+str(row["pos"])+"\t"+str(morph)+"\t"+ str(heads)+"\t"+str(row["deprel"])+"\t"+str("_")+"\t"+str(misc)+"\t"+str(row["token_ner_type"])+"\t"+str(row["misc_"])+"\t"+str(row["join"])+"\t"+str(row["word_id"])+"\n"
         conll_list.append(flag_add+row_conll)
     doc_final = ''.join([str(x) for x in conll_list])
     return doc_final
@@ -182,13 +187,13 @@ def df_to_conll_new(df_ner):
 def to_conll(doc):
     df_nlp = nlp_spacy(doc)
     df_nlp = fix_dataframe(df_nlp)
-    print(df_nlp)
+    #print(df_nlp)
+    #df_nlp.to_excel("test.xlsx")
     nlp_conll = df_to_conll_new(df_nlp)
     return nlp_conll
 
 
 def generate_tei(seq,parent):
-    seq = ["Autoritats, senyores i senyors, bon dia i benvinguts al Parlament de Catalunya en aquesta sessió constitutiva de l'onzena legislatura y beneficiar-se'n"]
     seq=deepcopy(seq)
     attrib=deepcopy(parent.attrib)
     parent.clear()
@@ -196,9 +201,7 @@ def generate_tei(seq,parent):
     seg_id=attrib['{http://www.w3.org/XML/1998/namespace}id']
     seg_lang=attrib['{http://www.w3.org/XML/1998/namespace}lang']
     text=''
-    #print('la seq es: ', seq)
-    #print('el parent es: ', parent)
-    
+
     for e in seq:
         if isinstance(e,str):
             text+=e
@@ -216,7 +219,6 @@ def generate_tei(seq,parent):
     
     #Casi no debe entrar aquí
     while not isinstance(seq[seq_idx],str):
-        print('1 puerta')
         parent.append(seq[seq_idx])
         seq_idx+=1
         if seq_idx==len(seq):
@@ -235,7 +237,6 @@ def generate_tei(seq,parent):
         tokens = sentence.split('\n')
         dependencies=[] 
         for tidx,token in enumerate(tokens):
-            print(token)
             if token.startswith('#'):
                 continue
             token=token.split('\t')
@@ -249,12 +250,13 @@ def generate_tei(seq,parent):
                 dependencies.append(('ud-syn:'+token[7],'#'+s_id+'.'+token[6]+' #'+t_id))
             
             new_str_idx = seq[seq_idx].find(token[1],str_idx)
-            print("token[1] ",token[1])
-            print("str_idx ",str_idx)
-            print("seq[seq_idx] ",seq[seq_idx])
-            print("new_str_idx ",new_str_idx)
-            print("len(token[1]) ", len(token[1]))
+            #print("token[1] ",token[1])
+            #print("str_idx ",str_idx)
+            #print("seq[seq_idx] ",seq[seq_idx])
+            #print("new_str_idx ",new_str_idx)
+            #print("len(token[1]) ", len(token[1]))
             
+            '''
             if len(token_12) != 2:
                 while new_str_idx == -1:
                     seq_idx+=1
@@ -269,10 +271,10 @@ def generate_tei(seq,parent):
                             return
                     str_idx=0
                     new_str_idx = seq[seq_idx].find(token[1],str_idx)
-            
+            '''
             if len(token_12) != 2:
                 str_idx = new_str_idx+len(token[1])
-            print("1 str_idx", str_idx)
+            #print("1 str_idx", str_idx)
             
             if len(token_12) == 1:
                 continue
@@ -295,16 +297,19 @@ def generate_tei(seq,parent):
                 flag_ner = 1
             
             
-            if len(token_12) > 0:
+            if len(token_12) == 2:
                 comp = ET.Element('w')
                 comp.attrib['xml:id'] = t_id
                 comp.text=token[1]
                 s.append(comp)
                 s = comp
+                #print("mama ", token[1])
+                #print("busca ", token_12)
                 for ridx in token_12:
                     for cidx,tokens_comp in enumerate(tokens):
                         token_comp = tokens_comp.split('\t')
-                        if int(ridx) == int(token_comp[0]):
+                        if int(ridx) == int(token_comp[13]):
+                            #print("hija ", token_comp[1])
                             w=ET.Element('w')
                             w.attrib['pos']=token_comp[3]
                             w.attrib['join']='right'
@@ -355,7 +360,7 @@ def generate_tei(seq,parent):
         seq_idx+=1
 
  
-def file_creation(file):
+def file_creation(file,file_save):
     tree = ET.parse(file)
     root = tree.getroot()
     i=0
@@ -376,4 +381,4 @@ def file_creation(file):
         generate_tei(seg_seq,seg)
     xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
     xmlstr = emptyline_re.sub('\n',xmlstr)
-    open(file[:-4]+'.ana.xml','w').write(xmlstr)
+    open(file_save[:-4]+'.ana.xml','w').write(xmlstr)
