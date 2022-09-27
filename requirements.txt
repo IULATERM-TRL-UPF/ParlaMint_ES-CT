@@ -1,4 +1,3 @@
 spacy_conll
 pandas
 spacy
-deepcopy
