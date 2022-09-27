@@ -1,6 +1,5 @@
 spacy_conll
 pandas
 spacy
-xml.etree.ElementTree
 minidom
 deepcopy
