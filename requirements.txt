@@ -1,5 +1,4 @@
 spacy_conll
 pandas
 spacy
-minidom
 deepcopy
