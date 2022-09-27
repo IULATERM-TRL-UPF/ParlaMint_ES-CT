@@ -299,6 +299,8 @@ def generate_tei(seq,parent):
             
             if len(token_12) == 2:
                 comp = ET.Element('w')
+                t_id_t = t_id.split(".")
+                t_id = '.'.join(t_id_t[:-1])+"."+str(token_12[0])+"-"+str(token_12[1])
                 comp.attrib['xml:id'] = t_id
                 comp.text=token[1]
                 s.append(comp)
