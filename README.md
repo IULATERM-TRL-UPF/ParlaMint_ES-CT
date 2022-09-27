@@ -7,7 +7,7 @@ This is the repository of the ParlaMint project for Spanish and Catalan. Here yo
 
 In order to clone this repository:
 ```
-git https://github.com/IULATERM-TRL-UPF/ParlaMint_ES-CT
+git clone https://github.com/IULATERM-TRL-UPF/ParlaMint_ES-CT
 ```
 
 After, create a virtualenvironment and install all the requirements
