@@ -7,7 +7,7 @@ This is the repository of the ParlaMint project for Spanish and Catalan. Here yo
 
 In order to clone this repository:
 ```
-git https://github.com/IULATERM-TRL-UPF/ParlaMint_ES-CT
+git clone https://github.com/IULATERM-TRL-UPF/ParlaMint_ES-CT
 ```
 
 After, create a virtualenvironment and install all the requirements
@@ -17,7 +17,7 @@ source venv/bin/activate
 python -m pip install -U pip
 python -m pip install -r requirements.txt
 python -m spacy download ca_core_news_trf
-python -m spacy download es_dep_news_sm
+python -m spacy download es_core_news_sm
 ```
 
 # Usage
@@ -34,7 +34,7 @@ required arguments:
 
 optional arguments:
   -h, --help  show help message and exit
-  -t TEST, --test TEST  Script's Tester
+  -t TEST, --test TEST  input a Catalan text
 
 ```
 
@@ -47,7 +47,13 @@ python src/main.py -i /PATH/ParlaMint_ES-CT/samples/ -o /PATH/ParlaMint_ES-CT/pr
 ## Testing Mode
 
 ```
-python src/main.py -test
+python src/main.py -test catalan_text
+```
+
+Example
+
+```
+python src/main.py -test "Ras i curt, per poder començar a treballar, ja, des d'avui mateix, en la construcció d'un estat que doni respostes als enormes i urgents reptes actuals."
 ```
 
 ## Colab Mode
