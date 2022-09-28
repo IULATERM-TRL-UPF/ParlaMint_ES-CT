@@ -34,7 +34,7 @@ required arguments:
 
 optional arguments:
   -h, --help  show help message and exit
-  -t TEST, --test TEST  Script's Tester
+  -t TEST, --test TEST  input a Catalan text
 
 ```
 
