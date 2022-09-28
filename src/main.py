@@ -15,9 +15,11 @@ def main():
 
     root_dataset = args.input
     root_save = args.output
+    text = args.test
     
     if args.test:
-        util.process_test()
+        print("Testing")
+        util.process_test(text)
         print("Done")
     elif root_dataset and root_save:
         FILEPATH = os.path.dirname(root_dataset)
