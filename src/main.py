@@ -30,6 +30,7 @@ def main():
                 if '.xml' in a:
                     util.file_creation(os.path.join(root_dataset, a),os.path.join(root_save, a))
                 pbar.update(1)
+        print("Done")
     else:
         print("ERROR: No path.")
 

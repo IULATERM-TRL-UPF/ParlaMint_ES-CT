@@ -24,8 +24,7 @@ def fix_text(text):
     return text
 
 
-def process_test(text): 
-    lang = "cat"
+def process_test(text):
     text = fix_text(text)
     doc = nlp_ca(text)
     df_nlp = nlp_spacy(doc)
@@ -191,7 +190,6 @@ def to_conll(doc):
 
 
 def generate_tei(seq,parent):
-    seq = ["Volem un estat perquè volem expressar-nos i participar amb veu pròpia en els principals afers que preocupen avui a Europa i al món com, per exemple, i entre d’altres, la gestió dels moviments massius i creixents de persones que busquen refugi i acollida; i finalment, volem un estat perquè senzillament, necessitem un estat de dret, en què la separació de poders no estigui permanentment trinxada i esmicolada i es garanteixi a tothom la igualtat de drets i oportunitats."]
     seq=deepcopy(seq)
     attrib=deepcopy(parent.attrib)
     parent.clear()
@@ -222,17 +220,14 @@ def generate_tei(seq,parent):
             return
     
     for sidx,sentence in enumerate(to_conll(doc).strip().split('\n\n')):
-        #print("el sidx es: ", sidx)
-        #print("la sentence es: ", sentence)
         s_id=seg_id+'.'+str(sidx+1)
         s = ET.Element('s',attrib={'xml:id':s_id, 'xml:lang': seg_lang})
-        #print('el atributo S es: ', s)
         parent.append(s)
         ne_cat='O' 
-        cont_cat = '_' #nuevo
         parent_s = s
         tokens = sentence.split('\n')
         dependencies=[] 
+        
         for tidx,token in enumerate(tokens):
             if token.startswith('#'):
                 continue
@@ -253,32 +248,14 @@ def generate_tei(seq,parent):
             #print("new_str_idx ",new_str_idx)
             #print("len(token[1]) ", len(token[1]))
             
-            '''
-            if len(token_12) != 2:
-                while new_str_idx == -1:
-                    seq_idx+=1
-                    #print("error: ", seq[seq_idx])
-                    while not isinstance(seq[seq_idx],str):
-                        if tidx+1 == len(tokens):
-                            parent.append(seq[seq_idx])
-                        else:
-                            s.append(seq[seq_idx])
-                        seq_idx+=1
-                        if seq_idx==len(seq):
-                            return
-                    str_idx=0
-                    new_str_idx = seq[seq_idx].find(token[1],str_idx)
-            '''
             if len(token_12) != 2:
                 str_idx = new_str_idx+len(token[1])
-            #print("1 str_idx", str_idx)
-            
+
             if len(token_12) == 1:
                 continue
                 
             ner = token[10]
             flag_ner = 0
-            #print(token)
             if ner.startswith('B-'):
                 if ne_cat!='O': 
                     s = parent_s
@@ -293,7 +270,7 @@ def generate_tei(seq,parent):
                 ne_cat = ner
                 flag_ner = 1
             
-            
+            # Este if permite crear los nodos mamá e hijas
             if len(token_12) == 2:
                 comp = ET.Element('w')
                 t_id_t = t_id.split(".")
@@ -302,13 +279,10 @@ def generate_tei(seq,parent):
                 comp.text=token[1]
                 s.append(comp)
                 s = comp
-                #print("mama ", token[1])
-                #print("busca ", token_12)
                 for ridx in token_12:
                     for cidx,tokens_comp in enumerate(tokens):
                         token_comp = tokens_comp.split('\t')
                         if int(ridx) == int(token_comp[13]):
-                            #print("hija ", token_comp[1])
                             w=ET.Element('w')
                             w.attrib['pos']=token_comp[3]
                             w.attrib['join']='right'
@@ -352,8 +326,6 @@ def generate_tei(seq,parent):
                     w.attrib['msd']+='|'+token[5]
                
                 w.text=token[1]
-                #if 'SpaceAfter=No' in token[9]:
-                    #w.attrib['join']='right'
                 s.append(w)
         linkGrp=ET.Element('linkGrp',attrib={'type':'UD-SYN','targFunc':'head argument'})
         parent_s.append(linkGrp)
