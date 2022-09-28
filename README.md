@@ -47,6 +47,12 @@ python src/main.py -i /PATH/ParlaMint_ES-CT/samples/ -o /PATH/ParlaMint_ES-CT/pr
 ## Testing Mode
 
 ```
+python src/main.py -test catalan_text
+```
+
+Example
+
+```
 python src/main.py -test "Ras i curt, per poder començar a treballar, ja, des d'avui mateix, en la construcció d'un estat que doni respostes als enormes i urgents reptes actuals."
 ```
 
