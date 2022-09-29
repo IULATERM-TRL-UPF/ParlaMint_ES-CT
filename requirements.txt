@@ -1,3 +1,5 @@
 spacy_conll
 pandas
 spacy
+python-docx
+pycld3

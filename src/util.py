@@ -6,17 +6,92 @@ import sys
 import spacy
 import re
 import ast
+import os
+
+import lxml
+import zipfile
+
+import cld3
+from datetime import datetime
+
+from df_build import df_build
+from tei_header import tei_header
+from to_xml import to_xml
+from xml_parser import p_parser
+
 
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 ET.register_namespace('','http://www.tei-c.org/ns/1.0')
 from copy import deepcopy
 
+
 emptyline_re = re.compile('\n\s+\n')
 nlp_ca = spacy.load("ca_core_news_trf")
 nlp_es = spacy.load("es_core_news_sm")
 nlp_ca.add_pipe("conll_formatter")
 nlp_es.add_pipe("conll_formatter")
+
+def read_members_id(root_excel):
+    members_id = pd.read_csv(os.path.join(root_excel, "members_id.csv"))
+    members_id = members_id.dropna().copy()
+    members_id['Nombre'] = members_id['Nombre'].str.strip()
+    members_id['matches'] = members_id['matches'].str.strip()
+    members_id = members_id[['Nombre', 'matches', 'Id']]
+    return members_id
+
+
+def read_members(root_excel,file_date):
+    members = pd.read_csv(os.path.join(root_excel, "special_denominations.csv"))
+    members['Alta'] =  pd.to_datetime(members['Alta'], infer_datetime_format=True)
+    members['Baja'] =  pd.to_datetime(members['Baja'], infer_datetime_format=True)
+    members = pd.concat([members,members_file])
+    members = members.loc[(members['Alta'] <= file_date) &
+                          (members['Baja'] >= file_date), ['Cargo', 'Nombre']]
+    return members
+
+
+def docx_to_xml(file,file_save,root_parameters, members_id):
+    src_dfs = []
+    appended_dfs = []
+    try:
+        document = zipfile.ZipFile(file)
+        doc_xml = document.read("word/document.xml")
+        rooted = ET.fromstring(doc_xml)
+        file_codes = (file.split("/")[-1]).split('.')[0]
+        file_code = file_codes.split("-")[-1]
+        file_mini_code = file_codes.split("-")[-2]
+        file_date =  file_code[-4:] + '-' + file_code[2:4] + '-' + file_code[0:2]
+        file_name = 'ParlaMint-ES-CT_' + file_date + '-' + file_mini_code
+        file_date = datetime.strptime(file_date, '%Y-%m-%d')
+        file_date_short = datetime.strftime(file_date, '%Y-%m-%d')
+        file_sesion = int(file_mini_code[0:2]) 
+        file_meeting = int(file_mini_code[2:])
+        if file_date_short >= '2019-11-01':
+          tei_ana = '#covid'
+        else:
+          tei_ana = '#reference'
+        df = p_parser(rooted)
+        src_dfs.append(df) #se preservan los DF originales
+        df = df_build(df, file_name, file_date, root_parameters, members_id)
+        header = tei_header(df, file_name, file_date_short, file_sesion, file_meeting) #se crea el encabezado a partir del DataFrame, la función necesita nombre, fecha, sesión y reunión
+        text = to_xml(df, tei_ana) #se crea el cuerpo del XML, necesita también como argumento la etiqueta de subcorpus.
+        #se crea el elemento TEI y sus atributos:
+        TEI = ET.Element('TEI') 
+        TEI.attrib['ana'] = "#parla.agenda " + tei_ana
+        TEI.attrib['xmlns'] = "http://www.tei-c.org/ns/1.0"
+        TEI.attrib['xml:lang'] = 'ca' #catalán
+        TEI.attrib['xml:id'] = file_name
+        TEI.append(header) #se adjunta el header al elemento TEI
+        TEI.append(text) #se adjunta el body al elemento TEI
+
+        xmlstr = minidom.parseString(ET.tostring(TEI)).toprettyxml(indent="   ") #se transforma el árbol a una cadena de caracteres, para imprimirla luego en un archivo nuevo
+        open(os.path.join(file_save,file_name +'.xml'),'w').write(xmlstr) #se crea un archivo nuevo y se escribe el contenido de la cadena de caracteres anterior
+        #print(file_name +'.xml creado')
+        appended_dfs.append(df) #se adjunta el DataFrame a lista de DataFrames
+    except:
+        print('Error en ' + file_name)
+    return file_name+'.xml'
 
 
 def fix_text(text):
@@ -184,7 +259,6 @@ def df_to_conll(df_ner):
 def to_conll(doc):
     df_nlp = nlp_spacy(doc)
     df_nlp = fix_dataframe(df_nlp)
-    df_nlp.to_excel("test.xlsx")
     nlp_conll = df_to_conll(df_nlp)
     return nlp_conll
 
@@ -256,6 +330,8 @@ def generate_tei(seq,parent):
                 
             ner = token[10]
             flag_ner = 0
+            
+            # Este if es para los named entity (NER)
             if ner.startswith('B-'):
                 if ne_cat!='O': 
                     s = parent_s
@@ -337,7 +413,7 @@ def generate_tei(seq,parent):
         seq_idx+=1
 
  
-def file_creation(file,file_save):
+def xml_to_ana(file,file_save):
     tree = ET.parse(file)
     root = tree.getroot()
     i=0
@@ -358,4 +434,5 @@ def file_creation(file,file_save):
         generate_tei(seg_seq,seg)
     xmlstr = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
     xmlstr = emptyline_re.sub('\n',xmlstr)
-    open(file_save[:-4]+'.ana.xml','w').write(xmlstr)
+    open(file_save[:-4]+ '.ana.xml','w').write(xmlstr)
+    return file_save[:-4]+'.ana.xml'
