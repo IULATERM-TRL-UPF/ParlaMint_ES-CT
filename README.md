@@ -31,7 +31,8 @@ required arguments:
                         folder where the docx files are located 
   -o OUTPUT, --output OUTPUT
                         folder where the processed files will be saved
-
+  -p PARAMETERS --parameters
+						folder where the members excel files are located
 optional arguments:
   -h, --help  show help message and exit
   -t TEST, --test TEST  input a Catalan text
@@ -40,9 +41,17 @@ optional arguments:
 
 ## Creating .ana files with linguistic annotation of texts
 
+DOCX files are stored in the docx_files folder, XML files in the xml_files folder and ANA files in the ana_files folder.
+
 ```
-python src/main.py -i /PATH/ParlaMint_ES-CT/samples/ -o /PATH/ParlaMint_ES-CT/process/
+python src/main.py -i /PATH/ParlaMint_ES-CT/docx_files/ -o /PATH/ParlaMint_ES-CT/ana_files/ -p /PATH/ParlaMint_ES-CT/parameters/
 ```
+Example
+
+```
+python main.py -i /mnt/d/UPF/proyecto_parlamint/ParlaMint_ES-CT/docx_files/ -o /mnt/d/UPF/proyecto_parlamint/ParlaMint_ES-CT/ana_files/ -p /mnt/d/UPF/proyecto_parlamint/ParlaMint_ES-CT/parameters/
+```
+
 
 ## Testing Mode
 
