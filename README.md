@@ -55,15 +55,12 @@ python main.py -i /mnt/d/UPF/proyecto_parlamint/ParlaMint_ES-CT/docx_files/ -o /
 
 ## Testing Mode
 
-```
-python src/main.py -test catalan_text
-```
-
-Example
+In this module you will be able to verify if the docx files can be processed or if they have any error of origin.
 
 ```
-python src/main.py -test "Ras i curt, per poder començar a treballar, ja, des d'avui mateix, en la construcció d'un estat que doni respostes als enormes i urgents reptes actuals."
+python src/main.py -test /PATH/ParlaMint_ES-CT/docx_files_test/ -p /PATH/ParlaMint_ES-CT/parameters/
 ```
+
 
 ## Colab Mode
 

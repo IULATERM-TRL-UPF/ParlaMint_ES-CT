@@ -1,0 +1,778 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.agenda #covid" xml:lang="ca" xml:id="ParlaMint-ES-CT_2020-09-18-6102">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT_2020-09-18-6102 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT_2020-09-18-6102 [ParlaMint SAMPLE]</title>
+            <meeting ana="#parla:term" n="12">XII Legislatura</meeting>
+            <meeting ana="#parla:meeting" n="61">61</meeting>
+            <meeting ana="#parla.sitting" n="2">2</meeting>
+            <respStmt>
+               <persName>Nuria Bel</persName>
+               <resp>Coordinator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp>Data retrieval, first conversion to XML and to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Marilina Pisani</persName>
+               <resp>Final TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rodolfo Zevallos</persName>
+               <resp>Computational Linguistics Specialist</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="ca">Cap financiacio</orgName>
+               <orgName xml:lang="en">No funder</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="31" xml:lang="ca">31 intervencions</measure>
+            <measure unit="speeches" quantity="31" xml:lang="en">31 speeches</measure>
+            <measure unit="words" quantity="13999" xml:lang="ca">13999 paraules</measure>
+            <measure unit="words" quantity="13999" xml:lang="en">13999 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022">2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date when="2020-09-18">2020-09-18</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="8"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="31"/>
+               <tagUsage gi="seg" occurs="544"/>
+               <tagUsage gi="kinesic" occurs="3"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name type="country" key="ES">Spain</name>
+               <date when="2020-09-18">26.10.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>Sessió 61.2</head>
+            <note>La sessió, suspesa abans-d’ahir, es reprèn a les deu del matí i dos minuts. Presideix el president del Parlament, acompanyat dels secretaris primer i segon. Assisteixen la Mesa el secretari general i la lletrada Anna Casas i Gregorio.</note>
+            <note>Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident del Govern i conseller d’Economia i Hisenda i els consellers de la Presidència, d’Acció Exterior, Relacions Institucionals i Transparència, d’Interior i d’Empresa i Coneixement.</note>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.1" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.1.0" xml:lang="ca">Bé; bon dia; diputats, diputades.</seg>
+               <note>Debat sobre l'orientació política general del Govern (continuació)</note>
+               <note>255-00017/12</note>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.1.1" xml:lang="ca">A continuació, reprendrem el debat d’orientació política general, i ho fèiem amb la presentació de les propostes de resolució subsegüents al debat sobre l’orientació política general del Govern. Per a la defensa de les propostes de resolució presentades, seguirem l’ordre d’entrada al Registre d’aquestes propostes. El torn d’intervenció és per un màxim de deu minuts per grup parlamentari i consegüentment, de cinc per als subgrups.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.1.2" xml:lang="ca">Té la paraula, en primer lloc, i en nom del Grup Parlamentari Socialistes i Units per Avançar, la diputada senyora Alícia Romero. Endavant.</seg>
+            </u>
+            <note type="speaker">Alícia Romero Llano</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.2" who="RomeroAlícia" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.0" xml:lang="ca">Bon dia, president. Consellers, vicepresident, consellers, conselleres, diputats i diputades... Dimecres, el president del nostre grup, Miquel Iceta, li recordava les seves paraules del gener d’enguany, on vostè afirmava que el Govern estava dividit i esgotat i que, un cop aprovats els pressupostos, convocaria eleccions. Davant d’aquestes paraules, sembla estrany, sincerament, que avui celebrem el debat, un debat de política general. És cert que estem enmig d’una pandèmia, ho deia vostè dimecres. Però també és cert que, per afrontar una crisi com la que vivim avui, que és sanitària, que és econòmica i que és social, cal un govern fort. Un govern fort, capaç de liderar, capaç de dialogar, capaç d’acordar mesures que ens resolguin els problemes i els reptes a curt i a mitjà termini.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.1" xml:lang="ca">En canvi, només trobem enfortit el trencament del seu Govern, president. Que es va eixamplar quan vostè va remodelar d’una manera sectària, anteposant els interessos de partit per sobre dels de país –amb l’aval d’Esquerra, per cert. Fixi’s, president, amb el seu soci de Govern, és a dir, amb Esquerra Republicana, no coincideixen ni tan sols quan cal convocar eleccions. El senyor Sabrià deia dimecres que calia convocar eleccions abans de la seva possible inhabilitació i en canvi, vostè ahir, sortint del Suprem va dir que seria una irresponsabilitat portar el país a una carrera electoral en la que, per cert, vostè ja ens hi va posar al gener.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.2" xml:lang="ca">Però, en tot cas, devem ser tots irresponsables menys vostè, perquè tots aquí li hem demanat en els darrers dies eleccions de manera imminent. Nosaltres, president, ho tenim clar: cal anar a eleccions com més aviat millor. Avui, millor que demà. Reflexioni-ho. Per girar full. Catalunya necessita un nou govern. Els ciutadans no ens mereixem un govern que agonitza i no té, en les seves prioritats, ni el país ni la seva gent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.3" xml:lang="ca">Per això, en les nostres vint propostes de resolució demanem, entre altres coses, eleccions. I esperem tenir el suport de tots els grups, ja que tots els grups aquí, excepte Junts per Catalunya, les han demanades. I demanem eleccions per diferents motius. Un, el desprestigi de les institucions. La primera, la de la Presidència de la Generalitat, president. Vostè desobeint a consciència, perquè sabia que si no actuava correctament estava saltant-se la llei, sabia que podíem estar avui en aquesta situació. I president, ningú està per sobre de la llei –ningú. La llei és garantia de democràcia. En un estat de dret, això és bàsic. Però vostè segueix desprestigiant la institució de la Presidència. I li volia dir: no responsabilitzi ningú més que vostè de les conseqüències dels seus actes. És el primer que se’ls ensenya als nens quan són petits, que són responsables dels seus actes; ells, només ells.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.4" xml:lang="ca">Miri, també desprestigien aquesta institució. Ho van fer quan demanaven el cessament d’alts càrrecs d’aquesta institució. I ho fan constantment, quan no aproven mocions. En el cas dels Socialistes, cinquanta que s’han aprovat en aquesta legislatura; cap, cap, cap d’aquestes, complertes. Miri, qui retalla dia a dia mil·límetres de sobirania al Parlament són vostè i el seu Govern, menystenint les resolucions, les mocions i les lleis que aquí s’aproven. Vostès. Són vostès. Són els que cada dia, cada dia, mil·límetres de sobirania estan retallant en aquest Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.5" xml:lang="ca">La falta de diàleg i acord és un altre dels motius pels que nosaltres demanem eleccions. En una hora tan greu com vivim, com pot ser que vostè no dialogui amb els grups parlamentaris? És que ni tan sols pels tristos decrets llei, si ho volem dir així, d’una manera col·loquial. És que no ens han trucat ni per això. I s’han aprovat gràcies a la responsabilitat de l’oposició, no pas del Govern. I, escolti’m, a mi em sembla molt bé, demanin tot el diàleg que calgui a Madrid, però no vinguin aquí a donar-nos lliçons. De fet, ahir, la senyora Borràs es va reunir amb la vicepresidenta Calvo per parlar dels pressupostos del 2021. Aquí encara esperem que el vicepresident Aragonès, en un compromís seu, ens truqui als grups parlamentaris per parlar de la modificació pressupostària del 2020. Menys lliçons, prenguin una mica de nota.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.6" xml:lang="ca">Però li diré més: en aquest debat d’ordenació política general, el Govern només ha fet una transacció; una, i amb la CUP. I sobre habitatge. No cal dir res més. No sé si vostè fa només o vostès fan només una transacció perquè no volen dialogar, o perquè tenen clar que la legislatura està acabada. O les dues coses, que és el que creiem nosaltres.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.7" xml:lang="ca">Mal govern. Miri, els governs independentistes fa vuit anys que han estat incapaços de revertir les retallades del 2011 i el 2012. I posaré algunes dades, perquè se n’han anat publicant, durant els darrers dies, moltes d’elles. En Salut, en deu anys, del 2009 al 2019, han retallat vostès 3.267 milions d’euros. La comunitat autònoma que més ha retallat a tot Espanya, gairebé un 30 per cent. I el País Valencià, amb els mateixos problemes de finançament que nosaltres, l’ha augmentat un 4,1 per cent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.8" xml:lang="ca">Si parlem d’Educació, la cosa segueix igual de tremenda: 780 milions d’euros, han retallat en aquests anys. I som la segona comunitat autònoma amb menys recursos per a l’educació. Però el més trist no és només això, és que en sis anys de creixement econòmic, vostès no han aprofitat per revertir aquestes retallades. No han aprofitat per fer pressupostos, que és una de les coses que ha de fer un govern.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.9" xml:lang="ca">I si parlem de recuperació econòmica, les xifres tampoc milloren. Resulta que en indústria, hem retallat de 165 a 51 milions. En un moment en el que a la indústria cal una injecció important d’innovació, de coneixement, per ser més competitiva; estem veient el tancament de les empreses, darrerament. En universitats, dedicàvem l’any 2010 1.000 milions d’euros, ara no arribem ni als 900. En recerca, el mateix pressupost que fa deu anys, quan és justament el que ens ha de permetre, doncs, trobar la vacuna contra la Covid o millorar la competitivitat de les nostres empreses.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.10" xml:lang="ca">En fi, per poder recuperar i aprofitar les oportunitats necessitem un nou govern. Un govern que, com demanem a les nostres propostes de resolució, prioritzi la igualtat d’oportunitats, reforçant l’educació; cuidi les persones vulnerables, la gent gran, els infants, les famílies monoparentals reforçant la salut, els serveis socials, les polítiques d’habitatge; aposti clarament per una economia del coneixement, per la tecnologia, per la innovació, per la indústria, per la transició energètica, a la que vostès no hi dediquen res. Però tot això, ara no ho fan, ni ho faran –ni ho faran.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.11" xml:lang="ca">I saben per què ho diem tan contundentment, tan clarament, president? Doncs perquè no els teníem confiança, això és veritat; però és que han perdut tota la credibilitat. Tota. Per això, avui votarem en contra de totes les propostes de resolució del Govern; de totes. No ens els creiem, porten massa temps votant a favor de propostes de mesures que després no apliquen, i hem dit prou. El nostre projecte per Catalunya està a les nostres vint propostes de resolució i nosaltres no compartim el seu projecte, el seu projecte esgotat. Per això, fem una esmena a la totalitat a les seves propostes de resolució.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.12" xml:lang="ca">I li vull posar alguns exemples que m’ajudin, que ens ajudin o que ajudin el ciutadà a entendre aquesta posició nostra. En Salut, per exemple, diu Antoni Sisó, de la Societat Catalana de la Medicina Familiar, que l’atenció primària és el discurs polític de les promeses que mai arriben. I avui ho tornen a fer amb una proposta de resolució. Però la realitat és que no compleixen dos dels principis bàsics que aquí, de manera reiterada, hem aprovat. Facultatiu a les quaranta-vuit hores i 25 per cent real del pressupost de Salut de la Generalitat per a primària. No ho aprovem, no ho fan..., ho aprovem i no ho apliquen.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.13" xml:lang="ca">En Educació, 18 de juny del 2020, Ple del Parlament, moció presentada i aprovada pel PSC. «Punt h. Iniciar, durant el curs 2020-2021, la recuperació de la sisena hora a l’escola pública per compensar desigualtats.» Saben què ha passat quan ha començat el curs 2020-2021? Que han enviat una instrucció a les escoles que tenen la sisena hora per anar-la eliminant. El contrari del que vam aprovar aquí fa uns mesos. Quina credibilitat!, si fa vergonya. Què venim a fer aquí, «en sèrio», de veritat?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.14" xml:lang="ca">Universitats, 27 de juny del 2019, Ple del Parlament, moció del PSC aprovada. «Punt a. Aprovar un pla de xoc per millorar el finançament de les universitats, recuperant el 2020 els 900 milions nets de recursos i 1.300 milions el 2022.» Això es va aprovar, ni s’ha complert en el pressupost del 2020 i ens fan una proposta de resolució que va enrere, que planteja menys recursos. Però si ho vam aprovar, i després, al cap d’uns mesos ho vam repetir. Vam repetir l’aprovació. Prou ja –prou ja–; ens enganyen. Una proposta de resolució que diu menys del que s’ha aprovat, ja, en aquest Parlament, dues vegades el 2019. És esgotador –és esgotador–, de veritat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.15" xml:lang="ca">Infància, president: com és possible que tinguem a Catalunya un de cada quatre infants en situació de pobresa i el Govern hagi estat incapaç de fer el reglament de la Llei de drets i oportunitats de l’infant i l’adolescent. Una llei del 2010, com pot ser? Ho hem aprovat aquí moltíssimes vegades. És que ni això. Ni un reglament, que no són recursos. De debò, és esgotador –és esgotador.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.16" xml:lang="ca">Miri, per acabar. President, ho repeteixo, no tenen credibilitat, l’han perduda tota. No compleixen ni el que vostès voten, ni tan sols el que s’aprova a proposta del seu Govern. Miri, no formarem part d’aquest espectacle agonitzant ni de les seves mentides. Avui, vostès no haurien d’aprovar cap proposta de resolució, atenent el que aquí els grups parlamentaris hem dit: que és un govern esgotat i que calen eleccions. Companys dels comuns, els hi vull dir: ja els van enganyar una vegada, amb l’aprovació dels pressupostos del 2020, no tornin a caure en les seves mentides. En part també som aquí perquè els van donar ales, amb aquella aprovació dels pressupostos. Diu l’estimat «Coscu» que repetir un error no és un error, és voluntat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.17" xml:lang="ca">Des del Grup Parlamentari dels Socialistes i Units per Avançar, creiem fermament que calen eleccions. No ens mereixem més aquest Govern trencat, que agonitza, que fa mesos que està en una cursa electoral, que no està resolent els problemes de Catalunya, que no dialoga ni acorda. I el més greu, per nosaltres, president, que segueix confrontant sense cap benefici per Catalunya i segueix representant només la meitat dels catalans i de les catalanes. Necessitem un govern que pensi en tothom i que representi a tothom.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.2.18" xml:lang="ca">Per una altra cosa, no compti amb nosaltres.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.3" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.3.0" xml:lang="ca">Gràcies, diputada. En nom ara del Grup Parlamentari de Ciutadans, té la paraula la diputada senyora Lorena Roldán. Endavant.</seg>
+            </u>
+            <note type="speaker">Lorena Roldán Suárez</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.4" who="RoldánLorena" ana="member" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.0" xml:lang="es">Sí; gràcies, president. Bien, segunda ronda hoy de este debate de política general, que es un debate que celebramos cada año, donde se supone que evaluamos la gestión del Gobierno y que intentamos buscar, entre todos los grupos, soluciones a los problemas de la sociedad catalana. O al menos, eso, sobre el papel, porque luego la realidad es bien distinta. Yo, de hecho, estos días mientras preparaba esta intervención y mirábamos también las propuestas de resolución a presentar, repasaba las notas que tenía del debate del año pasado, y, lamentablemente, esas notas siguen vigentes, señor Torra.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.1" xml:lang="es">Tenemos los mismos problemas que hace un año, ahora, eso sí, encima acrecentados por la crisis del Covid-19, porque estamos sufriendo una pandemia de consecuencias sanitarias y económicas devastadoras. Y evidentemente, de esta crisis no tiene la culpa el Govern de la Generalitat, pero sí que tiene responsabilidades sobre ella. Y yo me pregunto por qué Cataluña está peor que el resto de comunidades autónomas. Y se ha comentado aquí, ya en la intervención anterior: somos los peores en datos de pobreza infantil; somos los que más hemos recortado en servicios sociales, en salud y en educación en un momento, además, como este; tenemos también el peor dato de paro aquí en Cataluña, respecto al resto de España; también somos los peores en listas de dependencia. Y podría seguir así, porque la verdad es que los datos son desalentadores.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.2" xml:lang="es">Y yo le vuelvo a preguntar que por qué, porque no es solamente porque estemos viviendo esta pandemia, no. Es por la ausencia de gestión de su Govern y de los anteriores, porque cuando se llega a una pandemia como esta es muy difícil salir bien parado si la situación de partida ya es mala. Y cuesta mucho alcanzar el podio cuando uno sale el último en la carrera. Y justamente ahí es donde nos ha tenido este Govern, en última posición. Y ustedes no hacen nada para intentar avanzar, ustedes siguen en las mismas, incluso han aprovechado esta situación para seguir dividiéndonos, para seguir enfrentándonos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.3" xml:lang="es">Yo, el miércoles, señor Torra, le escuché aquí, en esta misma tribuna, decir que la culpa es del agujero negro de Madrid. Pues mire, no. El único agujero negro es el suyo, que a las puertas de una segunda ola de Covid, con familias que aún no se han recuperado de la primera, que necesitan más ayuda y más recursos que nunca, tienen que ver como el Govern de la Generalitat se queja y les dice que no tiene dinero, pero luego, por otro lado, ustedes se dedican a abrir embajadas, como estas tres últimas, en Japón, en Senegal y en Australia, ¿eh? Y recortan en salud, en educación y en servicios sociales. Es bastante lamentable y bastante vergonzoso, señor Torra. Por cierto, que en una de las propuestas que aquí presentamos, pedimos fiscalizar estas embajadas que ustedes van abriendo por el mundo, y yo creo que como dependen del conseller de Transparencia, pues, no tendrá ningún inconveniente, ¿verdad?, en que se pueda fiscalizar el trabajo que supuestamente realizan desde estas embajadas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.4" xml:lang="es">Mire, yo creo que las prioridades del Govern están muy claras y yo les puedo asegurar que no coinciden con la de la mayoría de los catalanes. La mayoría de los catalanes está pendiente de poder recuperar su trabajo, de si van a poder abrir su negocio o no, o mantenerlo, aquellos que lo han abierto. De si van a poder cobrar, por fin, el ingreso mínimo vital, que parecía que iba a ser la panacea, y que solamente un 1 por ciento de las familias españolas han cobrado, o de si sus hijos podrán ir al colegio mañana en condiciones de seguridad. Esas son las preocupaciones de la gente.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.5" xml:lang="es">Me dice que sí con la cabeza, pero es que usted, lo que pretende es que los catalanes estemos aquí pendientes de su tour judicial y que estemos también, pues, sufriendo esas amenazas que usted reitera en los últimos días, amenazas de paralización de este Parlamento y del Govern de la Generalitat. Mire, este Parlamento tiene que legislar, ahora, más que nunca; tenemos que sacar adelante unos nuevos presupuestos que sean capaces de dar respuesta a los problemas que tenemos encima de la mesa, a esta situación de emergencia que vivimos. Así que yo le digo: si de verdad usted está tan preocupado como quiso hacer ver aquí el miércoles, demuéstrelo, sea responsable y póngale fin, ya, a su etapa al frente del Govern de la Generalitat, de una vez. Y al menos, señor Torra, le quedará eso en su casilla del haber, porque seguro que la del debe la tiene bien repleta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.6" xml:lang="es">Mire yo quiero entrar en las propuestas de resolución, porque ya les hemos dicho muchas veces que no solamente vamos a quedarnos en señalar lo que están haciendo mal, sino que nosotros también queremos hacer una oposición constructiva y propositiva. Y así lo hemos demostrado con estas veinte propuestas de resolución. Voy a intentar pues hablar de las más relevantes o de lo que me dé tiempo.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.7" xml:lang="es">Por ejemplo, en sanidad, uno de los temas importantísimos. Nosotros proponemos un plan de choque para que la atención especializada, la primaria y los servicios de salud mental puedan absorber en los próximos meses pues todas las patologías, las consultas, las pruebas diagnósticas o las intervenciones quirúrgicas que quedaron paralizadas, evidentemente, por la crisis del Covid-19. Teníamos unas listas de espera, antes del Covid, que ya eran dramáticas. Pues imagínese ahora, después de meses de colapso, en la que todos los profesionales sanitarios se han dedicado, en cuerpo y alma, a salvar vidas del Covid-19. Y por eso precisamente también pedimos, mediante estas propuestas de resolución, que se le reconozca este esfuerzo al personal sanitario, no solamente con aplausos y con palabras de agradecimiento, que también, sino además con un complemento económico que esté pactado con todos los agentes sanitarios. Porque necesitamos más medios, necesitamos más recursos y, también les digo, por supuesto, si en algún momento es preciso que solicitemos ayuda de terceros, que lo hagan. A mí, la verdad, me ha dado vergüenza leer alguna propuesta de resolución. Una, por ejemplo, que planteaba la CUP, que pide rechazar de plano, de manera diáfana –pone– la ayuda de los rastreadores militares. Yo les quiero preguntar desde aquí si acaso su odio al ejército pasa por encima de la salud de los catalanes. Me parece una auténtica irresponsabilidad. Espero que se queden solos en esta propuesta y que el Govern no vuelva a cometer los mismos errores que ya cometió en los meses de marzo y abril.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.8" xml:lang="es">Respecto a propuestas de educación, usted, señor Torra, el miércoles, desde aquí, manifestaba su preocupación con la vuelta al cole e incluso le rogaba a la señora Albiach que intentara influir en el Gobierno para aprobar medidas que ayudaran a los padres. Que está muy bien que usted pida cosas sensatas al Gobierno de España. Por una vez que pide algo sensato… Pero es que nosotros aquí también tenemos competencias en educación. De hecho, las tenemos transferidas y hay medidas que se pueden tomar desde Cataluña, señor Torra, como por ejemplo las que le proponemos desde nuestro grupo. Y mire, la primera de ellas es que no cuesta ni un euro. Se trata de escuchar. Nosotros nos hemos reunido con la comunidad educativa y están, evidentemente, preocupados y, sobre todo, se sienten abandonados y nos explican que el conseller no les escucha. Así que la primera medida de todas pasa por sentarse con los agentes educativos y, evidentemente, consensuar esas medidas. Para nosotros, las fundamentales ante el miedo y la incertidumbre de miles de padres de Cataluña, creo que deben pivotar sobre dos ejes. La primera, la del Plan Concilia, que usted hablaba, además, de este problema de conciliación.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.9" xml:lang="es">Nosotros hemos puesto ya en marcha este Plan Concilia en Madrid y de lo que se trata es de que aquellos niños que estén matriculados en escuelas infantiles, en este caso en Cataluña, que se vean obligados a guardar la cuarentena podrán contar con un cuidador en su casa siempre que los padres así lo necesiten. Creo que es evidente que tenemos que proteger a las familias ante esta segunda ola de coronavirus y que no nos podemos engañar y pensar que no va a haber contagios en las aulas catalanas. Evidentemente, sí; pues busquemos soluciones. Y ya le digo que además de pedir al Gobierno de España, utilice también usted las competencias, que también las tiene. También medidas de seguridad, por supuesto. Yo creo que la mayor garantía para que los padres se queden tranquilos es saber que en los centros educativos catalanes se van a contar con todas las medidas de seguridad necesarias. Por tanto, nosotros pedimos garantizar el suministro de mascarillas, pantallas faciales cuando sea necesario; que se puedan mantener las distancias de seguridad; aumentar la plantilla del profesorado, porque vamos a tener que controlar también las ratios en las aulas; y, por supuesto, también la realización de tests rápidos o de PCRs a todo el profesorado y también al personal no docente, insisto, para garantizar la seguridad.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.10" xml:lang="es">Respecto al plan social, entre varias propuestas que presentamos, una de ellas es muy sencilla: es que se pongan ya a desplegar las leyes que tenemos aprobadas desde este Parlamento. Yo le he escuchado el otro día, aquí, ayer mismo, con estas declaraciones que hacía, usted culpaba al Estado de la paralización de la Administración catalana si realmente usted resultaba inhabilitado. No, no, la paralización de la Administración la están llevando ustedes a cabo, porque aprueban leyes que luego que ni siquiera despliegan. O sea, ya no se trata solo de la desidia que tienen a la hora de legislar, que son el segundo Govern más improductivo de esta última década, es que luego, cuando por fin sacamos una ley adelante, resulta que no la despliegan. Tenemos paralizada la ley para garantizar los derechos LGTBI, la de derechos y oportunidades en la infancia y la adolescencia, la de accesibilidad de Cataluña, la de lengua de signos catalana, la del derecho de las mujeres a erradicar la violencia machista, tampoco está desplegada totalmente. Por no hablar de la cartera de servicios sociales, que yo creo que entré en este Parlamento hace cinco años y desde entonces le vengo reclamando que actualicen la cartera de servicios sociales, que hace diez años que no la tocan y siguen sin tocarla. Pues bueno, así nos va.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.11" xml:lang="es">Tienen muchas herramientas, pero resulta que no las usan, ni para luchar contra la pobreza, ni para erradicar, por ejemplo, los problemas que tenemos de ocupación, en que nosotros hemos insistido también estos últimos días muchísimo. Volvemos…. Somos otra vez los primeros en el ranking de ocupaciones con respecto al resto de comunidades autónomas. Y el otro día, que hablábamos de este tema, el resto de grupos nos hablaban de la vertiente social que tiene que tener esto también. Y estamos de acuerdo, evidentemente, hay que diferenciar situaciones de familias que se encuentran en riesgo de exclusión y para las que su Gobierno no ofrece soluciones, por lo visto, porque ya sabemos cómo tienen el parque de vivienda social, y luego las mafias de ocupación ilegal, que están creando muchísimos problemas de convivencia en Cataluña, que antes no teníamos y que también nosotros planteamos una propuesta aquí en este debate de política general.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.12" xml:lang="es">No me quiero dejar, tampoco, a los autónomos. Hemos pedido también que se reduzca el plazo medio de pago de la Generalitat a los quince días y, sobre todo, que actualice los planes de seguridad del Procicat</seg>
+               <incident type="sound">
+                  <desc>(sona el senyal acústic que indica que s’ha exhaurit el temps d’intervenció)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.13" xml:lang="es">, porque hay sectores, como los feriantes, que todavía no se han podido poner en marcha.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.4.14" xml:lang="es">Y acabo muy rápidamente, presidente. Yo creo que está muy claro lo que tenemos que hacer. Podemos seguir con una Cataluña que mira permanentemente al pasado, al conflicto, que sigue dividiéndonos, que nos mantiene a la cola respecto al resto de España, o una Cataluña con futuro, que pueda volver a ser líder de todo aquello que lo fue.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.5" who="TorrentRoger" ana="chair" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.5.0" xml:lang="ca">Diputada...</seg>
+            </u>
+            <note type="speaker">Lorena Roldán Suárez</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.6" who="RoldánLorena" ana="member" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.6.0" xml:lang="es">Acabo en un segundo. Yo, sin duda, me quedo con esta última y en mi grupo vamos a trabajar para que así sea.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.6.1" xml:lang="es">Gracias.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.7" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.7.0" xml:lang="ca">Gràcies, diputada.</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.7.1" xml:lang="ca">En nom del Subgrup Parlamentari del Partit Popular de Catalunya, té la paraula ara el diputat senyor Santi Rodríguez.</seg>
+            </u>
+            <note type="speaker">Santi Rodríguez i Serra</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.8" who="RodríguezSanti" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.0" xml:lang="ca">Gràcies, president. President de la Generalitat, consellers, consellera. «Aquesta és una legislatura esgotada», paraules del president, del 29 de gener passat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.1" xml:lang="ca">Avui podríem dedicar un temps a repassar, a fer un repàs de la legislatura, però sincerament crec que seria un temps perdut. Vaja, com la legislatura. I, per tant, val la pena que mirem endavant, i el futur immediat, evidentment, està absolutament marcat per la pandèmia i per la crisi sanitària, econòmica i social que ha provocat i que està provocant i que continuarà provocant aquesta pandèmia. I per això crec que, com tots els grups parlamentaris, hem presentat tot un seguit de propostes, fins a catorze. De les quals, dotze –dotze– fan referència a polítiques, polítiques segurament no de llarg abast, perquè la legislatura està esgotada i, per tant, tampoc no podem donar massa instruccions de llarg abast al Govern, sinó de curt termini, per afrontar la situació, tant des del punt de vista sanitari com des del punt de vista social i des del punt de vista econòmic que tenim al davant. Més política social, més impuls de l'economia, menys procés; amb paraules seves, menys confrontació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.2" xml:lang="ca">S'hauran dedicat en cos i ànima, el president ho ha dit, reiteradament, deia abans-d'ahir: «Dediquem vint-i-quatre hores al dia als efectes de la pandèmia.» Però quan analitzem les propostes dels grups parlamentaris, també les dels grups que donen suport al Govern, ens fa la impressió que encara hi han moltes coses per fer, i els que les poden fer, els que les podien fer, que era el Govern, ho tenen encara sembla que pendent. A la vista, hi insisteixo, de les propostes presentades. Per tant, no ens fa la sensació de que vostès com a Govern hagin estat gaire eficaços. Per cert, dedicar vint-i-quatre hores al dia als efectes de la pandèmia és certament contradictori amb l'estratègia de la confrontació que vostès afirmen que volen i que estan aplicant des del mateix Govern.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.3" xml:lang="ca">Avui ens trobem a pocs dies probablement –probablement– de que es ratifiqui la seva inhabilitació, president. I si és així, la responsabilitat serà seva, només seva. Dos motius: primer, important, manca de sentit institucional. Un exemple només –un exemple només–, si vostè és condemnat, no ho serà per la llibertat d'expressió, no ho serà per fer ús de la llibertat d'expressió, perquè les institucions, com a institucions, que són de tots els ciutadans, no tenen llibertat d'expressió, es deuen a tots els catalans, i vostè ha utilitzat la institució per defensar uns catalans enfront d'uns altres. Vaja, la confrontació. Però també crec que hi ha un profund desconeixement del que és la democràcia. La democràcia és efectiva amb lleis democràtiques aprovades per parlaments democràtics i que vostè, deliberadament, va desobeir.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.4" xml:lang="ca">A la declaració d'ahir vostè es preguntava: «Qui es preocupa per les coses que interessen a la gent?» I a continuació afirmava: «No és responsable paralitzar una administració amb unes eleccions.» Dit sigui de pas, nosaltres creiem que la legislatura ha estat perduda, més paràlisi que hi ha hagut en aquesta legislatura no l'hem coneguda, però vostè es feia aquesta pregunta en el sentit de dir: «Escolti’m, si ara convoquem eleccions, serà temps perdut.» Doncs si té sentit de la responsabilitat, vostè pot evitar que la paràlisi que vostè no vol sigui de quatre mesos o més. Vostè pot fer que sigui només de cinquanta-quatre dies. Li fem una petició, ni que sigui per una sola vegada en tota la legislatura, prengui una –una– decisió encertada: convoqui eleccions. Avui que pot, convoqui eleccions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.5" xml:lang="ca">Acabo. Sentíem el senyor Batet, abans-d'ahir, afirmar que només tenen dues opcions: confrontació o rendició. Confrontació intel·ligent, en diuen, quan el menys intel·ligent que hi ha precisament és la confrontació. El que és intel·ligent de veritat, president, és la concòrdia. La concòrdia. Això no està entre les seves opcions. I precisament per això, president, per a la concòrdia, president Torra, bon vent i barca nova.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.8.6" xml:lang="ca">Gràcies.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.9" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.9.0" xml:lang="ca">Gràcies, diputat. En nom del Grup Parlamentari de Catalunya en Comú Podem, té la paraula la diputada senyora Susanna Segovia.</seg>
+            </u>
+            <note type="speaker">Susanna Segovia Sánchez</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.10" who="SegoviaSusana" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.0" xml:lang="ca">Moltes gràcies, president. Diputat, diputades, consellers, consellera. Nosaltres avui volíem començar d'una altra manera, parlant estrictament dels temes del debat de política general, però ahir vam tornar a tenir una imatge dels mossos atonyinant i carregant de valent contra persones que estaven intentant aturar un desnonament; una vegada més, imatges com aquestes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.1" xml:lang="ca">Segons els mitjans i els grups de defensa del dret a l'habitatge aquesta setmana hi ha hagut més de cent desnonaments a Barcelona; només a Barcelona. I sense comptar aquells que s'han pogut endarrerir, ajornar o solucionar amb els serveis de mediació de l'Ajuntament de Barcelona. I ahir el Partit Popular i el senyor Casado se'n van anar a Badalona a denunciar i a criminalitzar l'ocupació en un edifici on no hi havia cap pis ocupat. El cas d'ahir en concret era el d'una família que no podia pagar el lloguer perquè havia deixat de tenir ingressos, amb dos menors, i no es va poder aplicar el Decret 17/2019 perquè el propietari, doncs, no era un gran tenidor i no se li podia obligar a oferir lloguer social. No era un gran tenidor, no, només era Oleguer Pujol, el fill de Jordi Pujol, que segurament, petit propietari, doncs, tampoc ho deu ser, no?, sobretot tenint en compte que se l'investiga per enriquiment il·lícit.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.2" xml:lang="ca">El cas és que vam tornar a veure una família al carrer, els mossos atonyinant i cap canvi en les polítiques de la conselleria d'Interior. Tenim un nou conseller, tenim una aparent cara amable nova, però les polítiques són les mateixes. I, de fet, ja va dir també que ell volia accelerar els desnonaments en casos de grans propietaris. Ens sembla que el nou conseller no és res més que un Buch amb cara amable, però amb les mateixes polítiques de sempre.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.3" xml:lang="ca">I ara sí, centrem-nos en el tema que a nosaltres ens preocupa d’aquest debat de política general, que segur que no és una sorpresa, president, que són la necessitat de convocar eleccions ja, de manera urgent. Estem assistint a un debat de política general estrany, enrarit. No és normal, ni s'hauria de normalitzar, ni pot ser normal mai que, enmig d’un debat de política general, el president de la Generalitat de Catalunya hagi d'anar al Tribunal Suprem. No ho és, no ho hauria de ser. Nosaltres no hi estem d'acord, no ens agrada i creiem que és desproporcionada la sentència. I li ho hem dit moltes vegades. Creiem que vostè ha de deixar de ser president de la Generalitat de Catalunya –ho creiem i ho diem i ho repetim–, però que han de ser unes eleccions el que el treguin d'aquest lloc, no el fet d'haver deixat durant unes hores més una pancarta penjada al balcó de la Generalitat de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.4" xml:lang="ca">Nosaltres ja li vam dir al gener que calien primers pressupostos i després d'eleccions. I el PSC, sí. Pressupostos sí. Gràcies a aquests pressupostos, s'ha pogut donar resposta mínimament a la pandèmia que hem viscut i a la crisi social i econòmica, perquè no sé ni què hauria passat amb els pressupostos del 2017. Gràcies a això, els estudiants que comencen el curs universitari paguen un 30 per cent menys de taxes universitàries. Nosaltres vam fer un exercici de responsabilitat que ara, el Govern de l'Estat està demanant a les altres forces de la investidura que també ho facin per aprovar els Pressupostos Generals de l'Estat. Aquí, el PSC, en l'únic que ha posat responsabilitat és en pactar amb Junts per Catalunya les cadires a la Diputació de Barcelona i els recursos de la Diputació de Barcelona. Aquest és l'exercici de responsabilitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.5" xml:lang="ca">El mateix president Torra va dir «pressupostos i eleccions», però ara no, ara diu que no. Però ara gairebé toquen les forces d’aquest arc parlamentari, gairebé totes menys Junts per Catalunya, li demanem eleccions. Ciutadans no ho deixen massa clar, sembla que no acaben d'estar massa pel tema de les eleccions, després ho veurem en les votacions, però vull dir també s'entén, o sigui és normal que prefereixin tenir trenta-set diputats uns mesos més que no quedar-se amb disset d'aquí a dos. Vull dir que també s'entén des del lloc que tenen, les perspectives que tenen en la política catalana.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.6" xml:lang="ca">Però el president no, el president directament diu que no creu que siguin necessàries i que seria una irresponsabilitat, unes eleccions. President, la irresponsabilitat és no convocar-les, perquè la qüestió està entre 54 dies des de ja o 124 dies des de que arribi una probable ratificació de la sentència per part del Suprem. Entre 54 dies –dos mesos– o 124 –quatre mesos– entre que hi ha la inhabilitació, els deu dies que el president Torrent necessita per poder dir que, com que no hi ha cap candidat, s'activa el rellotge, els dos mesos després de que s'activi el rellotge, la convocatòria d'eleccions automàtica, els  54 dies, i llavors sí, les eleccions, i llavors sí, la possibilitat de fer un nou govern. Entre dos mesos de campanya electoral i més de quatre mesos de paràlisi i campanya electoral també. Per tant, sí, està a les seves mans, és la seva responsabilitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.7" xml:lang="ca">També deia l'altre dia que no creu que els professionals de la salut i el professorat estiguin preocupats ara per eleccions. No, estan preocupats per recursos, estan preocupats per polítiques, estan preocupats per decisions que no es prenen, estan preocupats perquè un dia se'ls diu a, l'altre dia b, l'altre dia c; perquè no arriben els reforços a la primària a què s'havien compromès, perquè no arriben els reforços del professorat a què s'havien compromès, perquè necessiten un govern fort que respongui i que doni respostes. I això són eleccions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.8" xml:lang="ca">Per tant, sí, calen eleccions. I també aquesta gent que està fent front a la pandèmia a primera línia necessita un govern que respongui i aquest Govern, el Govern de Junts per Cat i d'Esquerra Republicana al Govern de Torra i Aragonès no és aquest govern.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.9" xml:lang="ca">No han fet res en tres anys, ja els ho hem dit, no compleixen el que diu el Parlament però és que vostès pràcticament tampoc han tingut capacitat de govern ni d'iniciativa legislativa si restem tota la bateria de decrets amb els quals s'ha hagut de fer front a la pandèmia, perquè, de les xifres que mostrava l’altre dia, restem els decrets dels últims quatre mesos i no queda pràcticament res. I vostè ho sap, a més a més.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.10" xml:lang="ca">Però és que llavors arriba el debat de política general i ens trobem amb les propostes de resolució de Junts per Catalunya i Esquerra Republicana que, home, com a mínim, graciós sí que és, eh?, perquè si vostès haguessin fet, en aquests tres anys, la mínima part del que diuen que s'ha de fer, no estaríem on estem. No estaríem en la situació en la qual estem. Potser ni tan sols els hi estaríem demanant eleccions, mirin. O potser haurien tingut més suports en algunes de les coses que han plantejat, i no haurien hagut de retirar la Llei Aragonès, per exemple; o els decrets fallits fins que van aconseguir treballar-los bé amb el vot municipal i amb les organitzacions socials, els d’Habitatge. Potser no estaríem on estem.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.11" xml:lang="ca">És que vostès sí que són els del «sí, però no». I tant que són els del «sí, però no». Per què? Perquè vostès sí que saben el que s'ha de fer, però no ho fan. És així. Ho saben, ho diuen, ho posen a PRs, però no fan. Saben demanar a l'Estat el que ha de fer a l'Estat, però no ho fan amb les competències que els pertoquen. I no ho fan, i no ho saben fer.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.12" xml:lang="ca">Sí que defensen els drets humans, les llibertats, condemnen la repressió, però llavors envien a mossos a atonyinar manifestants, es personen a les causes contra activistes i demanen penes de presó. Vostès són, els agrada, sí, la grandiloqüència i el simbolisme, però després polítiques concretes i fets concrets, no.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.13" xml:lang="ca">Vostès són els que també diuen que hi ha un conflicte polític, que cal una solució política, però quan es busquen mecanismes per desbloquejar i per avançar cap a aquesta solució política, ho impedeixen. Les seves propostes de com fer front a la repressió, de com fer front..., de com avançar en el diàleg i en la busca de solucions estan fetes i pensades perquè només vostès els hi donin suport, per no sumar. Posen una quantitat de coses allà dintre perquè hi hagi la més mínima excusa perquè no puguin sumar a ningú. I així és com es troben: sols, sense sumar, sense buscar els consensos que necessiten.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.14" xml:lang="ca">De fet, veurem quin és el posicionament i quin és el resultat de la proposta de resolució que portem sobre la reforma del delicte de sedició. Ho veurem, quin és el resultat, qui vota què. I si es pot aprovar o no es pot aprovar una proposta, que potser no és tan grandiloqüent i tan simbòlica com les que vostès porten, però que pot ser efectiva, que pot ser viable i que pot ajudar a aturar la criminalització de molts activistes. I sí, també aconseguir abans la llibertat dels presos polítics, també. Veurem quin és el resultat d’una proposta de resolució, que no és grandiloqüent, potser, però que pot ser efectiva i que pot ser real potser abans d'acabar al final d'any.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.15" xml:lang="ca">Nosaltres –ja els ho hem dit–, malgrat tot, seguirem treballant, seguirem avançant en la busca de consensos, en la solució política i en la construcció, sí, d'una república confederal i plurinacional que és el nostre model d'Estat. Mal que els pesi a molts, i mal que vostès prefereixin seguir fent d’oposició al Govern sense entendre que és el moment de sumar, de forçar, d’empènyer a la majoria de la investidura, de que alguns que no hi van ser potser s'hi puguin sumar, i que evitem que no hi hagin uns pressupostos que poden ser bons per a Catalunya i també per a la resta de l'Estat. Que no cometin el mateix error de l'any passat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.16" xml:lang="ca">Nosaltres presentem propostes de resolució que estan fetes des de la humilitat d’un grup d'oposició, un grup d'oposició que va aconseguir que aquest Govern fes la reforma fiscal més progressiva dels últims deu anys i que espera poder-la fer també a nivell de l'Estat. Però fer una de les propostes, precisament, és acabar amb el dumping fiscal i amb els privilegis que té Madrid i amb la manca de recursos per a  Madrid i per a altres comunitats autònomes de l'Estat per aconseguir recursos públics per fer front a la crisi social, econòmica i ambiental que estem vivint.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.17" xml:lang="ca">Són propostes que esperem que tinguin el seu suport. N’hi ha una molt concreta que li volem demanar, president Torra, i és que, abans de plegar, perquè, tard o d'hora, sigui perquè ja és una inhabilitació, sigui perquè hi hauran unes eleccions, sigui perquè nosaltres li estem demanant que convoqui ja les eleccions, si us plau, ens ajudi a aturar el projecte del Hard Rock Café, perquè vostè sap que és caduc, vostè sap que atempta contra el territori, vostè sap que fomenta la ludopatia i va contra la salut pública. Li demanem que, com va fer amb la llei de lloguers, malgrat els interessos del seu partit i d’altres forces, es posi de la banda de la gent i ens ajudi a aturar aquest projecte.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.18" xml:lang="ca">Nosaltres ho hem dit: la gestió d’aquest Govern ha estat inexistent, és un govern zombi, és un govern que agonitza, és un govern que no té projecte conjunt.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.10.19" xml:lang="ca">A la Diada del 2014, la presidenta Carme Forcadell, en aquell moment com a ANC, li va dir al president Mas: «President, posi les urnes.» Ahir, la presidenta Forcadell, president Torra, també li va dir: «President, si us plau, posi les urnes.» Encara està a temps, encara ho pot fer. Catalunya ho necessita i s’ho mereix.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.11" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.11.0" xml:lang="ca">Gràcies, diputada. En nom, ara, del Grup Parlamentari de Junts per Catalunya, té la paraula la diputada senyora Gemma Geis.</seg>
+            </u>
+            <note type="speaker">Gemma Geis i Carreras</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.12" who="GeisGemma" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.0" xml:lang="ca">Bé; bon dia, president Torra, diputats, diputades. Avui tanquem el tercer debat de política general d’aquesta legislatura, i la nostra intervenció serà interpretar el moment que vivim, amb responsabilitat. Aquesta legislatura està marcada per la normalitat democràtica, per una justícia polititzada, per un 155 aprovat amb la complicitat de Rajoy i Sánchez, i veiem com aquest Govern, el Govern més progressista de la història és incapaç d’acabar amb el més mínim gest per acabar amb aquesta repressió; cap gest valent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.1" xml:lang="ca">Diputada de comuns, a mi no m’estranya que PSC, PP, Ciutadans no defensin la separació de poders, però que vostès avui, aquí, donin per inhabilitat el president de la Generalitat em sembla, si més no, bastant greu.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.2" xml:lang="ca">Ho ha fet, ho ha fet.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.3" xml:lang="ca">Reivindiquem també la pancarta del president Torra per la qual ha estat jutjat en el Tribunal Suprem. Reivindica la llibertat dels presos polítics, i entenem que és absolutament desproporcionat. Entenem, a més a més, que això és absolutament irracional en un context de pandèmia. L’Estat espanyol que jutja un president de la Generalitat per haver penjat una pancarta és el mateix Estat espanyol que, amb els seus expresidents al capdavant, envia una carta a la justícia argentina perquè no jutgin Martín Villa, ministre franquista acusat a més de tretze delictes d’homicidi i delictes contra la humanitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.4" xml:lang="ca">Enmig del debat de política general, crec que n’haurem de dir «debat de repressió habitual», perquè el primer debat de política general va estar marcat per tres investidures fallides; el segon debat, pel judici de l’octubre, i aquest tercer pel judici en el Tribunal Suprem del president de la Generalitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.5" xml:lang="ca">Mentrestant, això sí, el Grup de Treball de Detencions Arbitràries de Nacions Unides, o Amnistia Internacional, continua demanant la llibertat dels presos. Tothom demana eleccions. No crec que s’aconsegueixi aquesta votació, però. Però jo els repregunto: vostès demanen eleccions i respectaran els resultats electorals? Aquesta pregunta el president Puigdemont la feia a les eleccions del 21-D, i no es van respectar els resultats de les eleccions de Catalunya, però tampoc les del Congrés, ni tampoc del Parlament Europeu, perquè el vicepresident Junqueras hauria d’estar exercint d’eurodiputat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.6" xml:lang="ca">Diuen que a la pancarta a la presidència de la Generalitat es desprestigia. I jo els dic: la presidència de la Generalitat no es desprestigia ni per una pancarta, ni per un referèndum, ni per una consulta. El que desprestigia les institucions és no fer un pas endavant en la defensa dels drets i les llibertats. El que denigra i desprestigia un estat són l’ús de les clavegueres, les escoltes telefòniques, el Pegasus, la operación Kitchen, l’operació Catalunya. I avui també ens solidaritzem amb Dani Gallardo.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.7" xml:lang="ca">Des de Junts per Catalunya, amb la CUP i Esquerra, hem signat una proposta de resolució, amb la qual manifestem com s’han perseguit els tres últims presidents de la Generalitat: el president Mas, el president Puigdemont i ara el president Torra, i vindiquem la importància de la institució de la Generalitat de Catalunya, i que sobretot els catalans i catalanes són els que treuen i posen els seus presidents, i que només aquest Parlament té legitimitat per atorgar o retirar la confiança al seu president. Sap, president, que ens té al seu costat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.8" xml:lang="ca">També vull agrair les paraules del diputat Carrizosa, que va refermar-se, doncs, en com aquest procediment es va iniciar arran de la demanda de Ciutadans, la impugnació d’aquesta pancarta, i crec que serà un argument més per al Tribunal Europeu de Drets Humans, per veure aquesta conxorxa, aquesta coordinació política entre la justícia i el poder polític.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.9" xml:lang="ca">També recordem com els tribunals belgues han reconegut que el Tribunal Suprem no tenia competència per dictar la sentència de l’U d’Octubre i, per tant, no tenia competència per jutjar els presos polítics. I ara veiem que el mateix Tribunal Suprem, que no tenia competència per dictar la sentència de cent anys de presó, és el mateix Tribunal Suprem que pretén inhabilitar el president de la Generalitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.10" xml:lang="ca">En fi, vostè, president Torra, ens va dir en el debat de política general que estem centrats en la lluita contra la Covid. I tant, que ho sabem, que estem centrats en la lluita de la Covid, i per això crec que la societat catalana, en la seva majoria, sap que el Govern de Catalunya ha treballat per a tots els catalans i catalanes en aquesta crisi. Reconeix la seva transparència, la seva honestedat, la humanitat i l’anticipació en la gestió d’aquesta crisi. De fet, avui llegia com la taxa reproductiva efectiva en una setmana ha baixat de 0,96 a 90, i la tendència dels registres de rebrot ha baixat de 175,6 a l’inici de la setmana a 150,9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.11" xml:lang="ca">Nosaltres presentem propostes per a aquest país, propostes per a tothom. La primera, i que esperem el suport d’aquests grups parlamentaris que tant ens exigeixen i ens diuen que no fem propostes: instar el Govern espanyol per modificar l’objectiu de dèficit del 2020, passant del zero actual a un nombre inferior a l’1 per cent, fet que suposaria 2.000 milions d’euros per a Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.12" xml:lang="ca">Segon, assegurar que el Govern de Catalunya rebrà els fons europeus en relació amb el seu percentatge del PIB, en relació amb la potència econòmica que té Catalunya i que mereix.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.13" xml:lang="ca">Tercer, regular la baixa dels pares i mares per a aquells fills i filles que estiguin en quarantena a casa. A més, vostès prediquen que són feministes, però vostès no veuen que això és un pas enrere de les dones? No ho veuen? Al Govern més progressista d’Espanya, no sé com això no s’ha regulat. No ho sé. Això sí que és donar seguretat a les famílies; això sí que són opcions reals, i van molt endarrerits.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.14" xml:lang="ca">Quart, demanem derogar l’LRSAL, perquè atempta contra l’autonomia local. Però bé, també és veritat que, havent vist el que ha passat amb els romanents, poc esperem amb l’LRSAL.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.15" xml:lang="ca">Altres propostes. Amb relació a l'educació, primer fer un agraïment als equips directius i als docents. Sabem –perquè coneixem l'esforç que han fet en aquest inici de curs– i aprovem que els centres de Catalunya tinguin dotació de dispositius digitals, que els packs de connexió d'Internet de tot aquell alumnat que estigui en situació més desfavorable, més vulnerable... Fem una proposta concreta a favor de l'economia productiva d'aquest país i defensem les polítiques digitals i les polítiques de recerca i coneixement, perquè són polítiques socials i econòmiques de reactivació de l'economia en aquest moment: digitalització del país, de tot el país, del seu territori; millora també la sostenibilitat, la igualtat d'oportunitats, la cohesió social. Fem propostes respecte a l'economia digital, el 5G i la fibra òptica. I, a més a més, en la recerca potenciem el refinançament dels centres Cerca, però també de les universitats públiques d’aquest país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.16" xml:lang="ca">I amb relació a les propostes de resolució dels altres grups parlamentaris, respecte a la CUP, doncs votem a favor d’una sèrie de propostes. Destacaria les cures en cas de quarantena per la Covid o la defensa dels llocs de treball.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.17" xml:lang="ca">Del PSC, sincerament, m'ha sobtat aquesta posició de vot en contra de totes les seves propostes, però la veritat és que, quan llegíem al grup parlamentari les propostes de resolució que ha fet el PSC, no sabíem si s'havien tornat vostès independentistes. Perquè les propostes de resolució que vostès han defensat només seran possibles si Catalunya és independent. I, per posar ara un exemple, a mi ja m'agradaria, eh?, que al 2021 tot Catalunya tingués fibra òptica. I, clar, llavors pensava: «Bé, segurament, com que són monàrquics, doncs han fet la carta als reis.» Per tant, vostès han fet un exercici d'irresponsabilitat en les propostes de resolució que han defensat.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.18" xml:lang="ca">Amb relació a comuns, els hi defensem i els hi votem propostes de resolució. Ens hi hem posat d'acord, per exemple, en l'atenció primària, en la salut amb perspectiva feminista, en la lluita contra la pobresa, en l'equitat fiscal. Ara bé, també ens ha estranyat que, clar, vostès..., hi han dues propostes de resolució que nosaltres hi votarem favorablement, que una fa referència a la pròrroga dels ERTOs..., i a la de l'acollida de les persones refugiades a Moria. I vostès, a la proposta de resolució, ens diuen «que el Parlament de Catalunya demani al Govern de la Generalitat que el Govern de la Generalitat demani al Govern espanyol la pròrroga dels ERTOs..., i de les persones refugiades a Moria». Però vostès no governen a Madrid? Som nosaltres aquí que hem de fer dues interlocucions abans d'arribar a Madrid? No tenen incidència a Madrid? Doncs perquè ens fan fer això? És que aquestes propostes de resolució em sembla que demostren la seva irrellevància actual a Madrid.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.19" xml:lang="ca">No té sentit, i vostè ho sap.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.20" xml:lang="ca">Per tant, nosaltres ens centrem en la gestió de la crisi. Estem absolutament interpel·lats per això. Sabem que hi ha moltíssimes famílies que tenen trencats els seus projectes de vida; pimes i petits empresaris que estan intentant sobreviure i que saben que potser no podran aixecar més la persiana; persones que estan en una situació de vulnerabilitat; la necessitat de cohesió d'aquest país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.21" xml:lang="ca">I escolti, president Torra, sap que té tot el grup parlamentari al seu costat, que per nosaltres la priorització en aquest moment és la lluita contra la pandèmia, i des d'aquí no ens mourem i intentarem, doncs, continuar col·laborant amb tot el Govern de la Generalitat, amb la màxima lleialtat possible, perquè això sigui possible, per fer polítiques per a tots i cada un dels ciutadans de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.12.22" xml:lang="ca">Moltes gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.13" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.13.0" xml:lang="ca">Gràcies, diputada. En nom, ara, del Subgrup Parlamentari de la CUP - Crida Constituent té la paraula la diputada senyora Natàlia Sànchez.</seg>
+            </u>
+            <note type="speaker">Natàlia Sànchez Dipp</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.14" who="SànchezNatàlia" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.0" xml:lang="ca">Bon dia a tots i a totes; bon dia, president; bon dia, diputats. Avui acabem el debat de política general, i, com s'ha vist en totes les intervencions d'avui i de dimecres passat també aplana un final de legislatura; un final de legislatura que molts grups parlamentaris coincidim en que és necessari. Tanmateix, i ho hem dit i és públic i notori, la proposta de la CUP divergeix molt, per exemple, de la proposta de convocatòria d'eleccions del PSC o del PP, i tampoc acabem de coincidir amb els motius que impulsen els comuns a demanar unes eleccions immediates.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.1" xml:lang="ca">La CUP hem proposat al Govern, hem proposat a Junts per Catalunya i a Esquerra Republicana acordar una sortida d'aquesta legislatura, un final digne per a aquesta legislatura i no tornar a viure un sainet i una baralla entre els socis de govern per a la finalització de la legislatura. I encara no hem rebut resposta. Nosaltres li hem fet una proposta, president. Som aquí al seu costat, davant una aberració jurídica i un despropòsit polític i un clar atemptat contra els principis democràtics i els drets civils i polítics. Som aquí, al seu costat, però també tenim clar que els governs han de ser part de la solució dels problemes de la gent i no part dels problemes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.2" xml:lang="ca">Deien que vostès estan centrats exclusivament a lluitar contra la crisi de la Covid. Doncs no se n'estan sortint. La pandèmia travessa les nostres vides i no tan sols fa que haguem de mantenir distàncies de seguretat, haguem de portar mascareta; provoca morts i ha evidenciat els límits d'un sistema de salut que ha anat acumulant retallades a conseqüència d'imposicions neoliberals de la Unió Europea –i atenció a les que vindran de l'Estat espanyol– i per la fidel aplicació de successius governs de la Generalitat, especialment d'aquells que es deien els «governs dels millors».</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.3" xml:lang="ca">La pandèmia també ha provocat atur, acomiadaments, autònoms que no els surten els encàrrecs, i, especialment, una greu situació entre els joves, que acumulen un atur juvenil que voreja el 40 per cent. Uns joves que, a més a més, es troben en una situació greu: la primera causa de mort entre els joves és el suïcidi. Per això, entre les diferents propostes que hem portat la CUP proposem fer una lluita contra el suïcidi i prevenir-lo.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.4" xml:lang="ca">També, en el conjunt de resolucions que hem presentat, presentem qüestions de mínims, qüestions que haurien d'estar aprovades. Aprovin d'una vegada el reglament de la Llei 11/2014 –el règim sancionador, disculpin– per la lluita contra la LGTBIfòbia.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.5" xml:lang="ca">I sí, la senyora Romero s'escandalitzava perquè la CUP hem arribat a transaccions amb la majoria d'aquest Parlament que està a favor de que el dret a l'habitatge sigui un dret fonamental. El que és escandalós és que el Partit dels Socialistes no hi estigui d'acord. Hem fet una proposta tan revolucionària com que la llei que hem aprovat una gran majoria d'aquest Parlament arribi a totes les llars, arribi a totes les cases, que totes les famílies sàpiguen quins són els seus drets. La senyora Geis deia que li semblava que el Partit Socialista s'havia tornat independentista. Això tenim molt clar que no és així. Però també hauríem de deixar molt clar que el Partit dels Socialistes no en té res, de socialistes, i que diuen «no» a votar i a regular els lloguers. Això sí que és escandalós.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.6" xml:lang="ca">També hem fet algunes propostes amb lògica evidentment independentista i amb lògica antirepressiva. I ens volem aturar un moment en això aprofitant que la consellera Meritxell Budó és avui aquí.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.7" xml:lang="ca">La senyora Budó va acusar a la resta d'independentistes de normalitzar la repressió. Ens va dir, per exemple, a la CUP, que normalitzem la repressió per fer una proposta al president de la Generalitat. I ho va dir –al tanto– el mateix dia que es feia pública l'acusació particular de la Generalitat contra els participants de la vaga general del 8 de novembre. I ho va fer, a més a més, des del mateix espai polític de Felip Puig, de Miquel Buch; el mateix espai polític de les bales de goma, de foam, de les Taser, de les càrregues a l'aeroport, d'Urquinaona. El mateix espai polític que ahir carregava contra la gent que defensava un habitatge digne.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.8" xml:lang="ca">La paciència antirepressiva també s'acaba, i li demanem que retiri aquestes paraules. A més a més, donen el seu suport al company Dani Gallardo, empresonat a Madrid. Saben que si el senyor Dani Gallardo estigués empresonat aquí vostès demanarien tres anys i mig de presó contra ells? Normalitzar la repressió és el que fan vostès cada dia.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.9" xml:lang="ca">Acabem. També hem fet propostes en lògica de defensa del territori, en lògica de defensa del riu Ebre, que aquesta setmana que la Plataforma en Defensa de l'Ebre compleix vint anys volem dir, un cop més, que «Lo riu és vida».</seg>
+               <incident type="sound">
+                  <desc>(Sona el senyal acústic que indica que s'ha exhaurit el temps d'intervenció.)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.14.10" xml:lang="ca">I acabo –si em dona un segon mes, president– emplaçant-los a aprovar –i els vam fer arribar un correu a tots els diputats i diputades–, a frenar el despropòsit de l'acord a què Junts per Catalunya i Esquerra Republicana van arribar en el Consell Executiu, en el Govern: l’acord per fer possible el Hard Rock. Un contracte que acumula...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.15" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.15.0" xml:lang="ca">Diputada...</seg>
+            </u>
+            <note type="speaker">Natàlia Sànchez Dipp</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.16" who="SànchezNatàlia" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.16.0" xml:lang="ca">...un conjunt de despropòsits contra el bé comú. Facin el favor d’aturar aquest despropòsit.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.16.1" xml:lang="ca">Gràcies.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.17" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.17.0" xml:lang="ca">Gràcies, diputada. I finalment, en nom del Grup Parlamentari Republicà, té la paraula la diputada senyora Marta Vilalta. Endavant.</seg>
+            </u>
+            <note type="speaker">Marta Vilalta i Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.18" who="VilaltaMarta" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.0" xml:lang="ca">Moltes gràcies, president. President Torra, consellers, consellera, diputats i diputades. Són temps complexos, certament, i marcats per la incertesa. I no només per culpa de la situació de coronavirus –de pandèmia–, sinó també per l'existència d'un conflicte polític entre Catalunya i l'Estat espanyol i per la repressió incessant que patim. L'últim exemple d'aquesta causa general oberta contra l'independentisme el vam viure ahir mateix amb el president Torra al Tribunal Suprem. I avui des d'aquí –des d'aquest faristol– li reiterem el nostre suport i la nostra solidaritat. Una possible inhabilitació de la seva figura per part del Tribunal Suprem és una absoluta barbaritat, seria una absoluta barbaritat. Un atac a la democràcia. I davant d'això hem de respondre conjuntament. Ho tenim claríssim. No podem tornar a caure en un episodi de desorientació independentista. Hi som a temps.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.1" xml:lang="ca">Dimecres, en el discurs del Molt Honorable President Torra, parlava del cercle perfecte de la repressió. Doncs bé, hem de fer possible el cercle perfecte de la democràcia, perquè és la via –la democràcia– en la que som més forts. Compartim amb vostè la batalla jurídica, que és i serà important, i estem convençuts que a Europa, si arriba el cas, trobarà –com han trobat Oriol Junqueras, Carles Puigdemont o Lluís Puig– la justícia que no existeix a l'Estat espanyol. Però la resposta a la inhabilitació, si es dona aquesta inhabilitació, no pot ser només una resposta jurídica. La repressió el que busca és deixar de fer-nos fer política. Deixar de fer política. I la nostra proposta per combatre-la és justament fer més i més política.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.2" xml:lang="ca">Ara bé i perquè quedi clar a tots els diputats i diputades d'aquesta cambra, nosaltres no votarem cap de les propostes per convocar eleccions que demana l'oposició, perquè vostès ho fan per desgastar aquest Govern i acusar-nos d'un fracàs. I no els farem el joc, evidentment. No comptin amb nosaltres per això.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.3" xml:lang="ca">La proposta que fa Esquerra Republicana en aquest faristol i que fa al conjunt de la ciutadania és una proposta responsable en els temps que corren: pacte, consens, dirigir l'agenda i escurçar la provisionalitat en temps de Covid. La democràcia com a resposta en un moment al davant d'una ingerència judicial i repressiva. I sense dubtes, la millor solució, la millor resposta que podem trobar davant d'aquest fet inaudit, serà aquella que siguem capaços d'acordar, de pactar conjuntament. I aquí estem. Per tant, fem-ho possible.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.4" xml:lang="ca">Mentrestant, però, el que sí que hem fet ja és presentar una proposta de resolució entre Junts per Catalunya, la CUP i Esquerra Republicana per tal de condemnar aquesta repressió contra els tres darrers presidents de la Generalitat, també contra la presidenta del Parlament, Carme Forcadell, entre altres persones. I per deixar clar en aquesta proposta que només la majoria d'aquest Parlament té la legitimitat per atorgar o retirar la confiança al president i al Govern de la Generalitat. I en aquesta línia, des d'Esquerra Republicana també proposem al Govern que lideri un front ampli en contra de la repressió i en defensa de les llibertats –en defensa, també, de la llibertat d'expressió– i convocar a totes les forces polítiques i socials amb voluntat de plantar cara a aquest autoritarisme de l'Estat i poder respondre a aquesta possible inhabilitació de forma conjunta, en forma de país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.5" xml:lang="ca">També reiterem allò que fa molts anys que defensem i per al que treballem: que la construcció de la república catalana és la millor manera de garantir la igualtat d'oportunitats per a tothom, de garantir els drets i les llibertats per a tota la ciutadania, de construir un país amb justícia social i amb progrés econòmic. I, a més a més, sabem com fer-ho: forjant la unitat estratègica, com parlàvem abans. Ampliant les majories, abanderant la via del diàleg i de la negociació, enfortint les institucions perquè esdevinguin útils, consolidant i enfortint també la mobilització popular, acumulant cada vegada més i més forces i fent front a la repressió, tot per desbordar democràticament l'Estat: sumar, sumar, sumar, i preparant-nos constantment. I tot això, sobre els dos pilars pels quals es reposen els grans consensos d'aquest país: l'exercici del dret a l'autodeterminació i l'amnistia. I això –aquests dos pilars– els hem de defensar a tot arreu: al carrer, a les institucions, i a les meses de negociació que facin falta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.6" xml:lang="ca">Aprofito per explicar en aquest punt que nosaltres votarem a favor de la proposta que fa el Grup de Catalunya en Comú Podem, de la reforma del Codi penal que proposen els companys de Catalunya en Comú Podem. Però tinguin del cert que aquesta reforma no soluciona el conflicte de fons ni soluciona la repressió severa que pateix l'independentisme. Pot ser una bona mesura per democratitzar l'Estat, però sabem que només l'amnistia és la manera, és la mesura per acabar amb aquesta situació de causa general i amb aquesta situació d’injustícia, i que només amb l’exercici del dret a l’autodeterminació es pot donar resposta al conflicte polític de fons entre Catalunya i l’Estat espanyol.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.7" xml:lang="ca">I, de la mà de construir la independència, de fer possible aquesta república catalana que sabem com fer possible i com guanyar-la definitivament, hem d’ajudar en el dia a dia a la ciutadania, i, això, s’encarrega de fer aquest Govern, a qui vull agrair tota la dedicació i esforç de sempre i també, i especialment, en aquests últims mesos de pandèmia.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.8" xml:lang="ca">Per això, també presentem una bateria de propostes, entre les quals, reclamem més recursos com, per exemple, amb la modificació de l’objectiu de dèficit, que suposarien 2.000 milions més d’euros per a la Generalitat; també per als ajuntaments, que aquests puguin utilitzar els seus romanents i puguin endeutar-se. Proposem que es declari la cultura com un servei essencial, perquè ara ja sabem que la cultura és segura, però també hem de recordar cada dia que la cultura ens fa lliures. I òbviament portem una proposta per garantir el dret a l’educació de tots els nens i les nenes, perquè l’escola és font de cohesió social i és garantia d’igualtat d’oportunitats i llavor de futur. Per això, era tan necessari reobrir les escoles i que fossin segures. I ara que això és una realitat, ens hem de conjurar per mantenir-ho. Gràcies a tots els que ho heu fet possible. I en universitats, més finançament i més beques.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.9" xml:lang="ca">Seguim compromesos en enfortir el sistema sanitari públic, especialment en l’àmbit de l’atenció primària. Més inversió també, més professionals, més recursos en salut mental i un pla de recuperació de l’activitat ordinària, que s’ha hagut d’ajornar per culpa de la Covid, entre altres.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.10" xml:lang="ca">Hem arribat a una transacció amb la CUP, sí, efectivament i n’estem molt orgullosos, perquè és urgent assumir el repte de l’habitatge, a diferència del partit dels Socialistes, que s’ha apartat de l’acord per regular els lloguers.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.11" xml:lang="ca">Volem fer front a l’emergència climàtica, desplegar l’impost sobre les emissions de diòxid de carboni, aplicar sistemes de recollida selectiva, apostar per les energies renovables. Defensem també que la supervivència del delta de l’Ebre és una qüestió de país i, per tant, és absolutament necessària una ràpida execució dels projectes anunciats per l’Estat en aquest àmbit. Com ho és, una qüestió de país també, justament, que aquest país sigui equilibrat i per això impulsem taules de mobilitat a la Catalunya Central, al Penedès i al Pirineu i també donarem suport a la implementació d’un servei ferroviari de rodalies a les terres de Lleida. Perquè nosaltres sí que votarem a favor de moltes propostes dels grups de l’oposició, perquè volem ser útils i generar consensos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.12" xml:lang="ca">Seguim amb el desplegament de les polítiques de memòria, de memòria històrica, de memòria democràtica, tal com va impulsar de forma molt ambiciosa el conseller Romeva. I a la vegada seguim amb el desplegament de les delegacions catalanes a l’exterior, mal els pesi a Ciutadans, perquè s’han vist més necessàries que mai també aquests últims mesos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.13" xml:lang="ca">En l’àmbit de treball, ajudes a les persones treballadores autònomes. Fomentem l’economia social i solidària. Demanem a l’Estat també el traspàs de gestió de les prestacions i subsidis d’atur, que fins ara gestiona el SEPE i que ha sigut un absolut desastre; per això volem que ho pugui fer el SOC. També demanem la derogació de les reformes laborals i una bona articulació de l’ingrés mínim vital amb la renda garantida de ciutadania, que es reverteixi també, i sobretot, la retallada dels 215 milions d’euros en polítiques d’ocupació. I sí, tornem a demanar des d’aquí una solució a l’Estat per a la cura dels fills; és tan simple d’entendre com vital per a les famílies del nostre país: una prestació a les famílies que hagin d’aïllar-se preventivament i que hagin de tenir cura dels fills. Així és com s’ajuda a la gent, amb mesures com aquestes i que el president de la Generalitat i aquest Govern ha reclamat dia sí dia també. Per tant, menys resolucions fum aquí, com ens presenten el grup dels comuns i més executar on tenen les eines per fer-ho. Moguin fitxa, perquè el Ministeri d’Igualtat o les competències laborals de l’Estat espanyol són seves.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.14" xml:lang="ca">Presentem una bateria de propostes per seguir fent de Catalunya un país d’acollida i ja hem anunciat..., ja ha anunciat que Catalunya es compromet a acollir cent vint refugiats de Lesbos. I exigim a l’Estat, per tant, que també compleixi amb els compromisos; no fer-ho és una vergonya. Ens hi juguem el futur de com volem que sigui Europa i això sí que és, senyora Romero, manca de voluntat política i m’atreviria a dir també que manca d’humanitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.15" xml:lang="ca">Fem una aposta ferma pel desplegament de la cobertura territorial de la xarxa d’atenció i recuperació integral per a les persones, per a les dones víctimes de situació de violència masclista, perquè hem de erradicar el masclisme i la violència masclista, com ho demostra aquest compromís, que s’hagin quadriplicat els pisos d’acollida o que es planifiquin més els serveis específics d’atenció a les víctimes de violència masclista.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.16" xml:lang="ca">I defensem també l’equitat en la cadena alimentària i assolir una producció agrària sostenible i respectuosa amb el medi ambient.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.17" xml:lang="ca">Finalment, i també en aquest debat de política general hem volgut denunciar les clavegueres de l’Estat i els operatius parapolicials que hi existeixen. L’operació Kitchen, l’espionatge al president del Parlament, entre d’altres, demostren l’existència d’una estratègia per neutralitzar qualsevol amenaça política al Govern espanyol o qualsevol projecte de dissidència política.</seg>
+               <incident type="sound">
+                  <desc>(Sona el senyal acústic que indica que s'ha exhaurit el temps d'intervenció.)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.18" xml:lang="ca">I això fa pudor i és una vergonya. Com cal investigar i erradicar tot l’encobriment als presumptes delictes del rei Joan Carles I i tota la col·laboració dels cossos i forces de l’Estat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.18.19" xml:lang="ca">Acabo, president, una mica com començava: feina, feina i feina. Ens devem al servei públic i això és el que fa aquest Govern i això és el que fem els diputats i diputades d’aquest Parlament. Dimecres, el president deia que confiava en els diputats i diputades d’aquesta cambra, nosaltres també confiem en vostè, president, i té tot el nostre reconeixement, però confiem en nosaltres mateixos, confiem en aquest país, confiem en la gent, sobretot en la ciutadania i en les institucions.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.19" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.19.0" xml:lang="ca">Diputada, ha acabat el temps...</seg>
+            </u>
+            <note type="speaker">Marta Vilalta i Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.20" who="VilaltaMarta" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.20.0" xml:lang="ca">Acabo. Conjurem-nos, per tant, perquè ni la repressió ni la pandèmia ens puguin fer parar de treballar per un país millor...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.21" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.21.0" xml:lang="ca">Gràcies, diputada.</seg>
+            </u>
+            <note type="speaker">Marta Vilalta i Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.22" who="VilaltaMarta" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.22.0" xml:lang="ca">I aquest país millor es diu república catalana.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.22.1" xml:lang="ca">Moltes gràcies.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.23" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.23.0" xml:lang="ca">Gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.23.1" xml:lang="ca">Acabat el debat, cridarem a la votació.</seg>
+               <note>(Pausa llarga.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.23.2" xml:lang="ca">Bé, passarem a les votacions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.23.3" xml:lang="ca">Abans d'iniciar les votacions, els faig avinent que per a avui noranta-un diputats i diputades han delegat el seu vot, dinou diputades i diputats s'han acollit al vot telemàtic i vint-i-tres votaran de manera presencial. Comencem...</seg>
+               <note>(Susanna Segovia Sánchez demana per parlar.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.23.4" xml:lang="ca">Sí, digui’m, senyora Segovia.</seg>
+            </u>
+            <note type="speaker">Susanna Segovia Sánchez</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.24" who="SegoviaSusana" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.24.0" xml:lang="ca">Voldríem demanar la lectura d'una de les propostes transaccionals. No sé si ara o en el moment de la votació.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.25" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.25.0" xml:lang="ca">Digui-la ara i...</seg>
+            </u>
+            <note type="speaker">Susanna Segovia Sánchez</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.26" who="SegoviaSusana" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.26.0" xml:lang="ca">Sí, seria la proposta transaccional entre el Grup de la CUP - Crida Constituent i el nostre grup, sobre el Hard Rock Cafe –ai!, «cafe» no, perdona.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.27" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.0" xml:lang="ca">És la proposta transaccional entre la proposta de resolució número 16 del Grup Parlamentari de Catalunya en Comú Podem i la proposta número 4 del Subgrup Parlamentari de la CUP - Crida Constituent, sí?</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.1" xml:lang="ca">La llegim just abans de la votació, diputada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.2" xml:lang="ca">Comencem votant les propostes de resolució presentades pel Grup Parlamentari Socialistes i Units per Avançar.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.3" xml:lang="ca">Votem la proposta de resolució número 1.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.4" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.5" xml:lang="ca">Aquesta proposta de resolució ha estat rebutjada per 56 vots a favor, 69 en contra i 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.6" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.7" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.8" xml:lang="ca">Aquesta proposta de resolució ha estat rebutjada per 64 vots a favor, 69 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.9" xml:lang="ca">I votem ara la número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.10" xml:lang="ca">Comença a votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.11" xml:lang="ca">Ha estat rebutjada per 24 vots a favor, 65 en contra, 44 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.12" xml:lang="ca">Votem ara la número 4.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.13" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.14" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 69 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.15" xml:lang="ca">Votem ara la número 5.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.16" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.17" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 69 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.18" xml:lang="ca">Votem ara la número 6.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.19" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.20" xml:lang="ca">Ha estat rebutjada per 24 vots a favor, 109 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.21" xml:lang="ca">Votem ara la número 7.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.22" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.23" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 1 en contra, 64 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.24" xml:lang="ca">Votem ara la número 8.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.25" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.26" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 65 en contra i 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.27" xml:lang="ca">Votem ara la número 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.28" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.29" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.30" xml:lang="ca">Votem ara la 10.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.31" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.32" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.33" xml:lang="ca">Votem ara la número 11.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.34" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.35" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.36" xml:lang="ca">Votem ara la número 12.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.37" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.38" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 65 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.39" xml:lang="ca">Votem ara la número 13.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.40" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.41" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 69 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.42" xml:lang="ca">I votem ara la 14.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.43" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.44" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 65 en contra i 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.45" xml:lang="ca">Votem ara la 15, amb correcció d'errades incorporada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.46" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.47" xml:lang="ca">Ha estat rebutjada per 16 vots a favor, 65 en contra, 52 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.48" xml:lang="ca">I votem ara la número 16.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.49" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.50" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 65 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.51" xml:lang="ca">Votem ara la 17.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.52" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.53" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.54" xml:lang="ca">Votem ara la 18.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.55" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.56" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.57" xml:lang="ca">Votem ara la 19.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.58" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.59" xml:lang="ca">Aquesta proposta de resolució ha estat aprovada per 68 vots a favor, cap en contra i 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.60" xml:lang="ca">Votem ara la proposta de resolució número 20.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.61" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.62" xml:lang="ca">Aquesta proposta de resolució ha estat aprovada per unanimitat: 133 vots a favor, cap en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.63" xml:lang="ca">A continuació, votem ara les propostes de resolució presentades pel Grup Parlamentari de Ciutadans.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.64" xml:lang="ca">Comencem amb la primera.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.65" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.66" xml:lang="ca">Ha estat aprovada per 68 vots a favor, cap en contra i 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.67" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.68" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.69" xml:lang="ca">Ha estat aprovada per 68 vots a favor, cap en contra i 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.70" xml:lang="ca">Votem ara la número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.71" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.72" xml:lang="ca">Ha estat rebutjada per 40 vots a favor, 77 en contra, 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.73" xml:lang="ca">Votem ara la número 4.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.74" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.75" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 65 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.76" xml:lang="ca">I votem ara la número 5.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.77" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.78" xml:lang="ca">Ha estat rebutjada per 40 vots a favor, 77 en contra, 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.79" xml:lang="ca">Votem ara la número 6.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.80" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.81" xml:lang="ca">Ha estat rebutjada per 39 vots a favor, 65 en contra, 28 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.82" xml:lang="ca">Votem ara la número 7.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.83" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.84" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 65 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.85" xml:lang="ca">Votem ara la número 8.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.86" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.87" xml:lang="ca">Ha estat aprovada per unanimitat: 133 vots a favor, cap en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.88" xml:lang="ca">Votem ara la número 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.89" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.90" xml:lang="ca">Ha estat rebutjada per 40 vots a favor, 77 en contra, 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.91" xml:lang="ca">I votem ara la número 10, amb la correcció d'errades incorporada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.92" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.93" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 65 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.94" xml:lang="ca">Votem ara la número 11.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.95" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.96" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 69 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.97" xml:lang="ca">I passem ara a la 12.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.98" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.99" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.100" xml:lang="ca">Votem ara la 13.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.101" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.102" xml:lang="ca">Ha estat aprovada per 68 vots a favor, cap en contra..., 65 abstencions –68 a favor, cap en contra, 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.103" xml:lang="ca">Votem ara la número 14.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.104" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.105" xml:lang="ca">Ha estat aprovada per unanimitat, això és: 133 vots a favor, cap en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.106" xml:lang="ca">Votem ara la número 15.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.107" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.108" xml:lang="ca">Ha estat aprovada per 67 vots a favor, cap en contra i 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.109" xml:lang="ca">Votem ara la número 16.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.110" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.111" xml:lang="ca">Ha estat aprovada per 117 vots a favor, cap en contra, 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.112" xml:lang="ca">I votem ara la número 17.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.113" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.114" xml:lang="ca">Ha estat rebutjada per 40 vots a favor, 69 en contra, 24 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.115" xml:lang="ca">Passem ara a la 18.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.116" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.117" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 69 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.118" xml:lang="ca">Votem ara la 19.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.119" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.120" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 77 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.121" xml:lang="ca">I votem finalment la número 20.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.122" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.123" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 77 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.124" xml:lang="ca">Passem ara a votar les propostes de resolució presentades pel Subgrup Parlamentari del Partit Popular de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.125" xml:lang="ca">Comencem amb la primera.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.126" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.127" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 69 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.128" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.129" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.130" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 69 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.131" xml:lang="ca">Votem ara la número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.132" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.133" xml:lang="ca">Ha estat aprovada per 129 vots a favor, cap en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.134" xml:lang="ca">I votem ara la número 4.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.135" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.136" xml:lang="ca">Ha estat aprovada per 121 vots a favor, 12 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.137" xml:lang="ca">Votem ara la número 5.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.138" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.139" xml:lang="ca">Ha estat rebutjada per 4 vots a favor, 129 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.140" xml:lang="ca">Votem ara la número 6.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.141" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.142" xml:lang="ca">Ha estat aprovada per 56 vots a favor, 12 en contra, 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.143" xml:lang="ca">Votem ara la número 7.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.144" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.145" xml:lang="ca">Ha estat aprovada per 64 vots a favor, cap en contra i 69 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.146" xml:lang="ca">Votem ara la número 8.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.147" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.148" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 69 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.149" xml:lang="ca">I votem ara la número 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.150" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.151" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 69 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.152" xml:lang="ca">Votem ara la número 10.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.153" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.154" xml:lang="ca">Ha estat rebutjada per 56 vots a favor, 69 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.155" xml:lang="ca">I votem ara la número 11.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.156" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.157" xml:lang="ca">Ha estat rebutjada per 40 vots a favor, 76 en contra i 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.158" xml:lang="ca">Votem ara la número 12.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.159" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.160" xml:lang="ca">Ha estat aprovada per 64 vots a favor, cap en contra i 69 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.161" xml:lang="ca">Votem ara la número 13.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.162" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.163" xml:lang="ca">Ha estat aprovada... –perdó–, ha estat rebutjada per 21 vots a favor, 108 en contra i 4 abstencions. Ho repeteixo, ha estat rebutjada per 21 vots a favor, 108 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.164" xml:lang="ca">Votem ara la 14.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.165" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.166" xml:lang="ca">Ha estat rebutjada per 48 vots a favor, 65 en contra, 20 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.167" xml:lang="ca">Passem ara a votar les propostes de resolució del Grup Parlamentari de Catalunya en Comú Podem.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.168" xml:lang="ca">Comencem per la número 1.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.169" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.170" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 65 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.171" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.172" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.173" xml:lang="ca">Ha estat aprovada per 56 vots a favor, 44 en contra i 33 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.174" xml:lang="ca">Votem ara la número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.175" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.176" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 65 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.177" xml:lang="ca">Votem ara la proposta de resolució número 4.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.178" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.179" xml:lang="ca">Ha estat aprovada per 68 vots a favor, cap en contra i 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.180" xml:lang="ca">Votem ara la número 5, amb la correcció d’errades incorporada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.181" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.182" xml:lang="ca">Ha estat aprovada per unanimitat: 133 vots a favor, cap en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.183" xml:lang="ca">Votem ara la número 6.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.184" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.185" xml:lang="ca">Ha estat aprovada per 68 vots a favor, cap en contra i 65 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.186" xml:lang="ca">Votem ara la número 7.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.187" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.188" xml:lang="ca">Ha estat rebutjada per 12 vots a favor, 89 en contra, 32 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.189" xml:lang="ca">I votem ara la número 8.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.190" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.191" xml:lang="ca">Ha estat aprovada per unanimitat: 133 vots a favor, cap en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.192" xml:lang="ca">Votem ara la número 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.193" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.194" xml:lang="ca">Ha estat aprovada per unanimitat: 133 vots a favor, cap en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.195" xml:lang="ca">Votem ara la número 10.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.196" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.197" xml:lang="ca">Ha estat aprovada per 93 vots a favor, 4 en contra, 36 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.198" xml:lang="ca">Votem ara la proposta de resolució número 11.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.199" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.200" xml:lang="ca">Ha estat aprovada per 44 vots a favor, 40 en contra, 49 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.201" xml:lang="ca">I votem ara la número 12.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.202" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.203" xml:lang="ca">Ha estat rebutjada per 64 vots a favor, 65 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.204" xml:lang="ca">Votem ara la número 13.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.205" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.206" xml:lang="ca">Ha estat aprovada per 24 vots a favor, cap en contra, 109 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.207" xml:lang="ca">Votem ara la 14.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.208" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.209" xml:lang="ca">Ha estat aprovada per 113 vots a favor, cap en contra, 20 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.210" xml:lang="ca">Votem ara la número 15.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.211" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.212" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 56 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.213" xml:lang="ca">Atès que la proposta de resolució número 16 ha estat transaccionada, la votarem al final, juntament amb les altres propostes transaccionades.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.214" xml:lang="ca">Passem ara, doncs, a la 17.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.215" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.216" xml:lang="ca">Ha estat... rebutjada per 12 vots a favor, 16 en contra i 105 abstencions –12 a favor, 16 vots en contra, 105 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.217" xml:lang="ca">Votem ara la 18.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.218" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.219" xml:lang="ca">Ha estat aprovada per 116 vots a favor, cap en contra, 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.220" xml:lang="ca">Votem ara la proposta de resolució número 19.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.221" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.222" xml:lang="ca">Ha estat aprovada per 129 vots a favor, cap en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.223" xml:lang="ca">Votem ara la 20.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.224" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.225" xml:lang="ca">Ha estat aprovada per 68 vots a favor, 1 en contra i 64 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.226" xml:lang="ca">Passem ara a votar les propostes de resolució presentades pel Grup Parlamentari de Junts per Catalunya conjuntament amb el Grup Parlamentari Republicà.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.227" xml:lang="ca">Votem la primera.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.228" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.229" xml:lang="ca">Ha estat aprovada per 109 vots a favor, 16 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.230" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.231" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.232" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 56 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.233" xml:lang="ca">Votem ara la número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.234" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.235" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 16 en contra, 40 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.236" xml:lang="ca">Votem ara la número 4.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.237" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.238" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 16 en contra, 48 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.239" xml:lang="ca">Votem ara la número 5.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.240" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.241" xml:lang="ca">Ha estat aprovada per 105 vots a favor, 16 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.242" xml:lang="ca">Votem ara la 6.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.243" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.244" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 56 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.245" xml:lang="ca">Votem ara la número 7.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.246" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.247" xml:lang="ca">Ha estat aprovada per 109 vots a favor, 16 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.248" xml:lang="ca">Votem ara la número 8.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.249" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.250" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 56 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.251" xml:lang="ca">Votem ara la número 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.252" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.253" xml:lang="ca">Ha estat aprovada per 65 vots a favor, 24 en contra, 44 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.254" xml:lang="ca">Votem ara la número 10.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.255" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.256" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 16 en contra, 48 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.257" xml:lang="ca">Votem ara la número 11.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.258" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.259" xml:lang="ca">Ha estat aprovada per 105 vots a favor, 16 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.260" xml:lang="ca">Votem ara la proposta de resolució número 12.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.261" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.262" xml:lang="ca">Ha estat aprovada per 109 vots a favor, 16 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.263" xml:lang="ca">Votem ara la 13.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.264" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.265" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 52 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.266" xml:lang="ca">Votem ara la 14.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.267" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.268" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 20 en contra, 44 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.269" xml:lang="ca">Votem ara la 15.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.270" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.271" xml:lang="ca">Ha estat aprovada per 65 vots a favor, 56 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.272" xml:lang="ca">Atès que la proposta de resolució número 16 ha estat transaccionada també, la votarem al final, amb la resta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.273" xml:lang="ca">Votem ara, per tant, la 17.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.274" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.275" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 16 en contra, 48 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.276" xml:lang="ca">Votem ara la 18.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.277" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.278" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 20 en contra, 44 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.279" xml:lang="ca">Votem ara la 19.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.280" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.281" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 56 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.282" xml:lang="ca">I votem ara la 20.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.283" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.284" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 56 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.285" xml:lang="ca">Votem ara la 21.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.286" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.287" xml:lang="ca">Ha estat aprovada per 73 vots a favor, 56 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.288" xml:lang="ca">I votem ara la número 22.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.289" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.290" xml:lang="ca">Ha estat aprovada per 113 vots a favor, 16 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.291" xml:lang="ca">Votem ara la 23.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.292" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.293" xml:lang="ca">Ha estat aprovada per 65 vots a favor, 20 en contra i 48 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.294" xml:lang="ca">Votem ara la 24.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.295" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.296" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 16 en contra, 40 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.297" xml:lang="ca">Votem ara la 25.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.298" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.299" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 16 en contra, 48 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.300" xml:lang="ca">Votem ara la 26.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.301" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.302" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 24 en contra, 40 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.303" xml:lang="ca">Votem ara la 27.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.304" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.305" xml:lang="ca">Ha estat aprovada per 117 vots a favor, 16 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.306" xml:lang="ca">Votem ara la 28.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.307" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.308" xml:lang="ca">Ha estat aprovada per 113 vots a favor, 16 en contra, 4 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.309" xml:lang="ca">Votem ara la 29.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.310" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.311" xml:lang="ca">Ha estat aprovada per 105 vots a favor, 20 en contra, 8 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.312" xml:lang="ca">Votem ara la 30.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.313" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.314" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 20 en contra, 36 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.315" xml:lang="ca">Votem ara la 31.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.316" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.317" xml:lang="ca">Ha estat aprovada per 76 vots a favor, 16 en contra, 40 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.318" xml:lang="ca">Votem ara la 32.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.319" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.320" xml:lang="ca">Ha estat aprovada per 101 vots a favor, 16 en contra, 16 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.321" xml:lang="ca">Votem ara la 33.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.322" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.323" xml:lang="ca">Ha estat aprovada per 105 vots a favor, 16 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.324" xml:lang="ca">Votem ara la número 34.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.325" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.326" xml:lang="ca">Ha estat aprovada per 105 vots a favor, 16 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.327" xml:lang="ca">Votem ara la proposta de resolució presentada conjuntament pel Grup Parlamentari de Junts per Catalunya, Grup Parlamentari Republicà i el Subgrup Parlamentari de la Candidatura d’Unitat Popular - Crida Constituent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.328" xml:lang="ca">Votem la proposta de resolució número 1.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.329" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.330" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 64 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.331" xml:lang="ca">A continuació votem les propostes de resolució presentades pel Grup Parlamentari de Junts per Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.332" xml:lang="ca">Comença amb la primera proposta de resolució.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.333" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.334" xml:lang="ca">Ha estat aprovada per 65 vots a favor, 56 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.335" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.336" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.337" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 56 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.338" xml:lang="ca">Votem ara les propostes de resolució presentades pel Subgrup Parlamentari de la CUP - Crida Constituent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.339" xml:lang="ca">Comencem per la número 1.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.340" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.341" xml:lang="ca">Ha estat aprovada per 97 vots a favor, 4 en contra, 5 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.342" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.343" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.344" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 56 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.345" xml:lang="ca">Votem ara la número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.346" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.347" xml:lang="ca">Ha estat rebutjada per 12 vots a favor, 89 en contra, 32 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.348" xml:lang="ca">Votem ara la número 5, atès que la 4 ha estat transaccionada, per tant, la votarem al final. Votem la proposta de resolució número 5 de la CUP - Crida Constituent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.349" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.350" xml:lang="ca">Ha estat aprovada per 16 vots a favor, cap en contra i 117 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.351" xml:lang="ca">Votem ara la número 6.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.352" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.353" xml:lang="ca">Ha estat aprovada per 80 vots a favor, cap en contra, 52 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.354" xml:lang="ca">Votem ara la número 7.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.355" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.356" xml:lang="ca">Ha estat aprovada per 48 vots a favor, 4 en contra, 81 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.357" xml:lang="ca">Votem ara la número 8.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.358" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.359" xml:lang="ca">Ha estat aprovada per unanimitat: 133 vots a favor, cap en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.360" xml:lang="ca">Votem ara la número 9.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.361" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.362" xml:lang="ca">Ha estat rebutjada per 40 vots a favor, 65 en contra, 28 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.363" xml:lang="ca">Votem ara la número 10.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.364" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.365" xml:lang="ca">Ha estat rebutjada per 12 vots a favor, 121 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.366" xml:lang="ca">Votem ara la número 11.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.367" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.368" xml:lang="ca">Ha estat rebutjada per 4 vots a favor, 98 en contra, 31 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.369" xml:lang="ca">Votem ara la número 12.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.370" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.371" xml:lang="ca">Ha estat rebutjada per 12 vots a favor, 121 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.372" xml:lang="ca">Atès que la número 13 també ha estat transaccionada i la votarem al final, passem directament a la 14. Votem la proposta de resolució número 14.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.373" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.374" xml:lang="ca">Ha estat aprovada per 77 vots a favor, 40 en contra, 16 abstencions.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.27.375" xml:lang="ca">Digui’m, senyora Caula, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Anna Caula i Paretas</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.28" who="CaulaAnna" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.28.0" xml:lang="ca">Per fer un aclariment de vot a la votació de la PR número 1, per un error nostre al marcar. Voldríem deixar present que la votació hagués sigut a favor, i sabem que no es pot rectificar, però perquè en quedi constància.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.28.1" xml:lang="ca">Gràcies.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.29" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.0" xml:lang="ca">Molt bé, la número 1 del Subgrup Parlamentari de la CUP - Crida Constituent. D’acord, queda constància a l’acta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.1" xml:lang="ca">Molt bé, passem ara a votar les propostes de resolució presentades pel Grup Parlamentari Republicà.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.2" xml:lang="ca">Comencem amb la número 1.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.3" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.4" xml:lang="ca">Ha estat aprovada per 65 vots a favor, 56 en contra, 12 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.5" xml:lang="ca">Votem ara la número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.6" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.7" xml:lang="ca">Ha estat aprovada per 69 vots a favor, 63 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.8" xml:lang="ca">Ara passem a votar les propostes transaccionals i ho fem, en primer lloc, amb la proposta transaccional entre la proposta de resolució número 16 del Grup Parlamentari de Catalunya en Comú Podem i la proposta número 4 del Subgrup Parlamentari de la CUP - Crida Constituent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.29.9" xml:lang="ca">Abans de votar-la, en farem lectura, tal com s’ha demanat. Per tant, demano al secretari, el senyor Pérez, que en faci lectura.</seg>
+            </u>
+            <note type="speaker">El secretari segon</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.30" who="PérezDavid" ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.30.0" xml:lang="ca">«Proposta de resolució transaccional. El Parlament de Catalunya rebutja les condicions acordades pel Consell Executiu en data 3 de març de 2020, pel qual s’ordena a l’Institut Català del Sòl l’adquisició i posterior alienació, per adjudicació directa, dels terrenys amb aprofitament privat que són propietat de Mediterranea Beach &amp; Golf Community, SAU, i que estan inclosos en l’àmbit del sector 1, “Complexos turístics integrats - CTI”, del Pla director urbanístic de reordenació de l’àmbit del Centre Recreatiu Turístic –CRT– de Vila-seca i Salou.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.30.1" xml:lang="ca">»2. El Parlament de Catalunya insta el Govern a no formalitzar l’acord aprovat pel Consell Executiu en data 3 de març de 2020 on, entre d’altres, l’Incasòl avançarà 96 milions d’euros del total dels 120 milions de l’operació, haurà de fer front a les possibles indemnitzacions dels antics propietaris, assumir els costos financers i haurà de recomprar els terrenys durant deu anys si així ho reclama l’empresa compradora.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.30.2" xml:lang="ca">»Palau del Parlament, 17 de setembre de 2020.»</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2020-09-18-6102.31" who="TorrentRoger" ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.0" xml:lang="ca">Gràcies, secretari.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.1" xml:lang="ca">Passem a la votació d’aquesta proposta de transacció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.2" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.3" xml:lang="ca">Ha estat rebutjada per 28 vots a favor, 33 en contra, 72 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.4" xml:lang="ca">I votem ara la proposta transaccional entre la proposta de resolució número 16 del Grup Parlamentari de Junts per Catalunya i el Grup Parlamentari Republicà i la proposta de resolució número 13 del Subgrup Parlamentari de la CUP - Crida Constituent. Passem a la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.5" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.6" xml:lang="ca">Ha estat aprovada per 73 vots a favor, 60 en contra, cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.7" xml:lang="ca">No hi ha més propostes de resolució a votar.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2020-09-18-6102.31.8" xml:lang="ca">Per tant, s’aixeca la sessió. Moltes gràcies.</seg>
+            </u>
+            <note>La sessió s'aixeca a les dotze del migdia i dos minuts.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

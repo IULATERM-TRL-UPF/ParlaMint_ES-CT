@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.agenda #covid" xml:lang="ca" xml:id="ParlaMint-ES-CT_2021-05-13-0401">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT_2021-05-13-0401 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT_2021-05-13-0401 [ParlaMint SAMPLE]</title>
+            <meeting ana="#parla:term" n="11">XI Legislatura</meeting>
+            <meeting ana="#parla:meeting" n="4">4</meeting>
+            <meeting ana="#parla.sitting" n="1">1</meeting>
+            <respStmt>
+               <persName>Nuria Bel</persName>
+               <resp>Coordinator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp>Data retrieval, first conversion to XML and to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Marilina Pisani</persName>
+               <resp>Final TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rodolfo Zevallos</persName>
+               <resp>Computational Linguistics Specialist</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="ca">Cap financiacio</orgName>
+               <orgName xml:lang="en">No funder</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="7" xml:lang="ca">7 intervencions</measure>
+            <measure unit="speeches" quantity="7" xml:lang="en">7 speeches</measure>
+            <measure unit="words" quantity="936" xml:lang="ca">936 paraules</measure>
+            <measure unit="words" quantity="936" xml:lang="en">936 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022">2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date when="2021-05-13">2021-05-13</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="2"/>
+               <tagUsage gi="note" occurs="10"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="7"/>
+               <tagUsage gi="seg" occurs="25"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name type="country" key="ES">Spain</name>
+               <date when="2021-05-13">26.10.2015</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#covid">
+      <body>
+         <div type="debateSection">
+            <head>Sessió 4,  dijous 13 de maig de 2021</head>
+         </div>
+         <div type="debateSection">
+            <head>Sessió 4</head>
+            <note>La sessió s’obre a dos quarts de deu del matí i sis minuts. Presideix la presidenta del Parlament, acompanyada de les vicepresidentes primera i segona; els secretaris primer i tercer, i la secretària segona. Assisteixen la Mesa el secretari general i el lletrat Mario Núñez Martínez.</note>
+            <note>Al banc del Govern seuen el vicepresident del Govern i conseller d’Economia i Hisenda i els consellers de la Presidència, de Salut, de Territori i Sostenibilitat, de Justícia, de Polítiques Digitals i Administració Pública i d’Agricultura, Ramaderia, Pesca i Alimentació.</note>
+            <note>ORDRE DEL DIA DE LA CONVOCATÒRIA</note>
+            <note>Punt únic: Procediment per a elegir els senadors que han de representar la Generalitat al Senat (tram. 280-00001/13). Grups parlamentaris. Designació.</note>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.1" who=" " ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.1.0" xml:lang="ca">Molt bon dia. Comencem la sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.1.1" xml:lang="ca">I abans de donar pas a l’ordre del dia d’aquesta sessió plenària específica, voldria donar la més càlida i acollidora benvinguda a la diputada Teresa Pallarès, que avui retorna a l’hemicicle.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats. La cambra es posa dempeus.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.1.2" xml:lang="ca">És un gran plaer i un enorme motiu d’esperança tornar-la a tenir aquí, a l’hemicicle, al Parlament, a casa teva. Benvinguda, Teresa.</seg>
+               <note>Procediment per a elegir els senadors que han de representar la Generalitat al Senat</note>
+               <note>280-00001/13</note>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.1.3" xml:lang="ca">I a continuació seguirem el procediment per l’elecció dels senadors que han de representar la Generalitat de Catalunya al Senat... Sí? Per què em demana la paraula, senyor Garriga?</seg>
+            </u>
+            <note type="speaker">Joan Garriga Doménech</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.2" who=" " ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.2.0" xml:lang="ca">La demano en virtut de l’article 90, per fer respectar aquest Reglament, en concret el 174.2, que estableix el procediment d’elecció del Senat. M’agradaria fer unes manifestacions en aquest Ple, en aquest sentit.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.3" who=" " ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.3.0" xml:lang="ca">Té dos minuts, com a màxim, si us plau.</seg>
+            </u>
+            <note type="speaker">Joan Garriga Doménech</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.4" who=" " ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.4.0" xml:lang="ca">Senyors diputats, ja ho vam advertir a la Junta de Portaveus, en vam demanar la reconsideració de la Mesa, ho vam reiterar a la Comissió de l’Estatut dels Diputats i ho tornem a recordar en aquest Ple. La legi20210513_04i5PLE’slació és molt clara: tant a l’Estatut, a l’article 61.a, com al Reglament d’aquesta cambra –el 174.2 que abans he esmentat–, com a la Llei 6/2010, de 26 de març, del procediment de designació de senadors, s'estableix, clar i català, que la designació ha de ser proporcional. Està clar que aquesta votació que avui porten a aquest Ple no és proporcional, perquè, de vuit grups parlamentaris d’aquesta cambra, només tres tindran designació de senadors.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.4.1" xml:lang="ca">És per això que volem manifestar que aquesta proposta és un frau de llei, amb connivència de la Mesa, de part de la Junta de Portaveus i, si escau, també de part d’aquest Ple. I per això manifestem que l'única voluntat que hi havia era marginar aquest grup parlamentari, és a dir, marginar 217.000 catalans.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.4.2" xml:lang="es">Han acudido a una denominada «fórmula imperiali» que en verdad podríamos denominar como una estafa imperial democrática. Porque las fórmulas empleadas anteriormente por esta cámara, la ley d’Hondt o la mayoría de restos, nos daban siempre un senador que podíamos designar desde nuestra formación política. Y ustedes lo quieren evitar. Con lo cual, acabo con una advertencia y con un anuncio. La advertencia: pónganse de acuerdo en formar gobierno, porque, si en julio hay elecciones, nosotros seremos quizá la tercera fuerza de esta cámara, y lo tendrán más difícil; tendrán que inventarse una nueva fórmula, que les propongo algún nombre, podría ser la «&quot;mundiali&quot; estafa», porque la «imperiali» ya estará caduca.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.4.3" xml:lang="ca">I un anunci que hem reiterat en els diferents òrgans d’aquesta cambra: presentarem un recurs d’empara al Tribunal Constitucional, perquè, per nosaltres, davant la il·legalitat, els tribunals; davant dels seus interessos, el benestar de tots els espanyols.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.4.4" xml:lang="ca">Gràcies.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.5" who=" " ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.5.0" xml:lang="ca">Respecte a aquesta proposta, no hi ha debat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.5.1" xml:lang="ca">Cal recordar que la distribució dels vuit senadors es va establir per un acord de la Junta de Portaveus i de la Mesa. La reconsideració va ser desestimada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.5.2" xml:lang="ca">Per tant, la distribució continua sent la següent: el Grup Parlamentari Socialistes i Units per Avançar té tres senadors, que seran designats; el Grup Parlamentari d’Esquerra Republicana, tres senadors més, i el Grup Parlamentari de Junts per Catalunya, dos senadors més.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.5.3" xml:lang="ca">Els faig avinent que, tal com van acordar, com els deia, la Mesa i la Junta de Portaveus amb relació a la celebració en format reduït de les sessions plenàries, ateses les circumstàncies actuals de pandèmia per la covid, seixanta-cinc diputats han delegat el seu vot per aquesta sessió específica.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.5.4" xml:lang="ca">L’únic punt de l’ordre del dia d’aquesta sessió específica és el procediment per elegir els senadors que han de representar la Generalitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.5.5" xml:lang="ca">De conformitat amb la Llei 6/2010, que regula el procediment de designació dels senadors que representen la Generalitat al Senat, un cop presentades les candidatures per la delegació, i havent dictaminat favorablement la Comissió de l’Estatut dels Diputats, d’acord amb l’article 4.5 de l’esmentada Llei 6/2010, proposo  a la cambra els noms dels candidats a ser designats senadors en representació de la Generalitat de Catalunya. I prego al secretari primer, senyor Ferran Pedret, que doni lectura dels noms dels candidats i candidates.</seg>
+            </u>
+            <note type="speaker">El secretari primer</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.6" who=" " ana="member" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.6.0" xml:lang="ca">«Pel Grup Parlamentari Socialistes i Units per Avançar, Manel de la Vega Carrera, Lorena González Dios, Antoni Poveda Zapata; pel Grup Parlamentari d’Esquerra Republicana, Adelina Escandell i Grases, Pau Furriol i Fornells i Josep Maria Reniu i Vilamala, i, finalment, pel Grup Parlamentari de Junts per Catalunya, Assumpció Castellví i Auví i Josep Lluís Cleries i Gonzàlez.»</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2021-05-13-0401.7" who=" " ana="chair" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.0" xml:lang="ca">Moltes gràcies. Passem ara, doncs, a la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.1" xml:lang="ca">D’acord amb l’article 5.2 de la Llei 6/2010 i l’article 101.3 del Reglament, aquesta votació serà electrònica i secreta. I els recordo que es tracta de sotmetre a votació una proposta i no d’una elecció. Per tant, els vots que es formulin poden ser a favor, en contra o abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.2" xml:lang="ca">Per a la votació electrònica i secreta, recordin que han de prémer en primer lloc el botó de presència i després el botó de vot concret. I per garantir que la votació és secreta, no quedarà il·luminat el llum corresponent al vot que emetin.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.3" xml:lang="ca">Iniciem, doncs, la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.4" xml:lang="ca">Amb 166 vots a favor, 20 vots en contra i 9 abstencions, queden designats senadors i senadores que representaran la Generalitat al Senat els candidats esmentats anteriorment: la senyora Assumpció Castellví i Auví, el senyor Josep Lluís Cleries i Gonzàlez, la senyora Adelina Escandell i Grases, el senyor Pau Furriol i Fornells, la senyora Lorena González Dios, el senyor Antoni Poveda Zapata, el senyor Josep Maria Reniu i Vilamala i el senyor Manel de la Vega Carrera.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.5" xml:lang="ca">Cent sis vots a favor, 20 vots en contra i 9 abstencions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2021-05-13-0401.7.6" xml:lang="ca">Per tant, després d’haver fet aquesta elecció, s’aixeca la sessió. I a les deu començarà la sessió de control. Moltes gràcies.</seg>
+            </u>
+            <note>La sessió s'aixeca a dos quarts de deu del matí i catorze minuts.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -15,8 +15,10 @@ import cld3
 from datetime import datetime
 
 from df_build import df_build
+from df_build_2 import df_build_2
 from tei_header import tei_header
 from to_xml import to_xml
+from to_xml_2 import to_xml_2
 from xml_parser import p_parser
 
 
@@ -89,9 +91,10 @@ def docx_to_xml(file,file_save,root_parameters, members_id):
         open(os.path.join(file_save,file_name +'.xml'),'w').write(xmlstr) #se crea un archivo nuevo y se escribe el contenido de la cadena de caracteres anterior
         #print(file_name +'.xml creado')
         appended_dfs.append(df) #se adjunta el DataFrame a lista de DataFrames
+        return file_name+'.xml'
     except:
-        print('Error en ' + file_name)
-    return file_name+'.xml'
+        #file_name_fixed = docx_to_xml_fixed(file,file_save,root_parameters, members_id)
+        return ''
 
 
 def fix_text(text):
@@ -436,3 +439,48 @@ def xml_to_ana(file,file_save):
     xmlstr = emptyline_re.sub('\n',xmlstr)
     open(file_save[:-4]+ '.ana.xml','w').write(xmlstr)
     return file_save[:-4]+'.ana.xml'
+    
+    
+def docx_to_xml_fixed(file,file_save,root_parameters, members_id):
+    src_dfs = []
+    appended_dfs = []
+    try:
+        document = zipfile.ZipFile(file)
+        doc_xml = document.read("word/document.xml")
+        rooted = ET.fromstring(doc_xml)
+        file_codes = (file.split("/")[-1]).split('.')[0]
+        file_code = file_codes.split("-")[-1]
+        file_mini_code = file_codes.split("-")[-2]
+        file_date =  file_code[-4:] + '-' + file_code[2:4] + '-' + file_code[0:2]
+        file_name = 'ParlaMint-ES-CT_' + file_date + '-' + file_mini_code
+        file_date = datetime.strptime(file_date, '%Y-%m-%d')
+        file_date_short = datetime.strftime(file_date, '%Y-%m-%d')
+        file_sesion = int(file_mini_code[0:2]) 
+        file_meeting = int(file_mini_code[2:])
+        if file_date_short >= '2019-11-01':
+          tei_ana = '#covid'
+        else:
+          tei_ana = '#reference'
+        df = p_parser(rooted)
+        src_dfs.append(df) #se preservan los DF originales
+        df = df_build_2(df, file_name, file_date, root_parameters, members_id)
+        header = tei_header(df, file_name, file_date_short, file_sesion, file_meeting) #se crea el encabezado a partir del DataFrame, la función necesita nombre, fecha, sesión y reunión
+        text = to_xml_2(df, tei_ana) #se crea el cuerpo del XML, necesita también como argumento la etiqueta de subcorpus.
+        #se crea el elemento TEI y sus atributos:
+        TEI = ET.Element('TEI') 
+        TEI.attrib['ana'] = "#parla.agenda " + tei_ana
+        TEI.attrib['xmlns'] = "http://www.tei-c.org/ns/1.0"
+        TEI.attrib['xml:lang'] = 'ca' #catalán
+        TEI.attrib['xml:id'] = file_name
+        TEI.append(header) #se adjunta el header al elemento TEI
+        TEI.append(text) #se adjunta el body al elemento TEI
+
+        xmlstr = minidom.parseString(ET.tostring(TEI)).toprettyxml(indent="   ") #se transforma el árbol a una cadena de caracteres, para imprimirla luego en un archivo nuevo
+        open(os.path.join(file_save,file_name +'.xml'),'w').write(xmlstr) #se crea un archivo nuevo y se escribe el contenido de la cadena de caracteres anterior
+        #print(file_name +'.xml creado')
+        appended_dfs.append(df) #se adjunta el DataFrame a lista de DataFrames
+        return file_name+'.xml'
+    except Exception as e:
+        print(e)
+        print('No se puede procesar el archivo ', file)
+        return ''
