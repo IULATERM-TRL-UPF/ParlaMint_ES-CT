@@ -1,4 +1,4 @@
-import glob
+
 import spacy_conll
 import pandas as pd
 
@@ -11,7 +11,6 @@ import os
 import lxml
 import zipfile
 
-import cld3
 from datetime import datetime
 
 from df_build import df_build
@@ -21,6 +20,8 @@ from to_xml import to_xml
 from to_xml_2 import to_xml_2
 from xml_parser import p_parser
 
+import warnings
+warnings.filterwarnings("ignore")
 
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
@@ -33,6 +34,10 @@ nlp_ca = spacy.load("ca_core_news_trf")
 nlp_es = spacy.load("es_core_news_sm")
 nlp_ca.add_pipe("conll_formatter")
 nlp_es.add_pipe("conll_formatter")
+nlp_ca.remove_pipe("lemmatizer")
+lemmatizer = nlp_ca.add_pipe("lemmatizer", config={"mode": "lookup", "overwrite": True})
+nlp_ca.initialize()
+
 
 def read_members_id(root_excel):
     members_id = pd.read_csv(os.path.join(root_excel, "members_id.csv"))

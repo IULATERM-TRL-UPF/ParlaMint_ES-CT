@@ -3,6 +3,8 @@ import argparse
 import sys
 from tqdm import tqdm
 import os
+import warnings
+warnings.filterwarnings("ignore")
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
