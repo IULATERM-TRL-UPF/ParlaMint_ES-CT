@@ -20,8 +20,8 @@ from to_xml import to_xml
 from to_xml_2 import to_xml_2
 from xml_parser import p_parser
 
-import warnings
-warnings.filterwarnings("ignore")
+#import warnings
+#warnings.filterwarnings("ignore")
 
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
@@ -34,9 +34,10 @@ nlp_ca = spacy.load("ca_core_news_trf")
 nlp_es = spacy.load("es_core_news_sm")
 nlp_ca.add_pipe("conll_formatter")
 nlp_es.add_pipe("conll_formatter")
-nlp_ca.remove_pipe("lemmatizer")
-lemmatizer = nlp_ca.add_pipe("lemmatizer", config={"mode": "lookup", "overwrite": True})
-nlp_ca.initialize()
+nlp_ca_lemma = spacy.load("ca_core_news_trf")
+nlp_ca_lemma.remove_pipe("lemmatizer")
+lemmatizer = nlp_ca_lemma.add_pipe("lemmatizer", config={"mode": "lookup", "overwrite": True})
+nlp_ca_lemma.initialize()
 
 
 def read_members_id(root_excel):
@@ -107,13 +108,6 @@ def fix_text(text):
     return text
 
 
-def process_test(text):
-    text = fix_text(text)
-    doc = nlp_ca(text)
-    df_nlp = nlp_spacy(doc)
-    print(df_nlp)
-
-
 def fix_dataframe(df):
     for index, row in df.iterrows():
         jo = str(row["join"])
@@ -140,8 +134,10 @@ def nlp_spacy(doc):
         flag_verb = 0
         for tokid, token in enumerate(sentence):
             id = token.i
-            text = token.text 
-            lemma = token.lemma_
+            text = token.text
+            doc_lemma = nlp_ca_lemma(text)
+            lem = [i.lemma_ for i in doc_lemma]
+            lemma = lem[0]
             pos = token.pos_
             morph = token.morph
             head = token.head
@@ -290,7 +286,7 @@ def generate_tei(seq,parent):
         doc = nlp_ca(text)
     else:
         doc = nlp_ca(text)
-    
+        
     seq_idx=0
     str_idx=0
     
@@ -324,12 +320,7 @@ def generate_tei(seq,parent):
                 dependencies.append(('ud-syn:'+token[7],'#'+s_id+'.'+token[6]+' #'+t_id))
             
             new_str_idx = seq[seq_idx].find(token[1],str_idx)
-            #print("token[1] ",token[1])
-            #print("str_idx ",str_idx)
-            #print("seq[seq_idx] ",seq[seq_idx])
-            #print("new_str_idx ",new_str_idx)
-            #print("len(token[1]) ", len(token[1]))
-            
+
             if len(token_12) != 2:
                 str_idx = new_str_idx+len(token[1])
 
@@ -368,46 +359,46 @@ def generate_tei(seq,parent):
                         token_comp = tokens_comp.split('\t')
                         if int(ridx) == int(token_comp[13]):
                             w=ET.Element('w')
-                            w.attrib['pos']=token_comp[3]
-                            w.attrib['join']='right'
+                            w.attrib['xml:id']=s_id+'.'+token_comp[0]
                             w.attrib['lemma']=token_comp[2]
+                            #w.attrib['pos']=token_comp[3]
                             if token_comp[5] == '_' or token_comp[5] == '':
                                 w.attrib['msd']='UPosTag='+token_comp[3]
                             else:
-                                w.attrib['msd']='UPosTag='+token_comp[5]
-                            w.attrib['xml:id']=s_id+'.'+token_comp[0]
+                                w.attrib['msd']='UPosTag='+token_comp[3]+"|"+token_comp[5]
+                            w.attrib['join']='right'
                             w.text=token_comp[1]
                             s.append(w)
                 s = parent_s
             elif flag_ner == 1:
                 w=ET.Element('w')
+                w.attrib['xml:id']=t_id
                 w.attrib['lemma']=token[2]
                 w.attrib['msd']='UPosTag=PROPN'
-                w.attrib['xml:id']=t_id
                 w.text=token[1]
                 s.append(w)
             
             elif token[3]=='PUNCT' and flag_ner == 0:
                 pc=ET.Element('pc')
-                pc.attrib['pos']='PUNCT'
-                pc.attrib['msd']='UPosTag=PUNCT'
                 pc.attrib['xml:id']=t_id
+                #pc.attrib['pos']='PUNCT'
+                pc.attrib['msd']='UPosTag=PUNCT'
                 pc.text=str(token[1])
                 s.append(pc)
             else:
                 w=ET.Element('w')
+                w.attrib['xml:id']=t_id
                 if str(token[1]).startswith("'") == True:
                     w.attrib['join']="left" 
-                w.attrib['pos']=token[3]
+                #w.attrib['pos']=token[3]
                 w.attrib['lemma']=token[2]
                 if token[5] == '_' or token[5] == '':
                     w.attrib['msd']='UPosTag='+token[3]
                 else:
-                    w.attrib['msd']='UPosTag='+token[5]
-                w.attrib['xml:id']=t_id
+                    w.attrib['msd']='UPosTag='+token[3]+"|"+token[5]
                 
-                if token[5]!='_':
-                    w.attrib['msd']+='|'+token[5]
+                #if token[5]!='_':
+                    #w.attrib['msd']+='|'+token[5]
                
                 w.text=token[1]
                 s.append(w)

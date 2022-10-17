@@ -3,8 +3,8 @@ import argparse
 import sys
 from tqdm import tqdm
 import os
-import warnings
-warnings.filterwarnings("ignore")
+#import warnings
+#warnings.filterwarnings("ignore")
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -69,6 +69,11 @@ def main():
                             else:
                                 f.write(a)
                                 f.write("\n")
+                        else:
+                            print("File "+a+" convert to xml and saved in "+os.path.join(root_xml_files, name_xml_file))
+                            name_ana_file = util.xml_to_ana(os.path.join(root_xml_files, name_xml_file),os.path.join(root_ana_files, name_xml_file))
+                            if name_ana_file != '':
+                                print("File "+name_xml_file+" convert to xml and saved in "+name_ana_file)
                     pbar.update(1)
         print("Done")
     else:
