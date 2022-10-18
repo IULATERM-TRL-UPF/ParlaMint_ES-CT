@@ -262,6 +262,7 @@ def df_to_conll(df_ner):
 
 def to_conll(doc):
     df_nlp = nlp_spacy(doc)
+    df_nlp.to_excel("table.xlsx")
     df_nlp = fix_dataframe(df_nlp)
     nlp_conll = df_to_conll(df_nlp)
     return nlp_conll
@@ -370,6 +371,13 @@ def generate_tei(seq,parent):
                             w.text=token_comp[1]
                             s.append(w)
                 s = parent_s
+            elif token[1] in [",","."]: #and flag_ner == 0:
+                pc=ET.Element('pc')
+                pc.attrib['xml:id']=t_id
+                #pc.attrib['pos']='PUNCT'
+                pc.attrib['msd']='UPosTag=NP|PUNCT'
+                pc.text=str(token[1])
+                s.append(pc)
             elif flag_ner == 1:
                 w=ET.Element('w')
                 w.attrib['xml:id']=t_id
@@ -377,14 +385,6 @@ def generate_tei(seq,parent):
                 w.attrib['msd']='UPosTag=PROPN'
                 w.text=token[1]
                 s.append(w)
-            
-            elif token[3]=='PUNCT' and flag_ner == 0:
-                pc=ET.Element('pc')
-                pc.attrib['xml:id']=t_id
-                #pc.attrib['pos']='PUNCT'
-                pc.attrib['msd']='UPosTag=PUNCT'
-                pc.text=str(token[1])
-                s.append(pc)
             else:
                 w=ET.Element('w')
                 w.attrib['xml:id']=t_id
