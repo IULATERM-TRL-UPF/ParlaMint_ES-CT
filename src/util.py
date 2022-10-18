@@ -262,7 +262,7 @@ def df_to_conll(df_ner):
 
 def to_conll(doc):
     df_nlp = nlp_spacy(doc)
-    df_nlp.to_excel("table.xlsx")
+    #df_nlp.to_excel("table.xlsx")
     df_nlp = fix_dataframe(df_nlp)
     nlp_conll = df_to_conll(df_nlp)
     return nlp_conll
