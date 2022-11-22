@@ -1,0 +1,5 @@
+1	S'	es	P00CN00	P00CN00	pron|gen=common|num=invariable	2	obj	_	SpaceAfter=No	O	O	[]	1	[]
+2	aixeca	aixecar	VMIP3S0	VMIP3S0	verb|type=main|mood=indicative|tense=present|person=3|num=singular	0	root	_	_	O	O	[]	2	[]
+3	la	el	DA0FS0	DA0FS0	det|type=article|gen=feminine|num=singular	4	det	_	_	O	O	[]	3	[]
+4	sessió	sessió	NCFS000	NCFS000	noun|type=common|gen=feminine|num=singular	2	nsubj	_	_	O	O	[]	4	[]
+5	.	.	Fp	Fp	punct|type=period	2	punct	_	_	O	O	[]	5	[]

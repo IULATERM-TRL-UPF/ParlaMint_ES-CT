@@ -262,7 +262,7 @@ def df_to_conll(df_ner):
 
 def to_conll(doc):
     df_nlp = nlp_spacy(doc)
-    #df_nlp.to_excel("table.xlsx")
+    df_nlp.to_excel("table.xlsx")
     df_nlp = fix_dataframe(df_nlp)
     nlp_conll = df_to_conll(df_nlp)
     return nlp_conll
@@ -362,19 +362,18 @@ def generate_tei(seq,parent):
                             w=ET.Element('w')
                             w.attrib['xml:id']=s_id+'.'+token_comp[0]
                             w.attrib['lemma']=token_comp[2]
-                            #w.attrib['pos']=token_comp[3]
                             if token_comp[5] == '_' or token_comp[5] == '':
                                 w.attrib['msd']='UPosTag='+token_comp[3]
                             else:
                                 w.attrib['msd']='UPosTag='+token_comp[3]+"|"+token_comp[5]
                             w.attrib['join']='right'
-                            w.text=token_comp[1]
+                            w.attrib['norm']=token_comp[1]
+                            #w.text=token_comp[1]
                             s.append(w)
                 s = parent_s
             elif token[1] in [",","."]: #and flag_ner == 0:
                 pc=ET.Element('pc')
                 pc.attrib['xml:id']=t_id
-                #pc.attrib['pos']='PUNCT'
                 pc.attrib['msd']='UPosTag=NP|PUNCT'
                 pc.text=str(token[1])
                 s.append(pc)
@@ -388,20 +387,14 @@ def generate_tei(seq,parent):
             else:
                 w=ET.Element('w')
                 w.attrib['xml:id']=t_id
-                if str(token[1]).startswith("'") == True:
-                    w.attrib['join']="left" 
-                #w.attrib['pos']=token[3]
                 w.attrib['lemma']=token[2]
                 if token[5] == '_' or token[5] == '':
                     w.attrib['msd']='UPosTag='+token[3]
                 else:
                     w.attrib['msd']='UPosTag='+token[3]+"|"+token[5]
-                
-                #if token[5]!='_':
-                    #w.attrib['msd']+='|'+token[5]
-               
                 w.text=token[1]
                 s.append(w)
+                
         linkGrp=ET.Element('linkGrp',attrib={'type':'UD-SYN','targFunc':'head argument'})
         parent_s.append(linkGrp)
         for dep in dependencies:

@@ -4,7 +4,35 @@ import warnings
 import os
 warnings.filterwarnings("ignore")
 
+def build_2_fixed(df,members):
+  mem = {}
+  for index, row in df.iterrows():
+    if row['style'] == "CPresidncia":
+        text = row['text']
+        for index, rows in members.iterrows():
+            if text.find(rows['Nombre']) > 0 or text.find(rows['matches']) >0:
+                mem["presidente"] = rows['Nombre']
+    if row['style'] == 'D3Intervinent':
+        if row['text'].find("(") > 0:
+            cargo = row['text'].split(" (")[0]
+            orador = (row['text'].split(" (")[1]).replace(")","")
+            mem[cargo] = orador
+  spk = []
+  ta = []
+  tb = []
+  for index, rowt in df.iterrows():
+    name = rowt["speaker"]
+    for key, value in mem.items():
+        if name in ("La presidenta","El presidente") and key == "presidente":
+            name = value
+        if name == key.replace("’","'") or name == key:
+            name = value
+    spk.append(name)
+  df['speaker'] = spk
+  return df
+
 def df_build_2(df, file_name, file_date, root_parameters, members_id):   
+  df.to_excel("df_merge.xlsx")
   intervinent_len = 100
   not_notes = ['D3Intervinent', 'D3IntervinentObertura', 'D3Textnormal', 'CSessi', 'CPresidncia', 'Crgan']
   interv_style = ['D3Intervinent', 'D3IntervinentObertura']
@@ -81,7 +109,7 @@ def df_build_2(df, file_name, file_date, root_parameters, members_id):
   members_file['Cargo'] = members_file['Cargo'].str.rstrip()
 
   #lectura de la tabla de referencia confeccionada previamente 
-  members = pd.read_csv(os.path.join(root_parameters, "special_denominations.csv"))
+  members = pd.read_csv(os.path.join(root_parameters, "special_denominations.csv"), sep="\t", encoding='latin-1')
   members['Alta'] =  pd.to_datetime(members['Alta'], infer_datetime_format=True)
   members['Baja'] =  pd.to_datetime(members['Baja'], infer_datetime_format=True)
     
@@ -90,6 +118,7 @@ def df_build_2(df, file_name, file_date, root_parameters, members_id):
   members = members.loc[(members['Alta'] <= file_date) &
                           (members['Baja'] >= file_date), ['Cargo', 'Nombre']] #filtramos por la fecha del archivo
 
+  df = build_2_fixed(df,members_id)
   df = pd.merge(df, members, how='left', left_on = 'speaker'
                     , right_on = 'Cargo').drop(['Cargo'], axis=1) #obtenemos el nombre de quienes son marcados por su rol
 

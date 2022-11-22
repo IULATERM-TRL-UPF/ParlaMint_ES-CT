@@ -1,6 +1,3 @@
-spacy_conll
-pandas
-spacy
 python-docx
 pycld3
 spacy-lookups-data

@@ -23,8 +23,8 @@ def to_xml(df, tei_ana):
       div.append(spk)
       u = ET.Element('u')
       u.attrib['xml:id'] = row[2]
-      u.attrib['who'] = row[9]
-      u.attrib['ana'] = row[10]
+      u.attrib['who'] = '#'+row[9]
+      u.attrib['ana'] = '#regular'
       u.attrib['xml:lang'] = row[1]
       div.append(u)
     if tag == 'seg':
@@ -52,6 +52,7 @@ def to_xml(df, tei_ana):
     if tag == 'note' and row[12] == 'utt':
       if row[14] == 'note':
         note = ET.Element('note')
+        note.attrib['type'] = "narrative"
         note.text = row[0]
         div.append(note)
       else:

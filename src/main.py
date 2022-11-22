@@ -1,4 +1,6 @@
-import util
+# -*- coding: utf-8 -*-
+#import util
+import util_freeling as util
 import argparse
 import sys
 from tqdm import tqdm
@@ -44,7 +46,7 @@ def main():
                                 f.write(a)
                                 f.write("\n")
                     pbar.update(1)
-        print("Los archivos que no se pudieron procesar están en el folder 'ERRORS'")
+        print("Los archivos que no se pudieron procesar estan en el folder 'ERRORS'")
         print("Done")
     elif root_docx_files and root_ana_files and root_parameters:
         FILEPATH = os.path.dirname(root_docx_files)

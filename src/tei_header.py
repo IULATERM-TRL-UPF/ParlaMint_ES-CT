@@ -21,31 +21,35 @@ def tei_header(df, file_name, file_date_short, file_sesion, file_meeting):
 
   titleStmt = ET.Element('titleStmt')
   titles = {'Corpus Parlamentari en català ': 'ca', 'Catalan parliamentary corpus ': 'en'}
-
+  
   for i, e in titles.items():
     title =  ET.Element('title') 
     title.attrib['type'] = "main"
     title.attrib['xml:lang'] = e
-    title.text = i + file_name +' [ParlaMint SAMPLE]'
+    
+    title.text = i + file_name.split("_")[0] + ', '+(file_name.split("_")[1])[:10]+' '+ (file_name.split("_")[1])[11:]+ ' [ParlaMint SAMPLE]'
     titleStmt.append(title)
 
   legislatura = 'XI Legislatura'
   term = 11
-  if file_date_short >= '2015-10-26' and file_date_short < '2018-01-17':
+  if file_date_short >= '2015-10-26' and file_date_short < '2017-10-27':
     legislatura = 'XI Legislatura'
     term = 11
-  elif file_date_short >= '2018-01-17' and file_date_short < '2020-12-22':
+  elif file_date_short >= '2017-10-27' and file_date_short < '2020-12-21':
     legislatura = 'XII Legislatura'
     term = 12
- 
-  meetings = {'#parla:term': legislatura, '#parla:meeting': str(file_sesion), '#parla.sitting': str(file_meeting) }
+  elif file_date_short >= '2021-03-12' and file_date_short < '2021-06-03':
+    legislatura = 'XIII Legislatura'
+    term = 13
+  elif file_date_short >= '2021-06-03':
+    legislatura = 'XIV Legislatura'
+    term = 14
+    
+  meetings = {'#parla.term': legislatura}
   for i,e in meetings.items():
     meeting = ET.Element('meeting')
-    meeting.attrib['ana'] = i
-    if i == '#parla:term':
-      meeting.attrib['n'] = str(term)
-    else:
-      meeting.attrib['n'] = e
+    meeting.attrib['ana'] = i + " #PC."+str(term)
+    meeting.attrib['n'] = str(term)
     meeting.text = e
     titleStmt.append(meeting)
 
@@ -64,7 +68,7 @@ def tei_header(df, file_name, file_date_short, file_sesion, file_meeting):
     titleStmt.append(respStmt)
 
 
-  funders = {'Cap financiacio': 'ca', 'No funder': 'en'}
+  funders = {'Infraestructura de recerca CLARIN': 'ca', 'CLARIN research infrastructure': 'en'}
   funder = ET.Element('funder')
   for i, e in funders.items():
     orgName = ET.Element('orgName')
@@ -204,7 +208,5 @@ def tei_header(df, file_name, file_date_short, file_sesion, file_meeting):
   teiHeader.append(fileDesc)
   teiHeader.append(encodingDesc)
   teiHeader.append(profileDesc)
-
-  #xmlstr2 = minidom.parseString(ET.tostring(teiHeader)).toprettyxml(indent="   ")
 
   return teiHeader
