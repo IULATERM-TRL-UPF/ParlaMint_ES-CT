@@ -1,12 +1,13 @@
 import xml.etree.ElementTree as ET
 
 def to_xml_2(df, tei_ana):
-  
+  df.to_excel("jajaj.xlsx")
   text = ET.Element('text')
   text.attrib['ana'] = tei_ana
   body = ET.Element('body')
   text.append(body) 
-  u = ET.Element('u') #se incorpora acá para evitar errores con documentos mal marcados al comienzo 
+  u = ET.Element('u') #se incorpora acá para evitar errores con documentos mal marcados al comienz
+  df.to_excel("total_excel.xlsx")
   for i, row in df.iterrows():
     tag = row[4]
     if tag == 'div':
@@ -24,7 +25,8 @@ def to_xml_2(df, tei_ana):
       u = ET.Element('u')
       u.attrib['xml:id'] = row[2]
       u.attrib['who'] = "#"+row[9]
-      u.attrib['ana'] = "#regular"
+      if str(row[10]) == "member":
+        u.attrib['ana'] = "#regular"
       u.attrib['xml:lang'] = row[1]
       div.append(u)
     if tag == 'seg':

@@ -2,36 +2,12 @@ import cld3
 import pandas as pd
 import os
 import warnings
+import re
+import util_tei as util
 warnings.filterwarnings("ignore")
 
-def build_fixed(df,members):
-  mem = {}
-  for index, row in df.iterrows():
-    if row['style'] == "CPresidncia":
-        text = row['text']
-        for index, rows in members.iterrows():
-            if text.find(rows['Nombre']) > 0 or text.find(rows['matches']) >0:
-                mem["presidente"] = rows['Nombre']
-    if row['style'] == 'D3Intervinent':
-        if row['text'].find("(") > 0:
-            cargo = row['text'].split(" (")[0]
-            orador = (row['text'].split(" (")[1]).replace(")","")
-            mem[cargo] = orador
-  spk = []
-  ta = []
-  tb = []
-  for index, rowt in df.iterrows():
-    name = rowt["speaker"]
-    for key, value in mem.items():
-        if name in ("La presidenta","El presidente") and key == "presidente":
-            name = value
-        if name == key.replace("’","'") or name == key:
-            name = value
-    spk.append(name)
-  df['speaker'] = spk
-  return df
 
-
+           
 def df_build(df, file_name, file_date, root_parameters, members_id):
   intervinent_len = 100
   not_notes = ['D3Intervinent', 'D3IntervinentObertura', 'D3Textnormal', 'CSessi', 'CPresidncia', 'Crgan']
@@ -114,14 +90,16 @@ def df_build(df, file_name, file_date, root_parameters, members_id):
   members = members.loc[(members['Alta'] <= file_date) &
                           (members['Baja'] >= file_date), ['Cargo', 'Nombre']] #filtramos por la fecha del archivo
                           
-  df = build_fixed(df,members_id)
+  df = util.build_fixed(df,members_id,file_date)
   df = pd.merge(df, members, how='left', left_on = 'speaker'
                     , right_on = 'Cargo').drop(['Cargo'], axis=1) #obtenemos el nombre de quienes son marcados por su rol
-
   df.loc[(df['Nombre'].isnull()), 'Nombre' ] = df['speaker'] #copiamos los nombres de quienes son marcados por su nombre
   df = pd.merge(df, members_id, how='left', left_on = 'Nombre' #buscamos el ID segun nombre
                   , right_on = 'Nombre')
-
+  #df.to_excel("df_final.xlsx")
+  df = util.put_matches_fixed(df,file_name,file_date)
+  df = util.remove_nan(df)
+  #df.to_excel("df_final_fixed.xlsx")
   df.loc[df['speaker'].isin(['La presidenta', 'El president']), 'role'] = 'chair' #forzamos chair/member rol
   df.loc[~df['speaker'].isin(['La presidenta', 'El president']), 'role'] = 'member' #forzamos chair/member rol
 

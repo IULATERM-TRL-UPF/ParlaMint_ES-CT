@@ -1,12 +1,11 @@
 import xml.etree.ElementTree as ET
 
 def to_xml(df, tei_ana):
-  
   text = ET.Element('text')
   text.attrib['ana'] = tei_ana
   body = ET.Element('body')
   text.append(body) 
-  #u = ET.Element('u') #se incorpora acá para evitar errores con documentos mal marcados al comienzo 
+  #u = ET.Element('u') #se incorpora acá para evitar errores con documentos mal marcados al comienzo
   for i, row in df.iterrows():
     tag = row[4]
     if tag == 'div':
@@ -61,5 +60,4 @@ def to_xml(df, tei_ana):
         desc.text = row[0]
         note.append(desc)
         div.append(note)
-  
   return text

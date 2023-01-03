@@ -1,11 +1,13 @@
 <?xml version="1.0" ?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#reference" xml:lang="ca" xml:id="ParlaMint-ES-CT_2018-01-17-0101">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="ca" xml:id="ParlaMint-ES-CT_2018-01-17-0101">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT, 2018-01-17 0101 [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT, 2018-01-17 0101 [ParlaMint SAMPLE]</title>
-            <meeting ana="#parla.term #PC.12" n="12">XII Legislatura</meeting>
+            <meeting ana="#parla.term #PC.12 #parla.uni" n="12">XII Legislatura</meeting>
+            <meeting ana="#parla.meeting #parla.uni" n="1">1</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="1">1</meeting>
             <respStmt>
                <persName>Nuria Bel</persName>
                <resp>Coordinator</resp>
@@ -230,7 +232,7 @@
                <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.10.0.2" xml:lang="ca">També per un minut, si li sembla bé, senyor... Fernández.</seg>
             </u>
             <note type="speaker">Santi Rodríguez i Serra</note>
-            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.11.0" who="# " ana="#regular" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.11.0" who="#RodriguezSanti" ana="#regular" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.11.0.0" xml:lang="ca">Rodríguez, senyor Maragall.</seg>
             </u>
             <note type="speaker">El president de la Mesa d’Edat</note>
@@ -238,7 +240,7 @@
                <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.12.0.0" xml:lang="ca">Rodríguez.</seg>
             </u>
             <note type="speaker">Santi Rodríguez i Serra</note>
-            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.13.0" who="# " ana="#regular" xml:lang="ca">
+            <u xml:id="ParlaMint-ES-CT_2018-01-17-0101.13.0" who="#RodriguezSanti" ana="#regular" xml:lang="ca">
                <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.13.0.0" xml:lang="ca">Sí, amb relació... –és qüestió d’ordre–, també amb relació a la decisió que acaba de prendre la Mesa d’Edat, amb relació a la petició de vots delegats, deixar constància que per part del nostre grup discrepem de la interpretació que ha fet la Mesa d’Edat del que diu el Reglament en el seu article 93.2. Entenem que aquesta decisió que acaba de prendre la Mesa suposa de facto una ampliació dels supòsits de delegació de vot, la qual cosa entenem que no correspon adoptar per una mesa d’edat.</seg>
                <seg xml:id="ParlaMint-ES-CT_2018-01-17-0101.13.0.1" xml:lang="ca">I, per tant, expressem des d’aquesta posició la discrepància dels diputats del Partit Popular amb relació a aquesta decisió adoptada.</seg>
             </u>

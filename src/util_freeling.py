@@ -27,6 +27,7 @@ emptyline_re = re.compile('\n\s+\n')
 
 contador = 1
 
+
 def read_members_id(root_excel):
     members_id = pd.read_csv(os.path.join(root_excel, "members_id.csv"), sep=";", encoding='latin-1')
     members_id = members_id.dropna().copy()
@@ -119,7 +120,7 @@ def docx_to_xml(file,file_save,root_parameters, members_id):
         text = to_xml(df, tei_ana) #se crea el cuerpo del XML, necesita también como argumento la etiqueta de subcorpus.
         #se crea el elemento TEI y sus atributos:
         TEI = ET.Element('TEI') 
-        TEI.attrib['ana'] = tei_ana
+        TEI.attrib['ana'] = "#parla.sitting "+tei_ana
         TEI.attrib['xmlns'] = "http://www.tei-c.org/ns/1.0"
         TEI.attrib['xml:lang'] = 'ca' #catalán
         TEI.attrib['xml:id'] = file_name
@@ -154,13 +155,86 @@ def fix_dataframe(df):
     return df
 
 
+def fix_morph(morph):
+    morph = morph.replace("num=singular","Number=Sing")
+    morph = morph.replace("num=plural","Number=Plur")
+    morph = morph.replace("gen=masculine","Gender=Masc")
+    morph = morph.replace("gen=feminine","Gender=Fem")
+    morph = morph.replace("type=preposition","AdpType=Prep")
+    morph = morph.replace("tense=present","Tense=Pres")
+    morph = morph.replace("mood=subjunctive","Mood=Sub")
+    morph = morph.replace("mood=indicative","Mood=Ind")
+    morph = morph.replace("person","Person")
+    morph = morph.replace("type=indefinite","PronType=Ind")
+    morph = morph.replace("|gen=common","")
+    morph = morph.replace("type=comma","PunctType=Comm")
+    morph = morph.replace("type=relative","PronType=Rel")
+    morph = morph.replace("|num=invariable","")
+    morph = morph.replace("type=personal","PronType=Prs")
+    morph = morph.replace("|type=main","")
+    morph = morph.replace("type=demonstrative","PronType=Dem")
+    morph = morph.replace("type=period","PunctType=Peri")
+    morph = morph.replace("|type=common","")
+    morph = morph.replace("tense=future","Tense=Fut")
+    morph = morph.replace("|tense=conditional","")
+    morph = morph.replace("type=questionmark","PunctType=Qest")
+    morph = morph.replace("punctenclose=close","PunctSide=Fin")
+    morph = morph.replace("type=article","PronType=Art")
+    morph = morph.replace("tense=present","Tense=Pres")
+    morph = morph.replace("|type=qualificative","")
+    morph = morph.replace("|type=coordinating","")
+    morph = morph.replace("type=Personal","PronType=Prs")
+    morph = morph.replace("|type=semiauxiliary","")
+    morph = morph.replace("mood=imperative","Mood=Imp")
+    morph = morph.replace("|neclass=organization","")
+    morph = morph.replace("|type=proper","")
+    morph = morph.replace("possessorpers","Person")
+    morph = morph.replace("|possessornum=invariable","")
+    morph = morph.replace("type=possessive","Poss=Yes")
+    morph = morph.replace("|neclass=other","")
+    morph = morph.replace("NUMr","NUM")
+    morph = morph.replace("mood=participle","Mood=Par")
+    morph = morph.replace("mood=infinitive","Mood=Inf")
+    morph = morph.replace("|neclass=location","")
+    morph = morph.replace("|type=auxiliary","")
+    morph = morph.replace("|type=general","")
+    morph = morph.replace("type=colon","PunctType=Colo")
+    morph = morph.replace("|punctenclose=open","")
+    morph = morph.replace("type=quotation","PunctType=Peri")
+    morph = morph.replace("|type=subordinating","")
+    morph = morph.replace("type=ordinal","NumType=Ord")
+    morph = morph.replace("|neclass=Person","")
+    morph = morph.replace("mood=gerund","Mood=Ger")
+    morph = morph.replace("type=negative","Polarity=Neg")
+    morph = morph.replace("type=semicolon","PunctType=Semi")
+    morph = morph.replace("tense=imperfect","Tense=Imp")
+    morph = morph.replace("type=interrogative","PronType=Int")
+    morph = morph.replace("type=etc","PunctType=Comm")
+    morph = morph.replace("possessorNumber=Plur","Number[psor]=Plur")
+    morph = morph.replace("possessorNumber=Sing","Number[psor]=Sing")
+    morph = morph.replace("polite=yes","Polite=Form")
+    morph = morph.replace("case=nominative","Case=Nom")
+    morph = morph.replace("case=dative","Case=Dat")
+    morph = morph.replace("|type=other","")
+    morph = morph.replace("INTn","INTJ")
+    morph = morph.replace("case=accusative","Case=Acc")
+    morph = morph.replace("|type=slash","")
+    morph = morph.replace("type=hyphen","PunctType=Dash")
+    morph = morph.replace("|type=currency","")
+    morph = morph.replace("|type=unit","")
+    morph = morph.replace("|type=percentag","")
+    morph = morph.replace("type=exclamationmark","PunctType=Excl")
+    morph = morph.replace("|type=slash","")
+    morph = morph.replace("","")
+    morph = morph.replace("","")
+    return morph
+
 def fix_msd(morph):
     df = pd.read_excel("tags_freeling.xlsx")
-    #print("morph ", morph)
     for index, row in df.iterrows():
-        #print(row["MSD"])
         if morph.find(str(row["MSD"])) != -1:
-            morph = str(row["TAG"]).lower()+morph[morph.find("|"):]
+            morph = str(row["TAG"]).upper()+morph[morph.find("|"):]
+            morph = fix_morph(morph)
             break
     return morph
 
@@ -333,26 +407,42 @@ def df_to_conll(df_ner):
             morph = "_"
         else:
             morph = row["morph"]
-        row_conll = str(row["token_id"])+"\t"+str(row["text"])+"\t"+str(row["lemma"])+"\t"+str(row["pos"])+"\t"+str(row["pos"])+"\t"+str(morph)+"\t"+ str(row["head_new"])+"\t"+str(row["deprel_new"])+"\t"+str("_")+"\t"+str(misc)+"\t"+str(row["token_ner_type"])+"\t"+str(row["token_ner_type"])+"\t"+str(row["join"])+"\t"+str(row["word_id"])+"\t"+str(row["join_norm"])+"\n"
+        row_conll = str(row["token_id"])+"\t"+str(row["text"])+"\t"+str(row["lemma"])+"\t"+str(row["pos"])+"\t"+str(row["pos"])+"\t"+str(morph)+"\t"+ str(row["head_new"])+"\t"+str(row["deprel_new"])+"\t"+str("_")+"\t"+str(misc)+"\t"+str(row["token_ner_type"])+"\t"+str(row["token_ner_type"])+"\t"+str(row["join"])+"\t"+str(row["word_id"])+"\t"+str(row["join_norm"])+"\t"+str(row["punct"])+"\n"
         conll_list.append(flag_add+row_conll)
     doc_final = ''.join([str(x) for x in conll_list])
     return doc_final
 
 
+def fix_punct(df):
+    punct = []
+    for index, row in df.iterrows():
+        if row["deprel_new"] != "punct":
+            id_find = row["word_id"]
+            flag_all = 0
+            for indexs, rows in df.iterrows():
+                if int(id_find)+1 == int(rows["word_id"]):
+                    if rows["deprel_new"] == "punct":
+                        punct.append(1)
+                    else:
+                        punct.append(0)
+                    flag_all = 1
+                    break
+            if flag_all == 0:
+                punct.append(0)
+        else:
+            punct.append(0)
+    df["punct"] = punct
+    return df
+
+
 def to_conll(command, lang):
     df_nlp = nlp_freeling(command)
-    #global contador
-    #df_nlp.to_excel("table.xlsx")
     df_nlp = fix_dataframe(df_nlp)
-    #df_nlp.to_excel("table_1.xlsx")
     df_nlp = fix_parsed(df_nlp, lang)
-    #df_nlp.to_excel("table_"+str(contador)+".xlsx")
+    #df_nlp.to_excel("df_nlp.xlsx")
+    df_nlp = fix_punct(df_nlp)
     nlp_conll = df_to_conll(df_nlp)
-    #contador += 1
-    with open("nlp_conll.txt","w") as t:
-        t.write(nlp_conll)
     return nlp_conll
-
 
 def generate_tei(seq,parent):
     seq=deepcopy(seq)
@@ -446,8 +536,8 @@ def generate_tei(seq,parent):
             token_14 = ast.literal_eval(token[14])
             if len(token_12) == 2:
                 comp = ET.Element('w')
-                t_id_t = t_id.split(".")
-                t_id = '.'.join(t_id_t[:-1])+"."+str(token_14[0])+"-"+str(token_14[1])
+                #t_id_t = t_id.split(".")
+                #t_id = '.'.join(t_id_t[:-1])+"."+str(token_14[0])+"-"+str(token_14[1])
                 comp.attrib['xml:id'] = t_id
                 comp.text=token[1]
                 s.append(comp)
@@ -487,6 +577,8 @@ def generate_tei(seq,parent):
                 w.attrib['lemma']=token[2]
                 if str(token[1]).startswith("'") == True:
                     w.attrib['join']="right"
+                if str(token[15]) == "1":
+                    w.attrib['join']="right"
                 w.text=token[1]
                 s.append(w)
         linkGrp=ET.Element('linkGrp',attrib={'type':'UD-SYN','targFunc':'head argument'})
@@ -498,7 +590,7 @@ def generate_tei(seq,parent):
         parent.append(seq[seq_idx])
         seq_idx+=1
 
- 
+
 def xml_to_ana(file,file_save):
     tree = ET.parse(file)
     root = tree.getroot()
@@ -546,23 +638,20 @@ def docx_to_xml_fixed(file,file_save,root_parameters, members_id):
         else:
           tei_ana = '#reference'
         df = p_parser(rooted)
-        src_dfs.append(df) #se preservan los DF originales
+        src_dfs.append(df)
         df = df_build_2(df, file_name, file_date, root_parameters, members_id)
-        header = tei_header(df, file_name, file_date_short, file_sesion, file_meeting) #se crea el encabezado a partir del DataFrame, la función necesita nombre, fecha, sesión y reunión
-        text = to_xml_2(df, tei_ana) #se crea el cuerpo del XML, necesita también como argumento la etiqueta de subcorpus.
-        #se crea el elemento TEI y sus atributos:
+        header = tei_header(df, file_name, file_date_short, file_sesion, file_meeting)
+        text = to_xml_2(df, tei_ana)
         TEI = ET.Element('TEI')
-        TEI.attrib['ana'] = str(tei_ana)
+        TEI.attrib['ana'] = "#parla.sitting "+tei_ana
         TEI.attrib['xmlns'] = "http://www.tei-c.org/ns/1.0"
-        TEI.attrib['xml:lang'] = 'ca' #catalán
+        TEI.attrib['xml:lang'] = 'ca'
         TEI.attrib['xml:id'] = file_name
-        TEI.append(header) #se adjunta el header al elemento TEI
-        TEI.append(text) #se adjunta el body al elemento TEI
-
-        xmlstr = minidom.parseString(ET.tostring(TEI)).toprettyxml(indent="   ") #se transforma el árbol a una cadena de caracteres, para imprimirla luego en un archivo nuevo
-        open(os.path.join(file_save,file_name +'.xml'),'w').write(xmlstr) #se crea un archivo nuevo y se escribe el contenido de la cadena de caracteres anterior
-        #print(file_name +'.xml creado')
-        appended_dfs.append(df) #se adjunta el DataFrame a lista de DataFrames
+        TEI.append(header)
+        TEI.append(text)
+        xmlstr = minidom.parseString(ET.tostring(TEI)).toprettyxml(indent="   ")
+        open(os.path.join(file_save,file_name +'.xml'),'w').write(xmlstr)
+        appended_dfs.append(df)
         return file_name+'.xml'
     except Exception as e:
         print(e)

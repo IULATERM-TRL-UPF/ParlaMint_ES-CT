@@ -45,11 +45,14 @@ def tei_header(df, file_name, file_date_short, file_sesion, file_meeting):
     legislatura = 'XIV Legislatura'
     term = 14
     
-  meetings = {'#parla.term': legislatura}
+  meetings = {'#parla.term #PC.'+str(term): legislatura, '#parla.meeting': str(file_sesion), '#parla.sitting': str(file_meeting)}
   for i,e in meetings.items():
     meeting = ET.Element('meeting')
-    meeting.attrib['ana'] = i + " #PC."+str(term)
-    meeting.attrib['n'] = str(term)
+    meeting.attrib['ana'] = i + " #parla.uni"
+    if i == '#parla.term #PC.'+str(term):
+        meeting.attrib['n'] = str(term)
+    else:
+        meeting.attrib['n'] = e
     meeting.text = e
     titleStmt.append(meeting)
 

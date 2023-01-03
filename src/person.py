@@ -33,7 +33,7 @@ def fix_date(b):
     return date
 
 def main():
-    df = pd.read_excel("MetadataSpeakersNB8-11.xlsx")
+    df = pd.read_excel("MetadataSpeakersNB25-11.xlsx")
     df_name = df["Person"]
     pe = []
     LP = Element('listPerson')
@@ -46,13 +46,17 @@ def main():
         else:
             person = str(row["Person"])
         PE.attrib['xml:id'] = person
-        
         PN = SubElement(PE,'persName')
-        SN = SubElement(PN,'surname')
-        SN.text = row["Surname"]
-        FN = SubElement(PN,'forename')
-        FN.text = row["Forename"]
-        
+        for a in str(row["Surname"]).split(" "):
+            if a == "i":
+                NL = SubElement(PN,'nameLink')
+                NL.text = a
+            else:
+                SN = SubElement(PN,'surname')
+                SN.text = a
+        for n in str(row["Forename"]).split(" "):
+            FN = SubElement(PN,'forename')
+            FN.text = n
         SX = SubElement(PE,'sex')
         SX.attrib['value'] = row["Sex"]
         if str(fix_birth(row["Birth"])) not in (""," ","nan","Nan"):
@@ -70,7 +74,7 @@ def main():
             AF = SubElement(PE,'affiliation')
             AF.attrib['ref'] = str(row["refPC"+str(i+1)])
             
-            if str(row["refPC"+str(i+1)]) == "#GOV":
+            if str(row["rolePC"+str(i+1)]).lower() == "member":
                 AF.attrib['role'] = "member"
             elif str(row["rolePC"+str(i+1)]).lower() == "chair":
                 AF.attrib['role'] = "head"

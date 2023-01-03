@@ -1,3 +1,4 @@
 python-docx
 pycld3
-spacy-lookups-data
+tqdm
+pandas

@@ -17,6 +17,7 @@ def main():
     parser.add_argument("-o", "--output", help="ANA_XML Files Folder", default=None)
     parser.add_argument("-p", "--parameters", help="Members Excel Folder", default=None)
     parser.add_argument("-t", "--test", help="Docx Files Folder -- Test", default=None)
+    parser.add_argument("-s", "--speaker", action='store_true', help="Gets all absent speakers")
     args = parser.parse_args()
 
     root_docx_files = args.input
@@ -47,6 +48,23 @@ def main():
                                 f.write("\n")
                     pbar.update(1)
         print("Los archivos que no se pudieron procesar estan en el folder 'ERRORS'")
+        print("Done")
+    elif args.speaker:
+        print("Get Speakers")
+        FILEPATH = os.path.dirname(root_docx_files)
+        print("Loading DOCX files")
+        raw_dirs = set([d for d in os.listdir(FILEPATH)])
+        print("Files to process: ", len(raw_dirs))
+        print("Loading parameter files")
+        df_parameter = util.read_members_id(root_parameters)
+        print("Processing")
+        with tqdm(total=len(raw_dirs)) as pbar:
+            for a in raw_dirs:
+                if '.docx' in a:
+                    name_xml_file = util.docx_to_xml(os.path.join(root_docx_files, a),root_xml_files,root_parameters, df_parameter)
+                    if name_xml_file == '':
+                        name_xml_file = util.docx_to_xml_fixed(os.path.join(root_docx_files, a),root_xml_files,root_parameters, df_parameter)
+                pbar.update(1)
         print("Done")
     elif root_docx_files and root_ana_files and root_parameters:
         FILEPATH = os.path.dirname(root_docx_files)
