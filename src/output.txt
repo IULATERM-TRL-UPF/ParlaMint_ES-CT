@@ -1,6 +1,0 @@
-1 S'     es      P00CN00 P0  pos=pronoun|gen=common|num=invariable                                  - - - - - - -
-2 aixeca aixecar VMIP3S0 VMI pos=verb|type=main|mood=indicative|tense=present|person=3|num=singular - - - - - - -
-3 la     el      DA0FS0  DA  pos=determiner|type=article|gen=feminine|num=singular                  - - - - - - -
-4 sessió sessió  NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                         - - - - - - -
-5 .      .       Fp      Fp  pos=punctuation|type=period                                            - - - - - - -
-

@@ -1,8 +1,0 @@
-{
- "model": "catalan-ancora-ud-2.10-220711",
- "acknowledgements": [
-  "http://ufal.mff.cuni.cz/udpipe/2#udpipe2_acknowledgements",
-  "https://ufal.mff.cuni.cz/udpipe/2/models#universal_dependencies_210_models"
- ],
- "result": "# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe\n# udpipe_model = catalan-ancora-ud-2.10-220711\n# udpipe_model_licence = CC BY-NC-SA\n# newdoc\n# newpar\n# sent_id = 1\n1\tS'\t_\t_\t_\t_\t2\tobj\t_\t_\n2\taixeca\t_\t_\t_\t_\t0\troot\t_\t_\n3\tla\t_\t_\t_\t_\t4\tdet\t_\t_\n4\tsessió\t_\t_\t_\t_\t2\tnsubj\t_\t_\n5\t.\t_\t_\t_\t_\t2\tpunct\t_\t_\n\n"
-}
