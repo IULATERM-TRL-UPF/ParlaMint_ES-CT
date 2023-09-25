@@ -35,12 +35,14 @@ Examples:
 python main.py -a s
 ```
 
+This script will obtain the number of words, sentences processed for each language used (Spanish or Catalan).
+
 ```bash
 # Process files
 python main.py -a p -i docx_files/
 ```
 
-The script will process the DOCX files in the input directory and generate the XML files in xml_files/ and the ANA files in ana_files/.
+This script will process the DOCX files in the input directory and generate the XML files in xml_files/ and the ANA files in ana_files/.
 
 
 ## Project structure
