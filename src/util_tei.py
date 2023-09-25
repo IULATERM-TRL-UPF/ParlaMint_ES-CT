@@ -4,7 +4,9 @@ import os
 import re
 import numpy as np
 from unicodedata import normalize
-from datetime import datetime
+
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 def normalize_text(text):
     text = str(text)
@@ -20,7 +22,7 @@ def normalize_text(text):
     
     
 def build_fixed(df,members,date):
-    df_speakers = pd.read_excel("MetadataSpeakersNB25-11.xlsx")
+    df_speakers = pd.read_excel(os.path.join(ROOT_DIR, "MetadataSpeakersNB25-11.xlsx"))
     mem = {}
     cases = ["El secretari de la Mesa d’Edat","El representant de la comissió promotora"]
     for index, row in df.iterrows():
@@ -73,7 +75,7 @@ def build_fixed(df,members,date):
     
 
 def get_speakers(df_sp):
-    df = pd.read_excel("MetadataSpeakersNB25-11.xlsx")
+    df = pd.read_excel(os.path.join(ROOT_DIR, "MetadataSpeakersNB25-11.xlsx"))
     speaker_name = []
     for index, row in df_sp.iterrows():
         name_sp = str(row["speaker"])
@@ -122,7 +124,7 @@ def get_speakers(df_sp):
             
 
 def put_matches_fixed(df,file,date):
-    df_speakers = pd.read_excel("MetadataSpeakersNB25-11.xlsx")
+    df_speakers = pd.read_excel(os.path.join(ROOT_DIR, "MetadataSpeakersNB25-11.xlsx"))
     mat = []
     ids = []
     nombres = []
@@ -192,8 +194,6 @@ def put_matches_fixed(df,file,date):
     df["Id"] = ids
     for index, row in df.iterrows():
         if row["Nombre"] != "nan" and row["Id"] == "nan":
-            print("File:",file)
-            print("speaker", row["speaker"])
             break
     return df
  

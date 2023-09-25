@@ -1,24 +1,29 @@
 import xml.etree.ElementTree as ET
+import src.fix_xml as fix_xml
+
 
 def to_xml(df, tei_ana):
+  df = fix_xml.remove_duplicate(df)
   text = ET.Element('text')
   text.attrib['ana'] = tei_ana
   body = ET.Element('body')
-  text.append(body) 
-  #u = ET.Element('u') #se incorpora acá para evitar errores con documentos mal marcados al comienzo
+  text.append(body)
+  flag_div = 0
   for i, row in df.iterrows():
     tag = row[4]
-    if tag == 'div':
+    txt = row[0].replace("’","'").replace("»","")
+    if tag == 'div' and flag_div == 0:
       div = ET.Element('div')
       div.attrib['type'] = 'debateSection'
       head = ET.Element('head')
-      head.text = row[0]
+      head.text = txt
       div.append(head)
       body.append(div)
+      flag_div = 1
     if tag == 'u':
       spk = ET.Element('note')
       spk.attrib['type'] = 'speaker'
-      spk.text = row[0]
+      spk.text = txt
       div.append(spk)
       u = ET.Element('u')
       u.attrib['xml:id'] = row[2]
@@ -30,12 +35,12 @@ def to_xml(df, tei_ana):
       seg = ET.Element('seg')
       seg.attrib['xml:id'] = row[3]
       seg.attrib['xml:lang'] = row[1]
-      seg.text = row[0]
+      seg.text = txt
       u.append(seg)
     if tag == 'note' and row[12] != 'utt':
       if row[14] == 'note':
         note = ET.Element('note')
-        note.text = row[0]
+        note.text = txt
         u.append(note)
       else:
         note = ET.Element(row[14])
@@ -45,19 +50,19 @@ def to_xml(df, tei_ana):
           attrib_name = 'type' 
         note.attrib[attrib_name] = row[15]
         desc = ET.Element('desc')
-        desc.text = row[0]
+        desc.text = txt
         note.append(desc)
         u.append(note)
     if tag == 'note' and row[12] == 'utt':
       if row[14] == 'note':
         note = ET.Element('note')
         note.attrib['type'] = "narrative"
-        note.text = row[0]
+        note.text = txt
         div.append(note)
       else:
         note = ET.Element(row[14])
         desc = ET.Element('desc')
-        desc.text = row[0]
+        desc.text = txt
         note.append(desc)
         div.append(note)
   return text

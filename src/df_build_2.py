@@ -1,14 +1,16 @@
+
 import cld3
 import pandas as pd
 import warnings
 import os
 import re
-import util_tei as util
+import src.util_tei as util_tei
+import src.util as util
 warnings.filterwarnings("ignore")
 
 
-
-def df_build_2(df, file_name, file_date, root_parameters, members_id):   
+def df_build_2(df, file_name, file_date, root_parameters):
+  members_id = util.read_members_id(root_parameters)
   intervinent_len = 100
   not_notes = ['D3Intervinent', 'D3IntervinentObertura', 'D3Textnormal', 'CSessi', 'CPresidncia', 'Crgan']
   interv_style = ['D3Intervinent', 'D3IntervinentObertura']
@@ -94,7 +96,7 @@ def df_build_2(df, file_name, file_date, root_parameters, members_id):
   members = members.loc[(members['Alta'] <= file_date) &
                           (members['Baja'] >= file_date), ['Cargo', 'Nombre']] #filtramos por la fecha del archivo
 
-  df = util.build_fixed(df,members_id,file_date)
+  df = util_tei.build_fixed(df,members_id,file_date)
   df = pd.merge(df, members, how='left', left_on = 'speaker'
                     , right_on = 'Cargo').drop(['Cargo'], axis=1) #obtenemos el nombre de quienes son marcados por su rol
   
@@ -103,8 +105,8 @@ def df_build_2(df, file_name, file_date, root_parameters, members_id):
   df = pd.merge(df, members_id, how='left', left_on = 'Nombre' #buscamos el ID segun nombre
                   , right_on = 'Nombre')
   #df.to_excel("df_final.xlsx")
-  df = util.put_matches_fixed(df,file_name,file_date)
-  df = util.remove_nan(df)
+  df = util_tei.put_matches_fixed(df,file_name,file_date)
+  df = util_tei.remove_nan(df)
   #df.to_excel("df_final_fixed.xlsx")
   df.loc[df['speaker'].isin(['La presidenta', 'El president']), 'role'] = 'chair' #forzamos chair/member rol
   df.loc[~df['speaker'].isin(['La presidenta', 'El president']), 'role'] = 'member' #forzamos chair/member rol

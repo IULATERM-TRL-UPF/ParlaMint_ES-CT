@@ -1,0 +1,1086 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="ca" xml:id="ParlaMint-ES-CT_2017-10-27-4402">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT, 2017-10-27 4402 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT, 2017-10-27 4402 [ParlaMint SAMPLE]</title>
+            <meeting ana="#parla.term #PC.12 #parla.uni" n="12">XII Legislatura</meeting>
+            <meeting ana="#parla.meeting #parla.uni" n="44">44</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="2">2</meeting>
+            <respStmt>
+               <persName>Nuria Bel</persName>
+               <resp>Coordinator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp>Data retrieval, first conversion to XML and to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Marilina Pisani</persName>
+               <resp>Final TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rodolfo Zevallos</persName>
+               <resp>Computational Linguistics Specialist</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="117" xml:lang="ca">117 intervencions</measure>
+            <measure unit="speeches" quantity="117" xml:lang="en">117 speeches</measure>
+            <measure unit="words" quantity="13909" xml:lang="ca">13909 paraules</measure>
+            <measure unit="words" quantity="13909" xml:lang="en">13909 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022">2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date when="2017-10-27">2017-10-27</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="23"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="117"/>
+               <tagUsage gi="seg" occurs="342"/>
+               <tagUsage gi="kinesic" occurs="45"/>
+               <tagUsage gi="vocal" occurs="44"/>
+               <tagUsage gi="incident" occurs="0"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name type="country" key="ES">Spain</name>
+               <date when="2017-10-27">2017-10-27</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>Sessió 44.2</head>
+            <note type="narrative">La sessió, suspesa ahir, es reprèn a un quart de dues del migdia i nou minuts. Presideix la presidenta del Parlament, acompanyada de tots els membres de la Mesa, la qual és assistida pel secretari general i el lletrat Joan Ridao i Martín.</note>
+            <note type="narrative">Al banc del Govern seu el president de la Generalitat, acompanyat del vicepresident del Govern i conseller d'Economia i Hisenda i els consellers de la Presidència, d'Afers Exteriors, Relacions Institucionals i Transparència, de Governació, Administracions Públiques i Habitatge, d'Ensenyament, de Salut, d'Interior, de Territori i Sostenibilitat, de Cultura, de Justícia, de Treball, Afers Socials i Famílies i d'Agricultura, Ramaderia, Pesca i Alimentació.</note>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.1.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.1.0.0" xml:lang="ca">S'inicia la sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.1.0.1" xml:lang="ca">Senyor Carrizosa, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.2.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.2.0.0" xml:lang="es">Por una cuestión de orden, presidenta.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.3.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.3.0.0" xml:lang="ca">Digui.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.4.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.4.0.0" xml:lang="es">Al parecer, los partidos políticos Junts pel Sí i la CUP han invitado a la celebración de las sesiones de este Pleno a bastantes invitados, que no sé si, además, se han añadido a otros invitados de otras instancias. Y el caso es que estos invitados estaban profiriendo sonoros gritos, a pleno pulmón, en el salón de actos, de forma audible en todo este Parlamento, en favor de la independencia. Yo pido que estas personas se atengan a las normas de convivencia mínimas, que respeten la democracia, que no hagan que los parlamentarios constitucionalistas, que estamos defendiendo la Constitución y la democracia, nos veamos coaccionados en la forma de poder hacer nuestras alegaciones y la exposición de nuestras ideas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.4.0.1" xml:lang="es">A nosotros no nos gusta que el Parlamento parezca la sede de Esquerra Republicana, o de la ANC, o de Junts pel Sí.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.4.0.2" xml:lang="es">Acabo. Hemos presentado un escrito por Registro solicitando que se garantice que podemos ejercer nuestro derecho sin sentirnos coaccionados por los invitados de aquellos que hoy pretenden declarar ilegalmente la independencia en Cataluña.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.5.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.5.0.0" xml:lang="ca">Senyor Carrizosa, ja s'ha informat i s'ha donat ordres de que es respectarà i, per tant..., totes les mesures de seguretat, d'acord?</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.5.0.1" xml:lang="ca">Vull dir, ha estat un acord unànime de la Mesa, per acord unànime de la Mesa hem demanat que es respecti l'ordre i que es respecti el que estem fent en aquest Parlament; per tant, s'han pres ja totes les mesures de seguretat.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.6.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.6.0.0" xml:lang="es">Señora presidenta...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.7.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.7.0.0" xml:lang="es">Sí, senyor Carrizosa.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.8.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.8.0.0" xml:lang="es">Espero, señora presidenta que, en caso de que se altere lo más mínimo, o por parte de los invitados en la tribuna se hagan demostraciones de reprobación o de aprobación hacia lo que cualquiera de los oradores diga, se les llamará al orden y se les expulsará de la sala para garantizar que podamos discutir democráticamente en esta asamblea legislativa y no como si fuera una asamblea realizada, repito, en Òmnium Cultural, en la ANC, en las CUP o en una de sus reuniones a puerta cerrada.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.9.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.9.0.0" xml:lang="ca">Senyor Carrizosa, no tinc cap dubte de que el públic es comportarà correctament. I anem a iniciar... Sí, senyor Fernández, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Alejandro Fernández Álvarez</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.10.0" who="#FernándezAlejandro" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.10.0.0" xml:lang="es">Por una cuestión de orden, también.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.11.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.11.0.0" xml:lang="es">Sí.</seg>
+            </u>
+            <note type="speaker">Alejandro Fernández Álvarez</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.12.0" who="#FernándezAlejandro" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.12.0.0" xml:lang="es">Simplemente para añadir a lo que ha expuesto el señor Carrizosa, una anécdota que refleja perfectamente el sectarismo que se vive y que, por desgracia, usted está practicando durante toda esta legislatura. Nuestro grupo ha pedido que pudieran participar, en tribuna o en otros lugares del Parlament, salas adjuntas, durante el Pleno, varias personas. Ha habido dos..., hemos pedido ocho, y a dos no se les ha permitido entrar porque decían que no cabían y, en cambio, se permite entrar a setecientos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.12.0.1" xml:lang="es">¿Qué proporcionalidad es esa? Qué injusticia flagrante.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.12.0.2" xml:lang="es">Y añadir una cosa –añadir una cosa–, si tiene a bien atenderme, porque ya ni eso.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.12.0.3" xml:lang="es">Bueno, pues que me..., que pare, que pare...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.13.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.13.0.0" xml:lang="ca">No, és que m'informen que no és així.</seg>
+            </u>
+            <note type="speaker">Alejandro Fernández Álvarez</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.14.0" who="#FernándezAlejandro" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.14.0.0" xml:lang="es">Mire, miren, le voy a añadir una cuestión. Cuando estábamos en la Junta de Portavoces, ha comunicado usted que se había solicitado, a las personas que estaban en la sala, gritando, que pararan. Han vuelto a gritar dos veces. ¿Cómo interpreta usted eso? ¿No tiene usted la capacidad o de decirles que abandonen el Parlament o de tomar decisiones drásticas al respecto, hacia los grupos que han impulsado la presencia en un día como hoy, precisamente? ¿Usted se imagina que a todos nos diera por traer aquí a doscientas, trescientas personas y convertir esto en la toma de la Bastilla?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.14.0.1" xml:lang="es">Pero, ¿es qué se han pensado ustedes?</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.14.0.2" xml:lang="es">Les pedimos un mínimo decoro parlamentario, aunque sea hoy, que es un día extraordinariamente triste.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.14.0.3" xml:lang="es">Gracias.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.15.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.15.0.0" xml:lang="ca">Així serà, senyor Fernández. Moltes gràcies.</seg>
+               <note>Debat general sobre l'aplicació de l'article 155 de la Constitució espanyola a Catalunya i els seus possibles efectes (continuació)</note>
+               <note>255-00004/11</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.15.0.1" xml:lang="ca">Debat general sobre l'aplicació de l'article 155 de la Constitució espanyola a Catalunya i els seus possibles efectes. D'acord amb l'article 152.3 del Reglament, per a la defensa de les propostes de resolució presentades, té la paraula, per un temps màxim de deu minuts, el senyora Carlos Carrizosa, en representació del Grup Parlamentari de Ciutadans.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.0" xml:lang="es">Gracias. Hoy, señora presidenta, señoras y señores diputados, público, señores y señoras ciudadanos que nos están viendo hoy por los medios de comunicación, hoy es un día triste, dramático, en Cataluña. Hoy es el día que se perpetra, definitivamente, el golpe a nuestra democracia instaurada en el año 1978 con la promulgación de nuestra Constitución. Hoy, en su propuesta de resolución, ustedes, que consta de varias páginas, proclaman la república independiente de Cataluña y dicen que ponen en marcha aquella Ley de transitoriedad que ustedes, con trampas, de forma absolutamente antidemocrática, promulgaron los días 6 y 7 de septiembre en este Parlamento.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.1" xml:lang="es">Esa ley que aprobaron ustedes con nocturnidad y alevosía, esa ley que no nos dejaron, a los parlamentarios de este Parlamento, alegar, enmendar, que no se nos dieron los plazos necesarios, que se vulneró nuestro derecho a acudir al Consell de Garanties Estatutàries, que aprobaron ustedes con 72 votos, lo que nuestro propio Estatuto de Cataluña dice que ha de ser con 90 votos. Leyes flagrantemente ilegales, que no pasarían el filtro, en absoluto, ni del Consell de Garanties Estatutàries, no lo pasaban, el de los letrados del Parlamento, no pasaron el filtro de los letrados del Parlamento, ni del Consell de Garanties Estatutàries. Por descontado, no lo pasan del Tribunal Constitucional, no pasa ningún filtro europeo, en derecho europeo; todas las instituciones europeas se han pronunciado por el respeto a las constituciones de los estados miembros de la Unión Europea. ¿Pero es que ustedes se consideran ya fuera de Europa, que no respetan ni siquiera las normas europeas? ¿No respetan las normas internacionales, las normas de la ONU?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.2" xml:lang="es">Esas leyes que ustedes aprobaron de noche, con una junta electoral designada a dedo, que al final no ha hecho recuento ni nada; ese referéndum, que fue una vergüenza, que fue una absoluta vergüenza democrática para todos, ustedes pretenden que le dan validez. Y basándose en esas leyes, que eran un bodrio jurídico sin validez aquí, en Cataluña, sin validez en Cataluña, sin validez en España y sin validez en el mundo, que las llamaban normas supremas, inimpugnables por nadie, ustedes son como dioses, no hay tribunales que les puedan impugnar las leyes que ustedes se inventan. ¿Cómo es posible que pretendan llegar a la independencia por ese camino, contra todo y contra todos y contra más de la mitad de la población de los catalanes?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.3" xml:lang="es">Miren, ustedes, con esa PR nos quieren privar a los catalanes del pasaporte español, y ustedes lo hacen, además, como siempre, han tenido que hacer a lo largo de este proceso, mintiendo, porque la verdad no les puede aguantar su camino al desafío y a la confrontación y a la falta de democracia. Lo han hecho mintiendo. ¿Y qué es lo que ustedes dicen ahora? Que lo ha provocado la aplicación del artículo 155 de la Constitución, provoca esto que estamos haciendo hoy, dicen ustedes que lo hacen para defender nuestras instituciones. Es mentira, nuestras instituciones se las han cargado ustedes, ustedes se las han cargado. ¿Y ustedes pretenden hacernos creer que esto que ocurre aquí se habría parado con el diálogo que ustedes tramposamente no dejaban de tener en los labios? ¿Ustedes nos quieren hacer creer que esto es así?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.4" xml:lang="es">Miren, señor Puigdemont, usted ha sido independentista de siempre, usted lo ha reconocido. Su partido, con el señor Mas al frente, redactó, puso un comedero para poner a los suyos allí, cobrando del erario público, que lo pagásemos todos, a hacer el informe del Consell Assessor de Transició Nacional, con el exmagistrado del Tribunal Constitucional, Viver i Pi-Sunyer. Y ustedes, todo este plan, ya estaba escrito, señor Puigdemont, ya estaba escrito. Ustedes se presentaron con un programa electoral que decía que declaraban la independencia en dieciocho meses. Si ya lo estaban diciendo… Luego se inventaron un referéndum, porque no se atrevieron y les temblaron las piernas, se inventaron un referéndum que ustedes decían que habían ganado en unas elecciones plebiscitarias que, como tal plebiscito, las perdieron, porque sacaron el 48 por ciento de los votos. Ni siquiera son ustedes mayoría; las perdieron, esas elecciones.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.5" xml:lang="es">Pero, pese a todo, como ahora reconocía hace poco el señor Mas-Colell, ustedes prefirieron hacer ver que aquello iba para adelante, el día 27 de septiembre, cuando perdieron estrepitosamente su plebiscito. Lo mismo reconoció el señor Baños, de la CUP: «Hemos perdido el plebiscito. Pero ustedes forzaron y siguieron para adelante, igual que forzaron y siguieron para adelante con ese simulacro de referéndum que se inventaron. Por lo tanto, ustedes han seguido un camino que empezó siempre por la independencia, solo por la independencia y para la independencia: Consell Assessor de Transició Nacional, programa de ruptura en dieciocho meses, referéndum falso y antidemocrático, atropello de los derechos de los parlamentarios los días 6 y 7, falta de democracia en una asamblea legislativa de una comunidad autónoma, ignorar absolutamente al Tribunal Constitucional y la voluntad del resto de los españoles, con los que hemos construido, todos juntos desde el año 1978, con el voto abrumador de los catalanes, hemos convertido esta España en una de las democracias más limpias de toda Europa y más jóvenes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.6" xml:lang="es">Y ustedes –ustedes–, después de todo esto y de atropellar, ahora, para justificar su comportamiento populista, antidemocrático y totalitario, ¿van a decir ahora que esto es porque Ciutadans, el Partido Popular y el Partido Socialista aplican la Constitución en Cataluña? ¿Van a tener la poca vergüenza de decirnos que es por eso? Pues, mire, ustedes lo que han conseguido en todo este tiempo es romper la convivencia. Ustedes han ido de la mano de un partido que pone carteles que dicen «assenyalem-los, «señalémoslos, a aquellos que discrepan, de forma absolutamente antidemocrática. En sus escaños tienen a personas que llaman «carroña a la oposición, tienen a personas que llaman «cerdos a los dirigentes europeos que se pronunciaron por la aplicación de la Constitución en Europa, y alguno de ellos, por cierto, está haciendo que mira el móvil y como que no me oye.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.7" xml:lang="es">Y ustedes, todos ustedes</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.8" xml:lang="es">, todos ustedes..., y les digo..., cuando Ciudadanos, después de unas elecciones, pueda restaurar la democracia en Cataluña, yo les digo: ustedes van a poder ir a todos los municipios de Cataluña sin ser declarados persona non grata, cosa que a nosotros no nos está pasando. ¿Y saben qué es declarar a una persona «non grata con su aquiescencia y sin que ustedes se opongan? Supone expulsarla de la comunidad, porque eso es lo que ustedes querrían hacer con nosotros, con los disidentes, expulsarnos de la comunidad, porque ustedes reparten carnés de catalán, los reparten, y se olvidan de que hay muchas personas que somos catalanes y que no comulgamos, y que Cataluña es muy diversa y que muchos de estos catalanes están pacíficos y preocupados en sus casas y no se van al mandato suyo</seg>
+               <note>(el vicepresident del Govern i conseller d'Economia i Hisenda deixa l'escó per abandonar el Saló de Sessions)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.9" xml:lang="es">a... –mire, señor Junqueras, ahora iba a hablar de usted–, no se van a mandato suyo...</seg>
+               <vocal type="murmuring">
+                  <desc>(El vicepresident del Govern i conseller d'Economia i Hisenda abandona el Saló de Sessions. Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.10" xml:lang="es">Muy bien, el señor Junqueras se ve que no quiere oír cómo ha arruinado económicamente a Cataluña, se ve que no quiere oír...</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.11" xml:lang="es">, no quiere oír cómo en el año 2013 llamaba a parar la economía catalana una semana para presionar a España, y que el cuanto peor, mejor. Eso se ve que no lo quiere oír. No quieren oír cómo un periodista de un medio que en el resto de España no lo van a conocer pero que todos los catalanes estamos pagando sin saberlo con riadas de dinero público subvencionado por la Generalitat..., el periodista que dice que se alegra de la fuga de empresas y las tilda de «banda de mafiosos, de la fuga de empresas catalanas. Y dice que «¿quién ha notado que se haya ido “la Caixa”?, ¿qué más da?, mejor, cuanto peor, mejor, porque así se consigue la independencia.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.12" xml:lang="es">Miren, ustedes nos han llevado por este camino a la confrontación, a la confrontación social. Ustedes han dividido la sociedad catalana en dos, ustedes han arruinado la sociedad catalana. Usted, señor Puigdemont, no va a pasar a la historia... Va a pasar a la historia por haber arruinado económicamente Cataluña, va a pasar a la historia por haber dividido a los catalanes, va a pasar a la historia por haberse cargado las instituciones de autogobierno de Cataluña, pero no va a pasar a la historia por haber partido España, no va a pasar a la historia por eso, porque usted no lo va a conseguir, ni usted ni los diputados que le acompañan.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.13" xml:lang="es">Para acabar..., voy acabando ya, porque el reloj no me lo han puesto en marcha y no sé esto que marca es correcto, o es menos tiempo o más...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.16.0.14" xml:lang="es">Sí.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.17.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.17.0.0" xml:lang="ca">Senyor Carrizosa, el té aquí.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.18.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.18.0.0" xml:lang="es">Sí, pero me lo han puesto en marcha más tarde.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.19.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.19.0.0" xml:lang="ca">Doncs, millor, vol dir que té més temps.</seg>
+               <vocal type="laughter">
+                  <desc>(Rialles.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.20.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.20.0.0" xml:lang="es">Bien; pues, voy acabando, entonces.</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.20.0.1" xml:lang="es">Voy acabando, entonces. La misión de la política... Sí, señores, que ustedes están hoy muy contentos dividiendo Cataluña, como lo están haciendo, de forma inconsciente. La misión de la política es hacer feliz a la gente y prometerles no sueños irrealizables, sino mejorar su día a día. Ayer mencionaba la presidenta de mi grupo a esa persona que lleva cinco meses esperando un marcapasos, ante la pasividad de la Comisión de Salud, que no se ha reunido en los últimos meses. Y el otro día estábamos en una carpa y un señor nos mandaba un mensaje y nos decía que gracias a la labor que se ha hecho en el Parlamento se ha abierto un centro de asistencia primaria en Tarragona y una residencia de ancianos en Reus, y que gracias. Ese es el trabajo del día a día que mejora la vida de los catalanes, no lo es este que nos divide.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.20.0.2" xml:lang="es">Ustedes solo prometen un futuro incierto, nosotros queremos prometer a los catalanes que la aplicación de la Constitución tiene que traducirse en unas elecciones que les dé la palabra a los catalanes, que podamos echar democráticamente a aquellos que han arruinado, dividido y se han cargado las instituciones de toda Cataluña. Esas elecciones tienen que parar este Brexit al que nos está llevando el señor Puigdemont. Nosotros vamos a poner las urnas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.20.0.3" xml:lang="es">El papel este que ustedes han redactado</seg>
+               <note>(l'orador mostra un plec de fulls a la cambra)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.20.0.4" xml:lang="es">rompe lo más sagrado de las personas en Cataluña, rompe la convivencia, les despoja de su ciudadanía, empuja a más de la mitad de los catalanes a no ser lo que son, que es: catalanes, españoles y europeos. Con este papel –con este papel–, ustedes han dejado a los catalanes que no les siguen a ustedes, que son menos de la mitad, los han dejado huérfanos de gobierno. Este papel es peor que unas leyes ilegales, como son..., es ilícito...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.21.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.21.0.0" xml:lang="ca">Senyor Carrizosa, ha exhaurit el temps.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.22.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.22.0.0" xml:lang="es">...es inmoral, es antiético. Y por eso Ciudadanos</seg>
+               <note>(l'orador estripa el plec)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.22.0.1" xml:lang="es">no va a permitir que se rompa España</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.22.0.2" xml:lang="es">, no lo vamos a permitir, que nos dividan, no vamos a permitir que nos arruinen, señor Puigdemont...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.23.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.23.0.0" xml:lang="ca">Senyor Carrizosa...</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.24.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.24.0.0" xml:lang="es">...y señores de Junts pel Sí.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.25.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.25.0.0" xml:lang="ca">...ha exhaurit el temps.</seg>
+               <kinesic type="applause">
+                  <desc>(Persisteixen els aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.25.0.1" xml:lang="ca">Gràcies, senyor Carrizosa. A continuació té la paraula la senyora Eva Granados, del Grup Parlamentari Socialista.</seg>
+            </u>
+            <note type="speaker">Eva Granados Galiano</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0" who="#GranadosEva" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.0" xml:lang="ca">Bona tarda, senyora Forcadell. President, diputats i diputades, bona tarda també als que avui pretenen constituir la república. Quina república? No sé com la veuen vostès, els que es qualifiquen a si mateixos dels legítims representants de Catalunya. Qui som nosaltres, qui som tots aquests que estem aquí? No som legítims? Què som els altres?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.1" xml:lang="ca">Quin model de democràcia! Quin model de pluralisme! Quin model de país! Un país intolerant, sectari i excloent. Què volen fer avui? Un error per a les institucions, per a la gent i per a Catalunya. La Catalunya que va acollir famílies de treballadors i treballadores que van arribar i que arriben de tots els racons. Famílies que, colze a colze, amb les que ja hi eren, hem aixecat aquest país amb les nostres mans. Gent que estima la terra que ha vist néixer els seus fills i els seus nets. Treballadors que van posar tota la il·lusió i l'esforç a l'educació dels seus fills, uns fills que vàrem aprendre a parlar català a l'escola, que a casa hi havia pocs llibres i gens de català fins que va arribar TV3. Aquesta generació que, poc o molt, hem anat progressant. Aquestes famílies, majoritàriament de classe treballadora, molts castellanoparlants. Una generació que ha assistit en silenci al tsunami dels darrers anys, que mirava de lluny tota aquesta retòrica abrandada del nou país, de les estructures d'estat, de l'«Espanya ens roba, de l'odi cap al que senten tant seu com el seu barri, la seva ciutat o el seu país. I també molts dels nascuts aquí que no es volen deixar arrossegar cap a la divisió i l'enfrontament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.2" xml:lang="es">Tots aquests no volem escollir. Catalans que ens aixequem també molt d'hora –ben d'hora, ben d'hora– i que no creiem que Espanya sigui un estat totalitari, tot i que el volem reformar, el volem millorar. Catalans que no volem que ens robin la Catalunya que hem fet entre tots, catalans que no ens agraden les disjuntives –Catalunya o Espanya–, nosaltres preferim les copulatives –Catalunya i Espanya. De fet, molts de nosaltres no som nacionalistes espanyols ni som nacionalistes catalans, saben? A molts, les fronteres només ens han interessat per derrocar-les. I davant les banderes? Davant les banderes ens agrada allò que canta el Jorge Drexler: «Vale más cualquier quimera / que un trozo de tela triste. Respectem les banderes, però no creiem que calgui dividir-nos a causa d'elles.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.3" xml:lang="ca">De fet, no havíem pensat gaire en tot això del procés fins que vostès van començar a parlar malament de la terra dels nostres pares. Potser no ens havíem fixat prou en la senyera fins que la van substituir per l'estelada, la bandera del nou país, que és només d'uns quants, com tot el que fan vostès: només per vostès, només pels seus. No ens facin escollir, no hi tenen dret. Nosaltres també volem el pa sencer i el país sencer. I defensarem la senyera que avui vostès abandonen.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.4" xml:lang="ca">Aquests anys hem anat prenent consciència del que fan: una estratègia pagada amb els diners de tots per intentar inocular-nos l'odi cap a altres terres d'Espanya, una estratègia per generar divisió i fractura entre les famílies, entre els amics, entre els companys de feina. I tot això, senyors, és deliberat. Quanta irresponsabilitat! Quin país volen construir amb els que amaguen documents que dissenyen l'estratègia per provocar una fase d'alta inestabilitat econòmica i política com la que estem patint i que sortien en els seus papers? Quin país volen construir?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.5" xml:lang="ca">Vostès són molt conscients del que fan avui, perquè fa anys que ho preparen. Però són conscients de com estan en aquests moments moltíssimes persones, famílies, empresaris, jubilats, com estan en aquests moments? Són conscients de la por i la preocupació que s'ha instal·lat en el cor i en el cap dels catalans? Són conscients que ja s'ha esfumat el 30 per cent de la riquesa només amb l'anunci? Què passarà demà, què passarà aquesta tarda? Quantes empreses més marxaran del nostre país, quants treballadors condemnen a la pobresa? Vostès són uns inconscients i no ho permetrem. Catalunya és una societat plural i volem que ho continuï sent, i ho seguirà sent, malgrat vostès. Catalunya som tots, i la Generalitat també som tots.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.6" xml:lang="ca">Avui els socialistes estem al costat de la gent que no entén aventures polítiques que acaben en vaixells contra les roques. Avui els socialistes estem amb aquells que, angoixats, han sortit de casa pensant que viuen en un país amb garanties i drets democràtics i hi tornaran sense saber què haurà fet una colla de diputats irresponsables. Avui els socialistes representem els que creuen en un món global..., regna la interdependència, i que no té cap sentit crear un petit estat al marge de tot, sense cap reconeixement, empobrit, fracturat i sense futur. És això, el que volen per a Catalunya? És això, el que desitgen per al país que diuen que tant estimen?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.7" xml:lang="ca">Els socialistes ens hem deixat la pell perquè això no arribés fins aquí. Perquè, tot i els «somriures de la revolta, que diuen vostès, nosaltres hem rebut insults d'«antidemòcrates per pensar diferent. Ens han pintat les seus del partit on ens deien que som uns feixistes, se'ns ha expulsat de governs locals per treballar pel nostre país, i als alcaldes socialistes se'ls ha dit: «O renuncies a les teves idees o et fem fora de l'alcaldia. Això està passant a Catalunya.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.8" xml:lang="ca">Els que estem treballant pels ponts del diàleg ahir vàrem haver d'escoltar al president del seu grup més insults, més menyspreus; nosaltres, que hem treballat fins al darrer segon pel diàleg i l'autogovern de Catalunya i seguirem treballant per aquests objectius.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.9" xml:lang="ca">Insisteixen a fer polítiques de bàndols, quan la societat ens està demanant ponts de diàleg. Vostès donen lliçons de catalanitat i de patriotisme, quan el veritable patriotisme es demostra unint i no separant. Han escoltat bé el que diuen? Han llegit bé el que escriuen? No només són un descrèdit per a les institucions d'aquest país; també ho són per a l'art de la política, que és la construcció del bé comú. Vostès avui, amb la culminació de la DUI, ho rebenten tot. Vostès avui, posant en marxa aquest monstre legal anomenat «Llei de transitorietat, ho destrossen tot.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.10" xml:lang="ca">President, els que avui el recolzen ahir l'advertien que es pot passar d'heroi a traïdor en cinc minuts. Per alguns, nosaltres ho som des de la nostra fundació. I, si en comptes de pensar en els seus, pensés vostè per uns minuts en tots els que compartim el temps i l'espai en aquesta terra, no faria el que farà avui. Hem intentat que aturés la desfeta, però ha preferit quedar-se amb els purs, ens ha posat davant l'abisme, i avui fan un pas endavant. Senyors del PDECAT, d'Esquerra i de la CUP: no en el nostre nom. Hem denunciat fins a fer-nos mal la boca els costos de situar les institucions fora de la llei. Vostès saben que una minoria, per molt nombrosa que sigui, no pot imposar-se a la majoria. Han trepitjat drets polítics, han triturat el nostre Estatut d'autonomia. Per reformar-lo, noranta vots; per enterrar-lo, setanta-dos? No volem la independència de Catalunya, tot i que ens sembli un ideal tan legítim i pels mateixos canals que el nostre federalisme.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.11" xml:lang="ca">Davant d'aquestes hores greus per a la ciutadania de Catalunya, també l'espanyola, volem subratllar que el socialisme ha estat, està i estarà sempre en la defensa de l'estat de dret, la convivència, la justícia social, l'autogovern i les institucions democràtiques. Davant dels que neguen la política i les institucions que són de tots, continuarem treballant perquè al més aviat possible torni la legalitat a les institucions del nostre país i per donar la veu a la ciutadania en unes eleccions autonòmiques, continuarem treballant per buscar un acord polític. Perquè, encara que avui vostès trenquin tots els ponts, saben que això només es podrà solucionar amb el diàleg, la negociació i el pacte; un pacte que volem que sigui sotmès a consideració per part de tota la ciutadania.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.12" xml:lang="ca">Ningú vol que s'apliqui el 155 de la Constitució, però cal subratllar que no és un article a iniciativa de l'Estat, és la conseqüència d'una sortida deliberada de la legalitat. Si vostè, president, el Govern i la majoria parlamentària que li dona suport no accepten ja la legalitat constitucional i estatutària, l'aplicació del 155 és inevitable. L'error que estan a punt de cometre uns quants el pagarem tots els catalans i totes les catalanes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.26.0.13" xml:lang="ca">Els anuncio que no participarem en la votació de les resolucions de Junts pel Sí, que marxarem de l'hemicicle, per no fer-nos responsables d'aquest enorme error que estem a punt de cometre.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.27.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.27.0.0" xml:lang="ca">Moltes gràcies, senyora Granados. A continuació té la paraula la senyora Marta Ribas, del Grup Parlamentari Catalunya Sí que es Pot.</seg>
+            </u>
+            <note type="speaker">Marta Ribas Frías</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0" who="#RibasMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.0" xml:lang="ca">Bon dia, o bona tarda, president, diputats, diputades, i especialment a la gent que avui –segur, molta– ens està seguint atentament, i segur que en molts casos amb por. Els parlo com a representant de molta, de tanta gent que durant dècades ha lluitat per l'autogovern de Catalunya; per recuperar-lo, primer, i per incrementar-lo, després. I que ho ha fet sempre amb la mirada que l'autonomia, la sobirania serveixen, sobretot, per millorar les condicions de vida de la gent, especialment la més vulnerable. I que, per tant, per damunt de tot està la cohesió social, de cada barri.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.1" xml:lang="ca">Els parlo en nom dels nostres companys, de les nostres companyes, que avui també estan confrontant-se i enfrontant-se al 155 al Senat, i que ho han fet amb contundència al Congrés, i a les places i carrers de tot Espanya, quan no sempre és fàcil fer-ho, a les places i carrers de tot Espanya.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.2" xml:lang="ca">Els parlo en nom de partits i d'organitzacions que hem estat l'1 d'octubre defensant les escoles, que hem fet nostres els carrers el 3 d'octubre aturant el país i dissabte passat reclamant la llibertat dels Jordis.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.3" xml:lang="ca">En nom d'aquesta gent a la qual avui represento, els dic que avui s'estan perpetrant dues grans barbaritats. La primera, l'article 155, al Senat, que pretén arrabassar-nos les institucions catalanes i fer una regressió de drets i llibertats que acabarà afectant tot l'Estat –tot l'Estat; una aplicació indigna de la Constitució espanyola que impactarà en la sobirania, en la ciutadania i en l'economia i, en canvi, no resoldrà res.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.4" xml:lang="ca">Però és un greu error –és molt greu error– respondre a aquesta barbaritat amb una altra barbaritat. I això és el que s'està fent avui aquí, al Parlament de Catalunya. Els ho hem dit i els ho reitero: no tenen legitimitat democràtica per aprovar una declaració unilateral d'independència. L'1 d'octubre va ser moltes coses: una gran mobilització, una mostra desastrosa i fatal i denunciable de violència de la policia contra la gent, però no un referèndum; no un referèndum vàlid que doni un mandat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.5" xml:lang="ca">Però és que, a més, sobretot és un greu error que plantegin la declaració unilateral d'independència com a resposta al 155. La DUI no ens protegeix i no ens protegirà del 155, tot al contrari. El que cal és un front d'àmplies majories socials i polítiques per encarar les conseqüències del 155</seg>
+               <kinesic type="applause">
+                  <desc>(alguns aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.6" xml:lang="ca">i defensar les institucions catalanes. I amb la DUI el que fan és empetitir, precisament, aquesta majoria.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.7" xml:lang="ca">Nosaltres avui al Parlament el que proposem, el que plantegem són propostes per oferir solucions i per oferir sortides a l'atzucac on ens han portat. Sortides que mostren un rebuig clar del Parlament a l'article 155, però també a les solucions unilaterals, perquè no són cap solució; que reclamen que s'aturi la repressió i la judicialització; que demanen, evidentment, la llibertat dels Jordis. Però també proposem que es pal·liïn els efectes del... –que ja els està tenint–, del partidisme –el partidisme– i la crispació política, en posar en dubte els valors dels mestres, per exemple, de les nostres escoles, o posant en perill la supervivència de projectes d'entitats socials i juvenils, o posant en risc l'economia i l'estabilitat al nostre país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.8" xml:lang="ca">I proposem diàleg i espais d'àmplies majories i obrir debat de nou marc constituent amb la ciutadania per parlar a Catalunya des de Catalunya, de les sobiranies, de totes les sobiranies, però respectant que el model territorial, el model d'estat, l'hem de poder decidir en un referèndum, en un de veritat, que encara continua pendent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.9" xml:lang="ca">Junts pel Sí i la CUP avui el que proposen és desplegar unilateralment la independència, i proposen iniciar un procés constituent donant per fet que Catalunya ja ha decidit que volem ser independents. És un procés constituent que deriva d'una DUI. Aquesta és la grandíssima diferencia amb nosaltres; nosaltres respectem la democràcia sempre. I el que cal és que la ciutadania pugui decidir, tota la ciutadania de Catalunya, amb garanties, amb un referèndum reconegut, que pugui tenir conseqüències reals, què volem que sigui Catalunya, el que sigui, el que decideixi la gent. I això encara és una assignatura pendent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.10" xml:lang="ca">Avui tenim un déjà-vu, tornen a abandonar la reivindicació del referèndum que encara no s'ha fet. Esperem que el cercle es torni a tancar i ens hi tornem a trobar. Nosaltres encara hi continuarem sent.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.11" xml:lang="ca">Respecte a les resolucions dels altres, ja els avanço que evidentment hi ha punts en què estem molt –molt– d'acord, del que es planteja en algunes resolucions, especialment en alguna dels Socialistes –com aturar el desplegament del 155, establir una mesa de diàleg o reclamar més suport a la Carta de Barcelona, per exemple. Però el format del Ple, i sobretot la situació política actual, ens obliga a votar les propostes en bloc; a això ens han portat, a que no hi pugui haver debat dels matisos, també això és conseqüència de la situació política actual.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.12" xml:lang="ca">I, per tant, ja els ho dic, votarem no a tot, perquè no coincidim amb les propostes unilaterals de Junts pel Sí i la CUP, però tampoc amb tots aquells que avui –amb tots aquells que avui– al Senat estan liquidant la nostra autonomia.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.13" xml:lang="ca">No vull acabar sense parlar-los també des del cor, perquè jo avui soc una persona indignada; indignada amb el Partit Popular i la seva nul·la voluntat de diàleg; indignada amb els qui avui han aplaudit al Senat anul·lar una autonomia; indignada amb els governants que no resolen problemes de la ciutadania, sinó que s'estan dedicant a generar-ne o a engrandir-los; indignada amb el desconcert, la incertesa, la improvisació i el surrealisme en què ens han convertit l'ambient polític i social al nostre país; indignada per la sensació que alguns –molt poquets, però alguns–, amb molt poder, han estat les darreres setmanes jugant una partida d'escacs, carregada de testosterona, on el tauler era Catalunya</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.14" xml:lang="ca">i els peons, la ciutadania; indignada amb els efectes que aquesta partida està tenint, i sobretot tindrà, en la vida quotidiana de la gent. I, com a sobiranista, també ho estic molt, d'indignada, perquè avui faciliten que el final del procés sigui perdre l'autonomia.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.15" xml:lang="ca">Quan un no pot guanyar l'important és no perdre, i més quan estem parlant de les nostres institucions i del nostre autogovern. Hi ha hagut massa partidisme i massa poca altura de mires o mirada de país, darrerament. I dol; dol molt. Dol com a ciutadana i dol com a diputada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.16" xml:lang="ca">Acabo. Tothom sap que ens hem deixat la pell perquè aquesta situació es resolgués per la via del diàleg, salvant el nostre autogovern i permetent vies per avançar en la voluntat de tenir-ne més, que és la nostra, també. Però no s'ha aconseguit.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.28.0.17" xml:lang="ca">Avui les majories al Parlament i al Senat el que intenten és dinamitar tots els ponts que calen per al diàleg. Avui nosaltres el que els podem garantir és que el nostre pont segueix ferm, que tampoc flaquejarà en cap moment el nostre compromís amb la defensa de la democràcia i les institucions catalanes; però també que treballarem perquè la situació a partir d'ara no es traslladi a la gent, als centres de treball, a les associacions i entitats i als seus projectes, ni a l'ambient i la convivència als nostres pobles, ciutats i barris. Aquest és el nostre compromís avui amb la ciutadania de Catalunya.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.29.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.29.0.0" xml:lang="ca">Moltes gràcies, senyora Ribas. A continuació té la paraula el senyor Alejandro Fernández, en nom del Grup Parlamentari Popular de Catalunya.</seg>
+            </u>
+            <note type="speaker">Alejandro Fernández Álvarez</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0" who="#FernándezAlejandro" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.0" xml:lang="es">Gracias, presidenta. En este día negro para nuestra democracia me permitirán que construya esta intervención en dos bloques distintos. El primero, para responder a la pregunta que todos nos formulamos: ¿cómo hemos podido llegar hasta aquí? Y la segunda: ¿qué haremos para solucionarlo?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.1" xml:lang="es">El pasado martes el presidente Montilla volvía a hacer referencia en su comparecencia a las razones objetivas para la desafección catalana. Es un discurso respetable, bien intencionado, pero es profundamente falso. Se refería a la sentencia del Estatut. No debió ser tan traumática aquella sentencia cuando pocos meses después, y hasta setiembre de 2012, Convergència i Unió le estuvo votando al PP todo a favor en el Congreso, incluida la reforma laboral.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.2" xml:lang="es">Suele hablarse también de la financiación. El propio presidente Montilla presentó de manera bienintencionada un modelo de financiación con Esquerra Republicana e Iniciativa en el año 2009. Lo anunciaron como el mejor de la historia, que debía tener vigencia para veinticinco años. Sus socios de Esquerra Republicana, haciendo gala de la legendaria lealtad que les caracteriza, no respetaron los veinticinco años, se quedaron en tres meses, que es lo que tardaron en decir que aquello era un robo.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.3" xml:lang="es">La financiación, las infraestructuras, el Estatuto son debates, en sociedades modernas y en sociedades prósperas, que se pueden realizar, donde las posiciones son legítimas. Pero, no, ninguno de esos debates justifica intelectualmente la barbarie que se ha cometido aquí durante los últimos cinco años. Aquí lo que ha ocurrido es que durante cinco años han sacado ustedes a pasear la peor cara del nacionalismo identitario, aquella que apela a las bajas pasiones, al egoísmo, que deteriora de una manera extraordinaria sociedades hasta ese día prósperas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.4" xml:lang="es">Y aquí lo han hecho en torno a tres estrategias. La primera es que han convertido su proyecto separatista en un proyecto populista. Decía Giovanni Sartori –sabe que me gusta citarlo porque fue el gran enemigo del populismo– que para identificar un proyecto populista hay que identificar dos elementos: el relato del agravio y las soluciones utópicas. En ese sentido, su proyecto separatista es un populismo de libro. El relato del agravio es evidente: «España nos roba. España es de parásitos, de chupópteros. Lo han repetido hasta la saciedad. Las soluciones utópicas, el pensamiento mágico, evidentemente, también: «Las empresas no se irán, pelearán por venir. Ataremos los perros con longanizas. Comeremos helado de postre todas las noches.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.5" xml:lang="es">La realidad ha destrozado de manera dramática su relato de pensamiento mágico, pero nos ha permitido al menos una cosa: ahora sabemos cómo son ustedes. Están dispuestos a sacrificar una década de empleo, bienestar y crecimiento por puro fanatismo. Vergüenza, vergüenza, vergüenza. Es lo que les debería dar.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.6" xml:lang="es">Dos: manipulación de los sentimientos de forma perversa y excluyente. Todos los sátrapas de la historia, todos –es una cosa bastante curiosa–, antes de mostrar su verdadera catadura moral suelen mostrase ante la opinión pública como sentimentales y cursis. Es una cosa... Primero cogen una posición a las bravas, sin respetar la legalidad internacional o la legalidad nacional, y una vez asumen esa posición entonces empiezan a hablar de amor, paz y diálogo. Es una perversidad de terciopelo que hay que reconocer que es muy difícil de combatir dialécticamente. Es el diálogo del señor Puigdemont: «Asumo a las bravas la posición y luego pido diálogo para consolidar la posición, no para tirar hacia atrás, y lo hago a través de un chantaje envuelto en bellas palabras.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.7" xml:lang="es">Pero si hay un auténtico maestro en la perversidad de terciopelo –ahora no se va a ir de rositas–, es el señor Junqueras. Porque usted es corresponsable de todas las tropelías antidemocráticas que se cometieron aquí los días 6 y 7 de septiembre, de destrozar la economía catalana. ¿Y qué hacer el señor Junqueras cuando le toca asumir las consecuencias de sus actos? Se pone a llorar. Y qué bien llora. Se comporta como aquel hermano pequeño que te pellizca y justo antes de devolverle tú el pellizco se pone a llorar. Y llega tu madre y te riñe a ti, que qué le has hecho al niño. El niño que pellizca y llora es el señor Junqueras.</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.8" xml:lang="es">Pues, bien, señor Junqueras, no nos tragamos sus lágrimas de cocodrilo. Sabemos que únicamente quieren manipular los sentimientos de la sociedad catalana. Y le añado más, porque esa actitud es especialmente deleznable: estamos dispuestos a aguantar sus interminables y monocordes peroratas; estamos dispuestos a aguantar su casi genética predisposición a la conspiración palaciega; estamos dispuestos a aguantar su cursilería aflautada, zigzagueante, culebreante; estamos dispuestos a aguantar eso y mucho más; pero, por el amor de Dios, no nos llore más –no nos llore más. A la vida adulta –a la vida adulta– y a la política se llega llorado de casa. No vuelva a manipular los sentimientos de los catalanes. Es indignante e inaceptable. Un poco de decencia, un poco de vergüenza.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.9" xml:lang="es">Tres: finalmente, estigmatización, cosificación y exclusión del adversario político. Esta es la peor, la más peligrosa de todas. Miren, durante cinco años han elaborado ustedes la lista de supuestos fachas que no admite parangón en la historia de la humanidad. Al principio solo nos incluían a nosotros, pero es que ahora no se salva ni el apuntador: Jordi Évole, facha; Isabel Coixet, facha; Serrat, facha; Sardà, facha; Rabell, facha; Coscubiela, facha; Arrimadas, facha; Iceta, facha; Macron, facha; Merkel, facha; Juncker, facha; Theresa May, facha; Mas-Colell, ahora facha; Enric Juliana, facha; desde ayer, Santi Vila, facha.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.10" xml:lang="es">Una pregunta, señor Puigdemont: ¿hay alguien en el planeta Tierra o la Vía Láctea, exceptuando ustedes y el señor Nicolás Maduro, que no sea facha? ¿Uno, al menos –uno, al menos?</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.11" xml:lang="es">De hecho, usted ayer fue durante tres horas facha y botifler. ¿No le da vergüenza liderar un movimiento político que se basa en señalar y excluir a aquel que expresa la más mínima discrepancia? ¿No le da vergüenza? Porque a mí me la daría.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.12" xml:lang="es">¿Cómo superaremos esto? Porque lo vamos a superar. Desde la doble reconciliación, me referiré después a ello, y con más España. Sí, más España, porque más España es más Cataluña, la Cataluña de la que nos hemos sentido orgullosos durante siglos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.13" xml:lang="es">Miren, les voy a explicar en un minuto y medio lo que es España, porque igual no lo saben, y entre otras cosas porque estamos hartos de que digan que España es caspa, que es cutre, que es «Españistán o que es un país de parásitos, hartos. España... –España–, como nos recuerdan Hemingway, Orson Welles, Eliot, Harold Pinter, España, a través de su Siglo de Oro, completa la trilogía que con el pensamiento y tradición grecorromana constituyen lo más elevado de la historia universal. ¿Qué les parece? Eso es España.</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.14" xml:lang="es">De esa confluencia extraordinaria emanan, en las artes plásticas, Velázquez, Miró, Dalí, Picasso, Goya; en la ciencia, Monturiol, Isaac Peral, Severo Ochoa, Ramón y Cajal; en las letras, expresadas a través de nuestras cuatro maravillosas lenguas, Cervantes, Josep Pla, Ausiàs March, Lope de Vega, Rosalía de Castro; y de ese acervo cultural tan extraordinario que compartimos todos nace la España de hoy, una de las grandes democracias del mundo, un auténtico pilar de la Europa democrática, como les han recordado a ustedes todos los grandes líderes mundiales en los últimos días. No, amigo, no, España no es caspa, España es maravillosa. ¿Y sabe qué más? Precisamente porque los catalanes somos españoles lo es todavía mucho más. Eso es España, en un minuto y medio.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.15" xml:lang="es">Pero España es alguna cosa más. España es reconciliación, lo ha sido siempre. Y la doble reconciliación de la que habla muy a menudo mi buen amigo y compañero Juan Milián, y ha escrito sobre ello, consiste en la reconciliación, primero, entre todos los catalanes, aunque hoy, por desgracia, estemos tan divididos, y, después, la reconciliación de los catalanes con el resto de los españoles. No será sencillo. El daño que han infligido a la sociedad catalana y a la española es tremendo, pero lo vamos a conseguir y lo vamos a conseguir porque lo hemos hecho juntos en el pasado. No será sencillo, pero esa tarea –y lo quiero trasladar solemnemente como portavoz de nuestro grupo parlamentario y trasladarle el mensaje a la sociedad catalana y al resto de la sociedad española– los diputados del grupo popular vamos a consagrar nuestro esfuerzo, nuestra vocación, nuestra incansable energía, nuestra generosidad cuando las circunstancias lo exijan, porque no habrá tarea más hermosa y bella que tengamos que afrontar en nuestras vidas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.30.0.16" xml:lang="es">Visca Catalunya y viva España. Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.31.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.31.0.0" xml:lang="ca">Moltes gràcies, senyor Fernández. A continuació té la paraula el senyor Carles Riera, de la Candidatura d'Unitat Popular - Crida Constituent.</seg>
+            </u>
+            <note type="speaker">Carles Riera Albert</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.32.0" who="#RieraCarles" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.32.0.0" xml:lang="ca">Bé; gràcies, presidenta. En primer lloc, en nom del nostre grup parlamentari volem dedicar aquesta intervenció, aquest moment històric i solemne als Jordis, en Jordi Sànchez i en Jordi Cuixart, que avui simbolitzen les que hem patit, pateixen i patiran la repressió de l'Estat espanyol. Jordis, això va per vosaltres i no ens aturarem fins tenir-vos a casa.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments perllongats.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.32.0.1" xml:lang="ca">Avui, en aquest Parlament...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.33.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.33.0.0" xml:lang="ca">Un moment..., un moment, senyor Riera –un moment, senyor Riera. Estic segura que el públic que assisteix a l'acte mantindrà les formes. Ja saben que no es poden fer mostres públiques d'assentiment, d'aprovació ni de reprovació. Els ho comunico.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.33.0.1" xml:lang="ca">Gràcies.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.33.0.2" xml:lang="ca">Pot continuar, senyor Riera.</seg>
+            </u>
+            <note type="speaker">Carles Riera Albert</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0" who="#RieraCarles" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.0" xml:lang="ca">Gràcies, presidenta. Avui en aquest Parlament, representant de la sobirania del poble català, ens disposem a fer una passa històrica. Des de la legitimitat que ens atorga el referèndum d'autodeterminació de l'1 d'octubre, en el qual la majoria dels vots van ser favorables a que Catalunya esdevingui un estat independent en forma de república. I aquest Parlament, d'acord amb la seva Llei de referèndum, no pot fer altrament que proclamar-la. Aquest és el mandat democràtic del nostre poble expressat a les urnes, i així ens pertoca assumir-lo.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.1" xml:lang="ca">Hem habilitat, ja, totes les eines democràtiques possibles per a referendar aquesta decisió: consulta, eleccions i referèndum. Si no se n'han pogut habilitar altres ha estat per la manca de voluntat política de l'Estat per a brindar-ne dintre del seu ordenament jurídic. Per tant, la pretensió de no executar el mandat popular perquè no ha estat legitimat per la legalitat de l'Estat significaria assumir les carències democràtiques de l'Estat espanyol com un condicionant insuperable de la nostra llibertat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.2" xml:lang="ca">Avui, assumint plenament la nostra autotutela jurídica i política, ens constituïm en subjecte polític amb dret a l'autodeterminació i l'exercim sobiranament, apel·lant al dret internacional recollit en les declaracions, convencions i tractats en què les Nacions Unides reconeixen i avalen el dret col·lectiu de tots els pobles a la seva autodeterminació. Constatem que el marc jurídic i polític, estatutari i constitucional són avui un problema, ja que no ofereixen solucions democràtiques al conflicte polític entre els països catalans i l'Estat espanyol, i, en canvi, proposem i afirmem el nou marc republicà com a context d'ampliació de drets civils, socials i polítics que n'ofereix una solució democràtica en el concert internacional.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.3" xml:lang="es">El que avui fem ve de lluny, ve d'una llarga història de lluita i de resistència. Des de la guerra dels Segadors de 1640 i des de la vaga de La Canadenca del 1919 fins a la República del 31 i la seva defensa davant del cop d'estat franquista, i des de la lluita per la democràcia que la va seguir fins al referèndum de l'1 d'octubre i la vaga general del 3 d'octubre, que ens han dut al pas que avui estem a punt de fer, passant per tantes i tantes lluites, per tal d'assolir drets socials, civils i polítics en front d'un estat gairebé sempre despòtic, i també d'unes oligarquies catalanes que sempre han optat per l'statu quo, fins i tot, en contra del propi poble.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.4" xml:lang="ca">Avui ens autodeterminem davant l'Estat espanyol i davant les elits catalanes que prefereixen la tirania espanyola abans que la llibertat i la democràcia a Catalunya. El Govern de la Generalitat va preveure un escenari que no s'ha produït, i que es basava en el diàleg i la negociació amb un estat espanyol més democràtic i amb una Unió Europea menys demofòbica i conservadora. Aquest escenari fins i tot va ser compartit per l'amplíssim marc democràtic que va representar el Pacte nacional pel referèndum. Les eines que hom havia previst per a gestionar la nova república en aquest context frustrat han restat depassades. Ara ens cal bastir un contrapoder popular i institucional i construir la república en un context de lluita i de resistència democràtiques i no violentes, i, tanmateix, amb radical determinació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.5" xml:lang="ca">Ha arribat l'hora del poble, sense encara estructures d'estat, construint república des de baix, amb el procés constituent i amb la lluita social des dels ajuntaments, des de l'autoorganització, des del contrapoder popular català enfront del poder autoritari de l'Estat espanyol.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.6" xml:lang="ca">I per tot això demanem, avui, que el Parlament de Catalunya, assumint els resultats del referèndum d'autodeterminació de l'1 d'octubre i en compliment de la Llei de referèndum, votant aquestes propostes de resolució que proposem, declari que Catalunya esdevé un estat independent en forma de república. I instem el Govern de la Generalitat, així com els ajuntaments del nostre país, a que facin seu aquest mandat a tots els efectes establerts en la Llei de transitorietat nacional i fundacional de la república.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.7" xml:lang="ca">Des de la CUP - Crida Constituent creiem que la independència i que aquesta veritable revolució democràtica són avui el millor camí per avançar en els objectius de transformació social i política de la classe treballadora i de les classes populars en el camí de la construcció d'una societat lliure, feminista i socialista en el conjunt dels Països Catalans. És el millor camí també per honorar la dignitat i la memòria de les que ens han precedit en la lluita per la república i contra el feixisme als Països Catalans, a Espanya i arreu del món. És el millor camí per construir un nou país per a totes, per a tothom, sense exclusions; una república d'acollida, de refugi democràtic i social, amb una amplíssima i tendra abraçada per a tothom que espera i desitja un món millor. Per a tothom, sigui quina sigui la seva identitat i els seus orígens.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.8" xml:lang="ca">I aquest pas sàpiguen que el fem dempeus, amb el cap ben alt</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.9" xml:lang="ca">, no de genolls ni com a súbdits, sinó com a persones lliures, sense por. O amb la por compartida amb tendresa i amb solidaritat, que esdevé determinació i coratge.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.34.0.10" xml:lang="ca">Avui iniciem la destitució del règim del 78 i de la monarquia borbònica a Catalunya, i proclamem la república catalana. Avui és un dia feliç. Visca la terra!</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.35.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.35.0.0" xml:lang="ca">Moltes gràcies, senyor Riera. A continuació té la paraula el senyor Germà Gordó.</seg>
+            </u>
+            <note type="speaker">Germà Gordó i Aubarell</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0" who="#GordòGermà" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0.0" xml:lang="ca">Gràcies, presidenta. President, vicepresident, diputades i diputats, conselleres i consellers..., com vostès saben, no tinc potestat per formular resolucions ni esmenes a aquestes, cosa que hauria fet si hagués pogut fer-ho. No sé si haurien prosperat, crec que no, veient el que va passar amb les esmenes que vaig formular sobre la Llei del referèndum.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0.1" xml:lang="ca">Per tant, i atès que sols tinc dos minuts, breument: reiterar les mancances del procés iniciat amb les lleis del referèndum i de transitorietat; dubtes jurídics, feblesa tecnicojurídica i estreta majoria parlamentària.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0.2" xml:lang="ca">És quelcom a considerar a l'hora d'emetre el vot, i ho considerem. Però emetrem el vot també tenint en compte el vot dipositat per la majoria dels tres milions de persones que es van mobilitzar el dia 1 d'octubre; tenint en compte les nostres mares, les nostres germanes i les nostres filles, que foren colpejades sols pel fet de voler votar; tenint en compte l'atac a les llibertats i a les institucions catalanes que significa l'aplicació de l'article 155 de la Constitució espanyola, i tenint en compte la situació de presó de dos líders socials del nostre país clarament pacifistes com són en Jordi Sànchez i en Jordi Cuixart.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0.3" xml:lang="ca">El vot que emetrem avui no és un punt i a part, és un punt i seguit –ho sabem tots. Res s'acaba aquí, i, sobretot, no s'acaba –no es pot acabar– el diàleg per aconseguir el millor projecte i al més ampli possible per al nostre país.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0.4" xml:lang="ca">No volem perdre de vista, no ho perdrem, i això val tant per a Catalunya com per a l'Estat espanyol, que el millor indicador de la qualitat democràtica d'un país és el tracte que dona a les seues minories.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.36.0.5" xml:lang="ca">Gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.37.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.37.0.0" xml:lang="ca">Moltes gràcies, senyor Gordó. A continuació té la paraula la senyora Marta Rovira, en representació del Grup Parlamentari Junts pel Sí.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.38.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.38.0.0" xml:lang="ca">Gràcies, presidenta. Diputats, diputades, bé, en aquest debat, que va començar ahir i que culmina ara, s'ha parlat de moltes coses; s'ha parlat de com s'entén el diàleg. Nosaltres, el diàleg..., i crec que ningú pot negar que Catalunya sempre ha ofert vies de diàleg; de fet, l'ha practicat, el diàleg. Però ha volgut practicar sempre un diàleg obert, un diàleg sincer, un diàleg honest, un diàleg que no signifiqués renúncies de la gran majoria de ciutadans d'aquest país. I aquest diàleg ha donat fruit moltes vegades: molts pactes polítics, moltíssims, fins a dia d'avui; ha donat fruit fins i tot a un procés estatutari. Un diàleg honest, un diàleg sincer, un diàleg obert, un diàleg en termes d'igualtat, un diàleg que respectava la democràcia. Ha donat fruits. Sempre ha donat fruits positius, però han durat molt poc. Han durat molt poc perquè massa vegades, massa sovint, aquest diàleg ha culminat en acords; aquests acords mai s'han acabat de complir, mai, mai s'han acabat de respectar. Aquests acords provinents del diàleg massa vegades han estat menystinguts i burlats. Moltes vegades aquest diàleg, que ha culminat en referèndums, ha estat fins i tot dilapidat i liquidat per institucions judicials.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.38.0.1" xml:lang="ca">Aquest és el diàleg que se'ns torna a oferir a dia d'avui: un diàleg que neix viciat; un diàleg que neix menystenint una majoria democràtica al nostre país; un diàleg que obliga a un sotmetiment: «Veniu a dialogar al Congrés dels Diputats; un diàleg que no és d'igual a igual, que no és de tu a tu, que no respecta majories democràtiques obtingudes a les urnes. I aquest diàleg cada vegada és més viciat, ara, quan precisament en aquest moment hi ha una majoria democràtica i legal a favor de la independència. El diàleg és tan viciat que és inexistent, perquè per sobre d'aquest diàleg hi ha la unitat d'Espanya –sempre està per sobre d'aquest diàleg. És un diàleg que obliga a renúncies, és un diàleg que implica sotmetiment. De fet, la unitat d'Espanya avui és una opció política que és excusa per a tot: per negar la democràcia, per intervenir el Parlament, per cessar el Govern.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.38.0.2" xml:lang="ca">En canvi, els independentistes tenim una actitud molt diferent. Nosaltres la independència no la volem imposar a ningú; l'hem sotmès sempre a les urnes i a la democràcia; ens hem presentat a unes eleccions legals i democràtiques, i hem obtingut un mandat.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.38.0.3" xml:lang="ca">Els independentistes hem sotmès la nostra opció política a les urnes –27 de setembre–, i vam guanyar.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.38.0.4" xml:lang="ca">I tenim un acord polític majoritari, majoritari a la cambra...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.39.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.39.0.0" xml:lang="ca">Silenci, si us plau.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.40.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.40.0.0" xml:lang="ca">...per ser implementat. I la vam tornar a sotmetre a les urnes el passat 1 d'octubre. Aquest és el nostre diàleg, aquest és el nostre concepte de democràcia: la democràcia sempre ha de ser exercida pels ciutadans. Mai la nostra opció política, mai, ha d'estar per sobre de la mateixa democràcia o del mateix diàleg, com passa en aquests moments amb la unitat de l'Estat espanyol, és a dir, les propostes que ens arriben de diàleg per part dels unionistes.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.40.0.1" xml:lang="ca">Miri, ahir deien: «En aquesta legislatura no s'ha parlat més que del monotema. No; s'ha parlat de moltes coses i s'han aprovat molts projectes que són absolutament necessaris i imprescindibles per al nostre país. I aquests projectes sempre han estat bloquejats políticament per una majoria que no està en aquesta cambra, sinó que està al Govern, al Congrés dels Diputats i al Senat; una majoria política que ens bloqueja i que ens suspèn els progressos socials que s'acorden en aquesta cambra. Cada progrés social és bloquejat políticament per una majoria que no representa els ciutadans d'aquest país, tots.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.40.0.2" xml:lang="ca">Mirin, ahir ningú va parlar del que estan alertant els experts; els experts estan alertant que puja una altra vegada la factura de la llum i que s'acosta l'hivern. I és una alerta que aquí hauríem d'estar debatent</seg>
+               <vocal type="murmuring">
+                  <desc>(remor de veus)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.40.0.3" xml:lang="ca">, que vostès haurien de plantejar. Perquè aquest Parlament ha aprovat lluitar contra la pobresa energètica; aquest Parlament ha treballat per pagar una factura de la llum justa, perquè els empresaris tinguin competitivitat, perquè no es doni la situació que en els últims sis anys els empresaris d'aquest país hagin vist incrementat en un 40 per cent la factura de la llum. Això –això–, perquè no es doni..., saben com ho hem de fer per sortir d'aquest bloqueig polític? Doncs, ens veiem obligats a construir el nostre propi país, el nostre propi estat, que defugi d'aquest Estat oligopolístic que obliga ciutadans i empresaris a pagar una de les factures de la llum més cares del món. Per això estem avui aquí –per això estem avui aquí.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus i aplaudiments.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.41.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.41.0.0" xml:lang="ca">Silenci, si us plau.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.42.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.42.0.0" xml:lang="ca">Per això.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.43.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.43.0.0" xml:lang="ca">Silenci!</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.0" xml:lang="ca">I saben què va passar amb aquests instruments que permeten treballar contra la pobresa energètica que vam aprovar amb una majoria política progressista en aquest Parlament? Que vostès la van bloquejar al Congrés espanyol, la van bloquejar a l'Estat, com sempre fan –com sempre fan.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.1" xml:lang="ca">I avui passen..., avui fan una altra cosa: passen del bloqueig polític posterior utilitzant el Tribunal Constitucional, la fiscalia i els tribunals, passen d'aquest bloqueig polític que han exercit, a la intervenció clarament directa, a una aberració –absolutament– democràtica, a la intervenció d'aquest Parlament i al cessament de les institucions elegides democràticament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.2" xml:lang="ca">Ara ja el bloqueig polític no els serveix, ara ja diuen: «Senzillament, el que volem esborrar és tota una part de la cambra, i ja decidirem nosaltres per tots els ciutadans. Ja no cal que vagin al Congrés espanyol a bloquejar aquesta majoria política. Ja no cal que vagin més al Tribunal Constitucional. Vostès avui el que fan directament és intervenir les institucions democràtiques del nostre país. I, si això s'aprova, ens n'anem quaranta anys abans. I ho hem de tenir molt present. Per això avui fem el pas que fem.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.3" xml:lang="ca">Mirin, nosaltres –nosaltres– només hem volgut votar. I hem volgut que tothom votés, absolutament tothom. Senyora Granados, perquè voti tot el país. I això ho demana un 80 per cent del nostre país. Hem posat les urnes per a tothom –per a tothom–, i tothom ha tingut l'oportunitat d'expressar a les urnes el que pensava.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.4" xml:lang="ca">Fins i tot ahir vostès..., a vostès els devia fer vergonya venir aquí a parlar del 155, perquè utilitzen..., han actuat com sempre actuen; han actuat com sempre actuen fent veure que a Madrid els seus partits i els seus companys..., fent veure que a Madrid els seus partits i els seus companys no tenen res a veure amb Catalunya. Vostès venen aquí, fan uns discursos molt amables, però mentrestant allí Ciutadans, el PSOE i el PP estan aprovant el que aproven. I, com que els fa tanta vergonya, vostès ahir no en van parlar, d'aquest article 155, no en van parlar; com sempre: vostès aquí donen una cara i després bloquegen políticament els avenços que aprova aquest Parlament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.5" xml:lang="ca">Podem parlar de Llavaneres, senyora Arrimadas. He fet una trucada a Llavaneres, i els he dit que hi ha altres maneres de demostrar la discrepància política, certament, sí. De la mateixa manera que jo he fet aquesta trucada, jo li demanaria que vostè també en fes.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.44.0.6" xml:lang="ca">Miri, des de fa dos anys...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.45.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.45.0.0" xml:lang="ca">Si us plau; silenci, si us plau.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.46.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.46.0.0" xml:lang="ca">...des de fa dos anys, alguns diputats que tenim majoria a aquest Parlament també estem intentant tirar democràticament les iniciatives que representem, que ens han donat i ens han fet demanar els ciutadans d'aquest país, però no podem; no podem per un bloqueig constant de l'oposició, que quan se'ls acaben els instruments típics de bloqueig parlamentari el que fan, des de fa dos mesos, és una indignitat: milers de persones investigades, set-cents alcaldes investigats, la Mesa i el Govern querellats i requerits, més de mil ferits per la policia espanyola l'1 d'octubre, alts càrrecs i servidors públics detinguts i imputats, escorcolls a domicilis particulars, a empreses i a despatxos professionals sense garanties, citacions de la Guàrdia Civil i la Policia Nacional per declarar, una campanya electoral prohibida, requisa de cartells, clausura de cent quaranta llocs webs i assetjament a les xarxes socials, amenaces polítiques constants –d'afusellaments, d'il·legalitzacions, de suspensió de les institucions, de presó per als càrrecs polítics–, seguiments de la policia...</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.46.0.1" xml:lang="ca">Si us plau, senyora Arrimadas –senyora Arrimadas–, demani a la policia de paisà que no ens segueixin més. No volem que ens segueixin; volem –volem, volem– exercir els nostres drets.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.46.0.2" xml:lang="ca">No vull que em facin fotografies quan surto de casa per acompanyar la meva filla a l'escola. No vull que em segueixin pel carrer. Vull poder exercir els meus drets d'acord amb el que jo penso.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus i forts aplaudiments.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.47.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.47.0.0" xml:lang="ca">Silenci, si us plau.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.48.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.48.0.0" xml:lang="ca">Jo...</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.49.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.49.0.0" xml:lang="ca">Silenci, si us plau. Silenci.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.50.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.50.0.0" xml:lang="ca">...jo he demanat a tots els regidors i als alcaldes d'Esquerra Republicana...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.51.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.51.0.0" xml:lang="ca">Senyor De Páramo... Senyora Rovira, si us plau. Senyor De Páramo, si us plau.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.51.0.1" xml:lang="ca">Senyor De Páramo, vostès ja han parlat, ja han exercit el seu dret parlamentari; ara l'exerceix un altre grup. Si us plau, respectin-ho.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.51.0.2" xml:lang="ca">Senyora Rovira, pot continuar.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.0" xml:lang="ca">Jo d'això sí que en dic persecució política pel que penso. I li demano que també faci el que jo he fet: demanar als alcaldes i regidors d'Esquerra Republicana, i compartir-ho amb la resta de partits polítics democràtics, que no cal que declarem persones no grates.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.1" xml:lang="ca">Acabo. Recordeu-ho sempre –sempre–: davant de tot això, avui aquí hi som per complir el mandat de l'1 d'octubre. El dia 1 d'octubre no només vam guanyar un referèndum d'autodeterminació, també vam protegir els drets d'expressió, de reunió, d'informació i el dret al pluralisme polític; això és, els drets bàsics d'una democràcia. I vam guanyar el dret que les institucions del nostre país estiguin a l'alçada d'aquesta dignitat, de tanta dignitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.2" xml:lang="ca">La sobirania és ja del poble, com sempre hauria d'haver estat. I és la nostra feina, dels representants legítims aquí reunits, encarnar aquesta sobirania a les institucions, fortes i flexibles a la vegada, que protegeixin els drets i aprofundeixin en totes i cadascuna de les llibertats de tothom. Els drets que es van fer reals l'1 d'octubre ara s'han de fer llei, s'han de fer estat de dret, s'han de convertir en una conversa democràtica, s'han de convertir en consensos i en garanties. Els ciutadans de Catalunya ens van garantir el país, i ara és feina nostra garantir-los aquest estat, aquesta societat, aquesta convivència plural i pacífica, perquè Catalunya ja no es pot governar sense el permís dels seus ciutadans i avui comencem un nou camí que només pot fer-se des d'aquesta fortalesa retrobada.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.3" xml:lang="ca">Els milers de perspectives que formen el nostre país, que són moltes i molt plurals, han de retrobar-se en aquesta determinació per construir un país millor del que som, i a cada passa que vingui és des d'aquesta determinació compartida que hem de poder avançar.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.4" xml:lang="ca">Venen temps difícils, no cal que ens enganyem, venen moments de tensió, però no tenim alternativa, no la tenim. La incapacitat de l'Estat per adaptar-se a les demandes socials de Catalunya, a la voluntat de tenir una conversa adulta, civilitzada, és també la incapacitat d'adaptar-se als temps que vivim, que són i han de ser temps de pau i democràcia. No serà fàcil, no serà gratuït, i ho sabem; no serà d'un dia per un altre. Ens cal el talent de tot el país, ens cal tota la cultura pacífica que hem fet viva aquests anys, tota. Però sabem que tenim el talent, sabem que tenim la determinació, sabem que tenim societat civil i civilitat en aquesta societat, sabem que tenim una xarxa de complicitats, solidaritats i cooperació. Ens caldrà tot això.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.5" xml:lang="ca">I també ens cal parlar clar i aprendre les responsabilitats que ser un estat també comporta. I sabem que hi ha a Catalunya molta gent que no vol la independència, ho sabem, o que no veu clara aquesta estratègia, també ho sabem. I és essencial que les seves veus siguin escoltades, que siguin incorporades a la bastida principal del país, en el procés constituent. El pluralisme no és només un fet innegable, és també una part essencial i necessària del progrés, de tot progrés. Per això ens cal una cultura democràtica molt més robusta, ens cal molt una cultura democràtica molt més madura, més exigent, i ens cal crear les condicions perquè la conversa i el debat, el debat del procés constituent, sigui sense límits, sigui sense subordinacions, sigui possible.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.52.0.6" xml:lang="ca">Avui, malauradament, aquest debat no ho és. Avui les opinions, les preferències, les ambicions són coartades, són amenaçades des de l'Estat. Ens és imperatiu construir aquesta societat, una societat on això no passi, on no...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.53.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.53.0.0" xml:lang="ca">Senyora Rovira...</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.54.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.54.0.0" xml:lang="ca">...–ja acabo, senyora presidenta–, no ara, sinó mai passi el que està passant.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.54.0.1" xml:lang="ca">Construir un estat, com ens proposem fer, significa que el poder de l'Estat no pot estar mai sobre el poder de la gent, com està passant, ni dels consensos, ni de les discrepàncies, ni de la convivència. Ens és urgent crear un espai lliure de repressió i de por per tal de prendre les decisions que vulguem prendre sobre el futur del nostre país, i això es diu i només es pot dir «procés constituent cap a la república catalana.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.54.0.2" xml:lang="ca">Acabo. Recordeu –recordeu...</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.54.0.3" xml:lang="ca">Sí, però també m'han interromput unes quantes vegades. Recordeu: hem assistit a la primera fila d'un espectacle únic, una revolució cultural. Hem perdut la por. Un home, una dona que només té por és un ninot en mans del poder, però una dona o home que coneix els riscos i se'n fa responsable...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.55.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.55.0.0" xml:lang="ca">Senyora Rovira, ha exhaurit el temps.</seg>
+            </u>
+            <note type="speaker">Marta Rovira i Vergés</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.56.0" who="#RoviraMarta" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.56.0.0" xml:lang="ca">...és un home lliure.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.56.0.1" xml:lang="ca">Avui fundem un nou país sobre aquests principis i sobre aquesta dignitat. Fem-ho.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.57.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.57.0.0" xml:lang="ca">Senyora Arrimadas, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.58.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.58.0.0" xml:lang="es">Gracias, señora presidenta, por una cuestión de orden.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.59.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.59.0.0" xml:lang="ca">Digui, senyora presidenta.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.60.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.60.0.0" xml:lang="es">Debido a la gravedad de lo que se va a producir...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.61.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.61.0.0" xml:lang="ca">Senyora Arrimadas.</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.62.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.62.0.0" xml:lang="es">Presidenta, gracias. De momento no, pero</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.62.0.1" xml:lang="es">todo llegará –todo llegará. Pronto, pronto.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.62.0.2" xml:lang="es">Debido a la gravedad de lo que se va a producir en esta cámara y debido a que el presidente de la Generalitat, hoy ha vuelto a no dar la cara y a no querer dialogar con los presidentes de los grupos de la oposición, como líder de la oposición, como representante de 740.000 catalanes, le pido por favor..., que igual que ha sido flexible –y lo entiendo– con los tiempos de los intervinientes, le pido un breve período de tiempo para poder posicionarnos, al menos, los presidentes de los grupos parlamentarios. Ya que el presidente de la Generalitat no ha querido dar la cara, no ha querido dialogar y no ha querido abrir turno.</seg>
+               <vocal type="murmuring">
+                  <desc>(Alguns aplaudiments. Remor de veus. Pausa.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.63.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.63.0.0" xml:lang="ca">Senyora Arrimadas, el debat està taxat i són deu minuts per grup i he sigut..., no he mirat el temps amb cap grup; amb el seu tampoc –amb el seu tampoc.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.63.0.1" xml:lang="ca">Ara, si vol, sí que li puc donar tres minuts per al·lusions, perquè..., perquè a vostè se l'ha al·ludit. Això sí que l'hi puc donar.</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.64.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.64.0.0" xml:lang="es">Jo... –seguimos en la cuestión de orden–, permítame, de verdad, que me oponga a que usted no sea capaz de dar un turno de palabra a los presidentes de los grupos parlamentarios en un momento en que van a declarar ustedes la independencia! Por favor...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.65.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.65.0.0" xml:lang="ca">Senyora Arrimadas, és al Reglament, està taxat.</seg>
+               <vocal type="murmuring">
+                  <desc>(Forta remor de veus. Aplaudiments.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.66.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.66.0.0" xml:lang="es">Espera. Senyora presidenta...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.67.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.67.0.0" xml:lang="ca">Senyor Castel, tranquil·litzi's, eh?, tranquil·litzi's, que no volem que li doni a ningú cap atac de cor.</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.68.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.68.0.0" xml:lang="es">Señora presidenta, en un momento en el que van ustedes a dinamitar el Estatuto de autonomía de Cataluña, la Constitución española y los principios fundacionales de la Unión Europea, como es el imperio de la ley</seg>
+               <vocal type="murmuring">
+                  <desc>(remor de veus)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.68.0.1" xml:lang="es">, permítame usted que dude de su interpretación del Reglamento, señora presidenta.</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.68.0.2" xml:lang="es">Lo lamento.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.69.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.69.0.0" xml:lang="ca">Em sembla..., pot dubtar el que vulgui, senyora Arrimadas, però, l'hi repeteixo, si vol té tres minuts per al·lusions, perquè a vostè l'han al·ludit. I res més, perquè no ho permet, el debat està taxat.</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.70.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.70.0.0" xml:lang="es">¿Puedo hacer mi intervención desde la tribuna?</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.71.0" who="#ForcadellCarme" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.71.0.0" xml:lang="ca">Tres minuts, senyora Arrimadas.</seg>
+            </u>
+            <note type="speaker">Inés Arrimadas García</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0" who="#ArrimadasInés" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.0" xml:lang="es">Gracias, señora presidenta.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus i aplaudiments.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.1" xml:lang="es">«Exagerados, anticatalanes, fachas, agoreros, eso es lo que nos han llamado muchas personas de las que están hoy aquí sentadas, durante años, por decir que lo que está pasando hoy iba a pasar en Cataluña, desde hace mucho tiempo.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.2" xml:lang="es">El nacionalismo solo puede llegar a un sitio, que es al «cuanto peor, mejor, que es al choque entre catalanes, porque la señora Rovira –la señora Rovira que me ha aludido en su discurso– ha hecho referencia a situaciones que lamentablemente estamos sufriendo en Cataluña por el choque social que ustedes han provocado. Con su política de choque, no solo institucional, no solo político, sino social, que es el que ustedes han llevado a Cataluña. Han tenido muchas oportunidades de pararlo y de evitarlo, pero no han querido. Y yo le digo una cosa, señora Rovira, yo no sé si entiende usted muy bien lo que es la separación de poderes, lo que es una líder de la oposición o el jefe de la policía o los jueces. ¿Pero usted me está comparando el hacer una llamada a sus concejales de Llavaneres con el que yo llame al juez de instrucción del tribunal número 13 de Cataluña? ¿O al jefe de la policía? ¿Pero usted sabe de qué se trata la democracia?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.3" xml:lang="es">Con su intervención, nos acaba de demostrar que no tiene ningún respeto, por no decir conocimiento, de lo que es el funcionamiento de una democracia. ¿Que yo tenga que llamar a la policía o a los jueces para que saquen a alguien de la cárcel? ¿Pero de verdad me acaba de pedir usted eso, como líder de la oposición de Cataluña?</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.4" xml:lang="es">¿Pero usted entiende lo que está diciendo? Lo que están produciendo ustedes es un choque sin precedentes, es un insulto a la sangre, el sudor y lágrimas de muchos abuelos y padres nuestros que lucharon por tener democracia, que lucharon por reconciliar a los ciudadanos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.5" xml:lang="es">Por cierto, es un insulto a los represaliados del franquismo, cuyos exponentes máximos han dicho, en estos últimos días, que es una auténtica aberración comparar la democracia española con el régimen franquista; es una aberración. Y le digo más, ¿sabe quién no considera que los presos, los señores Cuixart y Jordi Sànchez, sean presos políticos? Sus propios abogados en el escrito de alegación que han presentado a la juez que, en treinta y seis páginas, no han dicho que eran presos políticos; no han dicho que eran presos políticos. Esta situación es lamentable y nos estamos haciendo mucho daño entre nosotros, mucho. Pero desde luego, aquí hay partidos que intentan pararlo y que intentan poner convivencia en la sociedad y ustedes quieren separarnos entre nosotros. No van a conseguir que esto se lleve a cabo, quiero que lo entiendan, no sé si alguien tiene alguna esperanza de que realmente Cataluña va a ser un estado independiente, sé que no, porque siguen ustedes en la ficción.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.6" xml:lang="es">Pero lo que acaban de cometer es el mayor error de la democracia de Cataluña. Es un ataque, no solo a nuestras instituciones o nuestro Estatuto, a la democracia española. Es un ataque a la Unión Europea, a los valores fundacionales de la Unión Europea. Por eso no tiene usted ningún apoyo, señor Puigdemont, por eso no tiene ni uno, y verá usted, después de esta sesión, los apoyos que llegan de Europa.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.7" xml:lang="es">Y por último y para acabar, señora presidenta, vamos a salir de esta y quiero dirigirme a los catalanes que están viendo con absoluta estupefacción lo que están ustedes haciendo. Salgan a votar en masa en las próximas elecciones para recuperar nuestra convivencia, nuestras instituciones, el sentido común y el futuro de nuestros hijos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.72.0.8" xml:lang="es">Muchas gracias.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.73.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.73.0.0" xml:lang="ca">El debat està taxat, d'acord amb l'article 152 del Reglament del Parlament. Es coneix la seqüència, li he donat tres minuts, d'acord amb l'article 85, per al·lusions, perquè a vostè se l'ha al·ludit, però el debat està taxat i això ho saben tots, ho sabien tots abans de fer-lo. Per tant, crec que no es pot dir..., ho sento, eh? Senyor Iceta, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Miquel Iceta i Llorens</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.74.0" who="#IcetaMiquel" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.74.0.0" xml:lang="ca">Presidenta, té vostè raó, hi ha una seqüència del debat acordada en Junta de Portaveus i, per tant, no penso discutir la seva autoritat, però crec que el dia que es declara la independència en el Parlament de Catalunya, valdria potser la pena que els grups parlamentaris, els presidents dels grups, per un temps molt breu, poguessin prendre la paraula, però ho deixo a la seva discreció.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.75.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.75.0.0" xml:lang="ca">Senyor Iceta, els grups ho han fet, han parlat tots i tots amb el temps..., he estat... No, no he mirat el temps, tothom ha parlat el temps que ha volgut, tothom. Senyor García Albiol, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Xavier García Albiol</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.76.0" who="#GarcíaXavier" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.76.0.0" xml:lang="ca">Sí; gràcies, senyora presidenta. Jo no insistiré en els arguments a què vostè es refereix, perquè és cert, però també li demanaria que, igual que en altres ocasions, i normalment per afavorir aquesta part del saló de plens</seg>
+               <note>(l'orador assenyala el sector esquerre de l'hemicicle)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.76.0.1" xml:lang="ca">, el Reglament, ha estat capaç d'interpretar-lo, degut a que avui ens trobem davant d'un ple de la transcendència del que aquí s'està plantejant, sí que creiem que seria un fet remarcable que els presidents dels grups ens poguéssim expressar..., com a últim missatge al conjunt de la cambra i a la població catalana.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.76.0.2" xml:lang="ca">Tinguin clara una cosa –que al final jo no sé si ens donarà la paraula o no, senyora Forcadell–, si aquí es produeix la votació...</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.76.0.3" xml:lang="ca">Finalitzo: si aquí es produeix la votació de les resolucions de Junts pel Sí i la CUP, el Grup del Partit Popular abandonarà aquest hemicicle, perquè no participarem d'un cop a l'estat democràtic, que posa en risc la democràcia i la convivència de Catalunya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.76.0.4" xml:lang="ca">Moltes gràcies.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.0" xml:lang="ca">Escolti, senyor... A veure, procedirem a la votació, perquè vostès sabien perfectament que avui es votaven propostes de resolució; haurien pogut demanar a la Junta de Portaveus fer-ho d'una altra manera, s'hauria pogut acordar. No s'ha fet. Per tant, ara procedirem a la votació.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.1" xml:lang="ca">No hi ha precedents, per tant, a continuació...</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.2" xml:lang="ca">Acabat el debat, procedirem a la votació de les propostes de resolució presentades pels diferents grups parlamentaris segons l'ordre d'entrada al Registre General del Parlament, d'acord amb l'article 152.2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.3" xml:lang="ca">Començarem, en primer lloc, amb les propostes de resolució presentades pel Grup Parlamentari de Ciutadans.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.4" xml:lang="ca">Atès que no hi ha cap petició de votació separada, votarem conjuntament les tres propostes de resolució. Votem les tres propostes, conjuntament, del Grup Parlamentari de Ciutadans.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.5" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.6" xml:lang="ca">Les propostes de resolució presentades pel Grup Parlamentari de Ciutadans han estat rebutjades per 52 vots a favor, 83 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.7" xml:lang="ca">A continuació votarem les propostes de resolució presentades pel Grup Parlamentari Socialista.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.8" xml:lang="ca">Atès que s'ha demanat la votació separada de la proposta de resolució número 3, votarem en primer lloc les propostes de resolució 1 i 2, conjuntament, i després votarem la 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.9" xml:lang="ca">Comença la votació, 1 i 2.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.10" xml:lang="ca">Tinc..., perdoneu, un problema tècnic.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.11" xml:lang="ca">Les propostes de resolució 1 i 2, presentades pel Grup Parlamentari Socialista, han estat rebutjades per 16 vots a favor, 119 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.12" xml:lang="ca">No podem continuar la votació perquè s'ha quedat la pantalla en blanc.</seg>
+               <vocal type="murmuring">
+                  <desc>(Forta remor de veus. Pausa.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.13" xml:lang="ca">Moltes gràcies, tot controlat –tot controlat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.14" xml:lang="ca">Passem a votar la proposta de resolució número 3, del Grup Parlamentari Socialista, comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.15" xml:lang="ca">La proposta de resolució número 3 ha estat rebutjada per 52 vots a favor, 83 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.16" xml:lang="ca">A continuació..., votarem ara les propostes de resolució presentades pel Grup Parlamentari del Partit Popular de Catalunya. També votarem les tres propostes conjuntament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.17" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.18" xml:lang="ca">Les propostes de resolució presentades pel Grup Parlamentari del Partit Popular de Catalunya han estat rebutjades per 52 vots a favor, 83 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.19" xml:lang="ca">Votarem ara les propostes de resolució presentades pel Grup Parlamentari de Catalunya Sí que es Pot. Atès que també s'ha demanat la votació separada de la proposta de resolució número 3, en primer lloc votarem les propostes 1 i 2 conjuntament.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.20" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.21" xml:lang="ca">Les propostes 1 i 2 han estat rebutjades per 11 vots a favor, 123 en contra i 1 abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.22" xml:lang="ca">A continuació votarem la proposta número 3.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.23" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.24" xml:lang="ca">La proposta número 3 ha estat rebutjada per 27 vots a favor, 107 en contra i 1 abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.25" xml:lang="ca">Un moment.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.26" xml:lang="ca">Els comunico que, com ja saben, l'aprovació d'aquesta proposta de resolució que es votarà a continuació, segons l'advertiment que ens han fet el secretari general i el lletrat major, pot estar afectada per les interlocutòries del Tribunal Constitucional. Els faig aquest advertiment abans de procedir a la votació.</seg>
+               <note>(Roger Torrent i Ramió demana per parlar.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.27" xml:lang="ca">Digui'm, senyor Torrent.</seg>
+               <vocal type="murmuring">
+                  <desc>(Els diputats del Grup Parlamentari de Ciutadans i del Grup Parlamentari Socialista abandonen el Saló de Sessions. Remor de veus i crits de: «Visca Catalunya! Visca Espanya!)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.77.0.28" xml:lang="ca">Senyor Torrent, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Roger Torrent i Ramió</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.78.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.78.0.0" xml:lang="ca">Sí, presidenta, per una qüestió d'ordre i per intentar tornar a la normalitat d'aquest Ple.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.78.0.1" xml:lang="ca">Atenent-nos a l'article 97 del Reglament, el que regula les votacions especials, el nostre grup voldria demanar, atesa la transcendència de les propostes de resolució que es votaran tot seguit, que, especialment la primera, la primera presentada per Junts pel Sí i la CUP, pugui ser votada per crida i en urna.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.78.0.2" xml:lang="ca">I, en la mesura que això fos possible, proposem que es pugui debatre en el Ple, en la mesura que això fos possible –deia–, que es pugui intercanviar l'ordre de votacions, per fer-ho més fàcil. I, per tant, que la primera proposta de resolució de Junts pel Sí i la CUP pugui ser votada la darrera i primer sigui votada la segona amb normalitat. És a dir, aquesta proposta fa..., de votació per crida i en urna, fa referència a la proposta de resolució número 1 de Junts pel Sí i la CUP, que, en tot cas, hauria de ser votada la darrera.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.78.0.3" xml:lang="ca">Gràcies.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.79.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.79.0.0" xml:lang="ca">Haurem de sotmetre a votació aquesta proposta que ha fet, senyor Torrent.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.79.0.1" xml:lang="ca">Sí, sí..., senyor Rodríguez..., sí, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Santi Rodríguez i Serra</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.80.0" who="#RodriguezSanti" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.80.0.0" xml:lang="ca">Per exposar la nostra posició amb relació a la petició, valenta petició, que acaba de formular el portaveu del grup de Junts pel Sí. En el sentit de que l'acte de votació és únic i la votació de les propostes de resolució ha començat, i el que no es pot fer és canviar el sistema de votació de les propostes de resolució enmig de la votació.</seg>
+               <kinesic type="applause">
+                  <desc>(Alguns aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.80.0.1" xml:lang="ca">I, per tant, és absolutament improcedent –és absolutament improcedent– plantejar un canvi del sistema de votació a aquestes alçades.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.80.0.2" xml:lang="ca">Si tenien por de les responsabilitats que poden assumir amb l'exercici del vot, ho havien d'haver previst amb anterioritat.</seg>
+               <kinesic type="applause">
+                  <desc>(Algú diu: «Bravo! Alguns aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.81.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.81.0.0" xml:lang="ca">Senyor Coscubiela, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.82.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.82.0.0" xml:lang="ca">Per fixar la posició amb relació a aquesta petició.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.83.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.83.0.0" xml:lang="ca">Per fixar la posició ve al faristol, senyor Coscubiela?</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.84.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.84.0.0" xml:lang="ca">Sí, sí...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.85.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.85.0.0" xml:lang="ca">Digui.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.86.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.86.0.0" xml:lang="ca">Abans, fa un moment, la senyora Inés Arrimadas ha tingut aquest tractament; però, a més, ho diu el Reglament.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.87.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.87.0.0" xml:lang="ca">A vostè no l'han al·ludit, senyor Coscubiela.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.88.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.88.0.0" xml:lang="ca">Però és una qüestió d'ordre.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.89.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.89.0.0" xml:lang="ca">Vostè no pot... –no pot–, no pot utilitzar l'article 85. Faci... –faci, faci.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.90.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.90.0.0" xml:lang="ca">Gràcies. Crec, senyora Rovira, que la senyora presidenta té suficients facultats com perquè vostè no li vagi indicant constantment el que ha de fer.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.90.0.1" xml:lang="ca">Gràcies, senyora presidenta. Miri, el vot secret està previst en aquest Reglament, en un Reglament que vostès van dinamitar el dia 6 i 7 de setembre. Però avui, en una situació que alguns de vostès consideren èpica i altres considerem catastròfica, per les conseqüències que en termes de pèrdua d'autogovern, empetitiment del país i de riscos per a la cohesió social pot provocar, avui –avui– no és possible que la gent no assumeixi la seva responsabilitat. Crec que ningú té el dret a assumir la seva responsabilitat amagat en el vot secret.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.90.0.2" xml:lang="ca">La decisió que s'està a punt de prendre i d'adoptar tindrà unes conseqüències que obliga  que tothom doni la cara davant dels seus conciutadans. No és de rebut...</seg>
+               <vocal type="murmuring">
+                  <desc>(veus de fons)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.90.0.3" xml:lang="ca">, no és de rebut que una decisió com aquesta, que es basa en un suposat referèndum que no es va fer, perquè el que es va fer va ser una mobilització, un referèndum que no té un mandat, que no és ni legal ni legítim; un mandat que vostès amplien, a més, avui aquí...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.91.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.91.0.0" xml:lang="ca">Senyor Coscubiela, em sembla que ja..., eh?, que ja n'hi ha prou.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.92.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.92.0.0" xml:lang="ca">Acabo..., acabo, senyora presidenta.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.93.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.93.0.0" xml:lang="ca">D'acord.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.94.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.94.0.0" xml:lang="ca">No he esgotat els tres minuts que diu el Reglament que tinc.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.95.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.95.0.0" xml:lang="ca">Sí, però a vostè no l'han al·ludit; a la senyora Arrimadas, sí.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.96.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.96.0.0" xml:lang="ca">Estic fixant posició, senyora presidenta. Si us plau, per un moment, estem discutint el tema de la independència de Catalunya. Si vostè no pot tenir la flexibilitat de deixar-me acabar, potser que acabem tots, vostè la primera, disculpi'm. Puc continuar?</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.97.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.97.0.0" xml:lang="ca">Trenta segons.</seg>
+            </u>
+            <note type="speaker">Joan Coscubiela Conesa</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.98.0" who="#CoscubielaJoan" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.98.0.0" xml:lang="ca">Gràcies, senyora presidenta. Ja sé que no li agrada el que està escoltant, però jo tinc la responsabilitat de dir-ho. Avui no és de rebut que, davant d'aquesta situació, vostès pretenguin amagar-se darrere del vot secret. Vostès han de donar la cara davant dels ciutadans de Catalunya, perquè la decisió que vostès prendran avui tindrà conseqüències sobre milions de ciutadans, i crec que els ciutadans de Catalunya tenen dret a saber exactament què és el que vota cadascú.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.98.0.1" xml:lang="ca">Per últim, disculpeu, eh?, no és de rebut –no és de rebut–, amic Albert Botran, que ahir denunciessis la foscor dels despatxos i avui apostis per la foscor del vot secret. No és d'estranyar, fins i tot estem acostumats a sentir a Zaratrusta en aquest Parlament: «bons catalans i mals catalans, bons demòcrates i mals demòcrates. Avui hem escoltat que hi han foscors dolentes i foscors bones. Ho sento, però així no construïm país, així només l'enfonseu.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.98.0.2" xml:lang="ca">Gràcies.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.0" xml:lang="ca">Gràcies, senyor Coscubiela. Bé. Per la petició que m'ha fet, senyor Torrent, és necessari que la facin dos grups o una cinquena part dels diputats. Es vota perquè el Ple és sobirà, i, per tant, ho votarem.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.1" xml:lang="ca">Sí..., sí, sí.</seg>
+               <note>(Anna Gabriel i Sabaté demana per parlar.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.2" xml:lang="ca">Senyora Gabriel...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons i alguns aplaudiments.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.3" xml:lang="ca">Em diuen: «L'article 97 per majoria...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.4" xml:lang="ca">Sí, l'article 71 del Reglament ho diu, que el Ple és sobirà.</seg>
+               <vocal type="murmuring">
+                  <desc>(Forta remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.5" xml:lang="ca">Senyora Gabriel, per...?</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.6" xml:lang="ca">És..., l'article 71 diu que el Ple és sobirà i, d'acord amb l'article 77, si es decideix...</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.99.0.7" xml:lang="ca">Senyora Gabriel, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Anna Gabriel i Sabaté</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.100.0" who="#GabrielAnna" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.100.0.0" xml:lang="ca">Per explicar el sentit de vot de la Candidatura d'Unitat Popular - Crida Constituent. Sabeu –i per a qui no ho sàpiga avui serà l'ocasió– que la nostra cultura política queda molt lluny de les votacions secretes. De fet, no les ha exercit mai, no les hem sol·licitat mai i en els consistoris dels ajuntaments, que és on tenim la nostra trajectòria principal, no formen part tampoc ni tan sols de les sessions d'investidura dels alcaldes i alcaldesses.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.100.0.1" xml:lang="ca">Avui, per això, hi ha un grup parlamentari que ens ha sol·licitat si els donaríem suport en aquest vot secret i nosaltres ho farem i volem explicar i necessitem explicar perquè ho farem. I ho farem per cultura política antirepressiva, no de teoria, sinó de pràctica. Fa molts anys que hem de treballar en matèria antirepressiva, fa molts anys que sabem què són les detencions, els escorcolls, les tortures i les presons. I avui hi ha dos homes a la presó, dels que avançaven, i avui hi ha amenaces de querelles penals de més de trenta anys de presó de persones dignes i honestes.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.101.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.101.0.0" xml:lang="ca">Senyora Gabriel, no és explicació de vot –no és explicació de vot.</seg>
+            </u>
+            <note type="speaker">Anna Gabriel i Sabaté</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.102.0" who="#GabrielAnna" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.102.0.0" xml:lang="ca">I, davant d'això, no podem fer altra cosa que sostenir una via de votació que queda lluny de la nostra cultura política.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.103.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.103.0.0" xml:lang="ca">...doncs, per tant...</seg>
+            </u>
+            <note type="speaker">Anna Gabriel i Sabaté</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.104.0" who="#GabrielAnna" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.104.0.0" xml:lang="ca">Però avui, per l'excepcionalitat, necessitem donar-hi suport.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.105.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.105.0.0" xml:lang="ca">Per tant...</seg>
+               <kinesic type="applause">
+                  <desc>(alguns aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.105.0.1" xml:lang="ca">, votarem si es fa votació secreta o no.</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.105.0.2" xml:lang="ca">Ha demanat..., dos grups han demanat votació secreta, per tant, procedirem a la votació de votació secreta.</seg>
+               <note>(Xavier García Albiol demana per parlar.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.105.0.3" xml:lang="ca">Senyor García Albiol, ja l'ha demanat abans. El senyor Santi Rodríguez ha parlat. Digui. Vostè també ha parlat.</seg>
+            </u>
+            <note type="speaker">Xavier García Albiol</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.106.0" who="#GarcíaXavier" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.106.0.0" xml:lang="ca">Senyora presidenta, anem a veure una cosa. Estem enmig d'una votació. Aquesta votació no és diferent ni té res a veure amb les dues o tres que s'han produït anteriorment; per tant, el criteri ha de ser un criteri únic.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.106.0.1" xml:lang="ca">I jo no entenc com vostès volen proclamar la independència si no tenen nassos de donar la cara a l'hora de votar.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus i aplaudiments.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.106.0.2" xml:lang="ca">Quina independència proclamaran, si no tenen nassos? Si li tenen por...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.107.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.107.0.0" xml:lang="ca">Senyor...</seg>
+            </u>
+            <note type="speaker">Xavier García Albiol</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.108.0" who="#GarcíaXavier" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.108.0.0" xml:lang="es">...li tenen por..., le tienen miedo...</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.109.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.109.0.0" xml:lang="ca">Senyor García Albiol...</seg>
+            </u>
+            <note type="speaker">Xavier García Albiol</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.110.0" who="#GarcíaXavier" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.110.0.0" xml:lang="es">...a la legalidad española, ¿qué independencia van a proclamar?</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.111.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.111.0.0" xml:lang="ca">Senyor García Albiol...</seg>
+            </u>
+            <note type="speaker">Xavier García Albiol</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.112.0" who="#GarcíaXavier" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.112.0.0" xml:lang="es">Si se esconden como unos cobardes.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.0" xml:lang="ca">Senyor García Albiol, procedirem a la votació perquè és legítima.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.1" xml:lang="ca">Per tant, procedirem a la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.2" xml:lang="ca">Votem si aquesta votació es fa de manera secreta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.3" xml:lang="ca">Comença la votació.</seg>
+               <note>(Els diputats del Grup Parlamentari Popular abandonen el Saló de Sessions.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.4" xml:lang="ca">La votació secreta ha quedat aprovada per 73 vots a favor, 8 en contra i cap abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.5" xml:lang="ca">Per tant, ara, haurem d'anar a buscar l'urna per poder procedir a la votació. Però ara votarem. Votarem la proposta de resolució conjunta de Junts pel Sí i la CUP, la número 2, i després, quan ens arribi l'urna, votarem la número 1.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.6" xml:lang="ca">Per tant, votarem la proposta de resolució número 2.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.7" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.8" xml:lang="ca">La proposta ha quedat aprovada per 71 vots a favor, 8 en contra i 3 abstencions.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.9" xml:lang="ca">Estem esperant que arribi l'urna.</seg>
+               <note>(Roger Torrent i Ramió demana per parlar.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.113.0.10" xml:lang="ca">Estem esperant que arribi l'urna, senyor Torrent. Sí, digui.</seg>
+            </u>
+            <note type="speaker">Roger Torrent i Ramió</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.114.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.114.0.0" xml:lang="ca">Sí, en tot cas, i mentre arriba l'urna, que ara veig que arriba, i que es pugui organitzar la logística d'aquesta votació, el que li demanaríem és que, atesa la transcendència i l'interès que suscita la proposta de resolució que votarem en aquests moments, li demanaríem que, de la part declarativa d'aquesta –és a dir, de la part declarativa d'aquesta proposta de resolució que votarem–, llegeixi la part que va des de «en virtut de i fins al final d'aquesta part declarativa: «abans no es pugui votar.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.114.0.1" xml:lang="ca">Gràcies, presidenta.</seg>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.0" xml:lang="ca">D'acord.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.1" xml:lang="ca">«En virtut de tot el que s'acaba d'exposar, nosaltres, representants democràtics del poble de Catalunya, en el lliure exercici del dret d'autodeterminació, i d'acord amb el mandat rebut de la ciutadania de Catalunya,</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.2" xml:lang="ca">Constituïm la república catalana, com a estat independent i sobirà, de dret, democràtic i social.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.3" xml:lang="ca">Disposem l'entrada en vigor de la Llei de transitorietat jurídica i fundacional de la república.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.4" xml:lang="ca">Iniciem el procés constituent, democràtic, de base ciutadana, transversal, participatiu i vinculant.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.5" xml:lang="ca">Afirmem la voluntat d'obrir negociacions amb l'Estat espanyol, sense condicionants previs, adreçades a establir un règim de col·laboració en benefici de les dues parts. Les negociacions hauran de ser, necessàriament, en peu d'igualtat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.6" xml:lang="ca">Posem en coneixement de la comunitat internacional i les autoritats de la Unió Europea la constitució de la república catalana i la proposta de negociació amb l'Estat espanyol.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.7" xml:lang="ca">Instem la comunitat internacional i les autoritats de la Unió Europea a intervenir per aturar la violació de drets civils i polítics en curs, i a fer el seguiment del procés negociador amb l'Estat espanyol i ser-ne testimonis.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.8" xml:lang="ca">Manifestem la voluntat de construcció d'un projecte europeu que reforci els drets socials i democràtics de la ciutadania, així com el compromís de continuar aplicant, sense solució de continuïtat i de manera unilateral, les normes d'ordenament jurídic de la Unió Europea i les de l'ordenament de l'Estat espanyol i de l'autonòmic català que transposen aquesta normativa.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.9" xml:lang="ca">Afirmem que Catalunya té la voluntat inequívoca d'integrar-se tan ràpidament com sigui possible a la comunitat internacional. El nou estat es compromet a respectar les obligacions internacionals que s'apliquen actualment en el seu territori i a continuar sent part dels tractats internacionals dels quals és part el Regne d'Espanya.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.10" xml:lang="ca">Apel·lem als estats i a les organitzacions internacionals a reconèixer la república catalana com a estat independent i sobirà.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.11" xml:lang="ca">Instem el Govern de la Generalitat a adoptar les mesures necessàries per fer possible la plena efectivitat d'aquesta declaració d'independència i de les previsions de la Llei de transitorietat jurídica i fundacional de la república.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.12" xml:lang="ca">Fem una crida a tots i cadascun dels ciutadans i ciutadanes de la república catalana a fer-nos dignes de la llibertat que ens hem donat i a construir un estat que tradueixi en acció i conducta les inspiracions col·lectives.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.13" xml:lang="ca">Assumim el mandat del poble de Catalunya expressat en el referèndum d'autodeterminació de I'1 d'octubre i declarem que Catalunya esdevé un estat independent en forma de república.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.14" xml:lang="ca">I a continuació votarem la part resolutiva d'aquesta proposta de resolució.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.15" xml:lang="ca">Doncs, ara farem la votació per crida. La secretària primera anirà cridant...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.16" xml:lang="ca">Sí...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.17" xml:lang="ca">No, no cal, no cal fer sorteig, no?</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.18" xml:lang="ca">Ho fem per ordre alfabètic; si els sembla bé, ho farem... Si és per assentiment, ho farem per ordre alfabètic. Per tant, la secretària...</seg>
+               <vocal type="murmuring">
+                  <desc>(Veus de fons.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.115.0.19" xml:lang="ca">Sí.</seg>
+            </u>
+            <note type="speaker">La secretària primera</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.116.0" who="#SimóAnna" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.116.0.0" xml:lang="ca">Cridaré tots els diputats, els que hi són i els que no.</seg>
+               <note>(La secretària primera crida per ordre alfabètic els diputats perquè dipositin llur papereta a l'urna.)</note>
+               <note>(La secretària primera crida per ordre alfabètic els membres del Govern perquè dipositin llur papereta a l'urna.)</note>
+               <note>(La secretària primera crida, un per un, els membres de la Mesa perquè dipositin llur papereta a l'urna.)</note>
+            </u>
+            <note type="speaker">La presidenta</note>
+            <u xml:id="ParlaMint-ES-CT_2017-10-27-4402.117.0" who="#ForcadellCarme" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.117.0.0" xml:lang="ca">Anem a procedir al recompte. Secretari Nuet, pots ajudar-nos en el recompte?</seg>
+               <note>(Pausa.)</note>
+               <note>(Es procedeix a l'escrutini.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.117.0.1" xml:lang="ca">La resolució de la declaració dels i les representants del Parlament queda aprovada per 70 vots a favor, 10 en contra i 2 vots en blanc.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments forts i perllongats. La cambra, dempeus, canta Els segadors. Crits de «Visca Catalunya!)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.117.0.2" xml:lang="ca">Moltes gràcies a totes i a tots.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2017-10-27-4402.117.0.3" xml:lang="ca">S'aixeca la sessió.</seg>
+            </u>
+            <note type="narrative">La sessió s'aixeca a un quart de quatre de la tarda i catorze minuts.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

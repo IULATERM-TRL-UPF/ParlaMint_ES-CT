@@ -41,20 +41,21 @@ def main():
     
     for index, row in df.iterrows():
         PE = SubElement(LP,'person')
-        if len(str(row["Person"]).split(" ")) > 1:
-            person = str(row["Person"]).split(" ")[0]
-        else:
-            person = str(row["Person"])
+        person = " ".join(str(row["Person"]).split())
+        if len(person.split(" ")) > 1:
+            person = person.split(" ")[0]
         PE.attrib['xml:id'] = person
         PN = SubElement(PE,'persName')
-        for a in str(row["Surname"]).split(" "):
+        surname = " ".join(str(row["Surname"]).split())
+        for a in surname.split(" "):
             if a == "i":
                 NL = SubElement(PN,'nameLink')
                 NL.text = a
             else:
                 SN = SubElement(PN,'surname')
                 SN.text = a
-        for n in str(row["Forename"]).split(" "):
+        forename = " ".join(str(row["Forename"]).split())
+        for n in forename.split(" "):
             FN = SubElement(PN,'forename')
             FN.text = n
         SX = SubElement(PE,'sex')
@@ -67,10 +68,18 @@ def main():
             AFF = SubElement(PE,'affiliation')
             AFF.attrib['ref'] = str(row["refparty"])
             AFF.attrib['role'] = "member"
-
+        
+        for x in range(3):
+            if str(row["PG"+str(x+1)+"ref"]) == "nan":
+                continue
+            AF = SubElement(PE,'affiliation')
+            AF.attrib['role'] = str(row["role"+str(x+1)]) 
+            AF.attrib['ref'] = str(row["PG"+str(x+1)+"ref"])
+        
         for i in range(5):
             if str(row["refPC"+str(i+1)]) == "nan":
                 continue
+                
             AF = SubElement(PE,'affiliation')
             AF.attrib['ref'] = str(row["refPC"+str(i+1)])
             
@@ -84,7 +93,10 @@ def main():
             if fix_date(row["to"+str(i+1)]) == "Now":
                 AF.attrib['to'] = "2022-11-06"
             else:
-                AF.attrib['to'] = fix_date(row["to"+str(i+1)])
+                AF.attrib['to'] = fix_date(row["to"+str(i+1)])    
+                
+                
+                
     xmlstr = minidom.parseString(ET.tostring(LP)).toprettyxml(indent="   ")
     with open("ParlaMint-ES-CT-listPerson.xml", "w") as f:
         f.write(xmlstr)

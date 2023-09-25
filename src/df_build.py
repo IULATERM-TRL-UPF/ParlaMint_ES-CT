@@ -1,14 +1,17 @@
-import cld3
+
+
 import pandas as pd
 import os
 import warnings
-import re
-import util_tei as util
+import cld3
+import src.util_tei as util_tei
+import src.util as util
 warnings.filterwarnings("ignore")
 
 
-           
-def df_build(df, file_name, file_date, root_parameters, members_id):
+
+def df_build(df, file_name, file_date, root_parameters):
+  members_id = util.read_members_id(root_parameters)
   intervinent_len = 100
   not_notes = ['D3Intervinent', 'D3IntervinentObertura', 'D3Textnormal', 'CSessi', 'CPresidncia', 'Crgan']
   interv_style = ['D3Intervinent', 'D3IntervinentObertura']
@@ -65,14 +68,8 @@ def df_build(df, file_name, file_date, root_parameters, members_id):
 
   df.loc[(df['style'].isin(interv_style)) &
           (df['text'].str.endswith(')')), 'speaker'] = df['speaker'].astype(str).apply(lambda st: st[st.find("(")+1:st.find(")")] ) #indicamos orador en caso de que se encuentre entre paréntesis
-
-  #df['speaker'] = df['speaker'].str.replace("’", "'", regex=True)
-  #df['speaker'] = df['speaker'].str.replace(".", "", regex=True)
-  #df['speaker'] = df['speaker'].str.replace("  ", " ", regex=True)
-
   df['speaker'] = df['speaker'].fillna(method='ffill') #llenamos los speakers nulos con el valor anterior
 
-  
   members_file = df.loc[(df['style'].isin(interv_style)) &
                   (df['text'].str.endswith(')')), ['text','speaker', 'date']]
   members_file['text'] = members_file['text'].str.replace(r"\([^()]*\)", "", regex=True) #guardamos los miembros que aparecen con su descripción para añadirlos a los metadatos para el file
@@ -90,16 +87,14 @@ def df_build(df, file_name, file_date, root_parameters, members_id):
   members = members.loc[(members['Alta'] <= file_date) &
                           (members['Baja'] >= file_date), ['Cargo', 'Nombre']] #filtramos por la fecha del archivo
                           
-  df = util.build_fixed(df,members_id,file_date)
+  df = util_tei.build_fixed(df,members_id,file_date)
   df = pd.merge(df, members, how='left', left_on = 'speaker'
                     , right_on = 'Cargo').drop(['Cargo'], axis=1) #obtenemos el nombre de quienes son marcados por su rol
   df.loc[(df['Nombre'].isnull()), 'Nombre' ] = df['speaker'] #copiamos los nombres de quienes son marcados por su nombre
   df = pd.merge(df, members_id, how='left', left_on = 'Nombre' #buscamos el ID segun nombre
                   , right_on = 'Nombre')
-  #df.to_excel("df_final.xlsx")
-  df = util.put_matches_fixed(df,file_name,file_date)
-  df = util.remove_nan(df)
-  #df.to_excel("df_final_fixed.xlsx")
+  df = util_tei.put_matches_fixed(df,file_name,file_date)
+  df = util_tei.remove_nan(df)
   df.loc[df['speaker'].isin(['La presidenta', 'El president']), 'role'] = 'chair' #forzamos chair/member rol
   df.loc[~df['speaker'].isin(['La presidenta', 'El president']), 'role'] = 'member' #forzamos chair/member rol
 

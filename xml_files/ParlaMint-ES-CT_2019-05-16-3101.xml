@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:lang="ca" xml:id="ParlaMint-ES-CT_2019-05-16-3101">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="ca">Corpus Parlamentari en català ParlaMint-ES-CT, 2019-05-16 3101 [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Catalan parliamentary corpus ParlaMint-ES-CT, 2019-05-16 3101 [ParlaMint SAMPLE]</title>
+            <meeting ana="#parla.term #PC.12 #parla.uni" n="12">XII Legislatura</meeting>
+            <meeting ana="#parla.meeting #parla.uni" n="31">31</meeting>
+            <meeting ana="#parla.sitting #parla.uni" n="1">1</meeting>
+            <respStmt>
+               <persName>Nuria Bel</persName>
+               <resp>Coordinator</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Iván Antiba Cartazo</persName>
+               <resp>Data retrieval, first conversion to XML and to ParlaMint TEI</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Marilina Pisani</persName>
+               <resp>Final TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Rodolfo Zevallos</persName>
+               <resp>Computational Linguistics Specialist</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="ca">Infraestructura de recerca CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="speeches" quantity="29" xml:lang="ca">29 intervencions</measure>
+            <measure unit="speeches" quantity="29" xml:lang="en">29 speeches</measure>
+            <measure unit="words" quantity="5772" xml:lang="ca">5772 paraules</measure>
+            <measure unit="words" quantity="5772" xml:lang="en">5772 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="ca">Infraestructura d'investigació CLARIN</orgName>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1388</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the Creative Commons Attribution 4.0 International License</p>
+            </availability>
+            <date when="2022">2022</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="ca">Parlament de Catalunya diaris de sessions de parlamentaries</title>
+               <title type="main" xml:lang="en">Parliament of Catalonia daily sessions</title>
+               <idno type="URI">https://www.parlament.cat/</idno>
+               <date when="2019-05-16">2019-05-16</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en">ParlaMint is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the Parla-CLARIN recommendations and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="11"/>
+               <tagUsage gi="pb" occurs="0"/>
+               <tagUsage gi="u" occurs="29"/>
+               <tagUsage gi="seg" occurs="118"/>
+               <tagUsage gi="kinesic" occurs="15"/>
+               <tagUsage gi="vocal" occurs="4"/>
+               <tagUsage gi="incident" occurs="3"/>
+               <tagUsage gi="gap" occurs="0"/>
+               <tagUsage gi="desc" occurs="0"/>
+               <tagUsage gi="time" occurs="0"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Parc de la Ciutadella, s/n 08003</name>
+               <name type="city">Barcelona</name>
+               <name type="country" key="ES">Spain</name>
+               <date when="2019-05-16">2019-05-16</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference">
+      <body>
+         <div type="debateSection">
+            <head>Sessió 31</head>
+            <note type="narrative">La sessió s'obre un quart de deu del matí i nou minuts. Presideix el president del Parlament, acompanyat de tots els membres de la Mesa, la qual és assistida pel secretari general i el lletrat major.</note>
+            <note type="narrative">Al banc del Govern seu el president de la Generalitat, acompanyat dels consellers d'Interior, de Salut, de Territori i Sostenibilitat, de Cultura, de Justícia i de Polítiques Digitals i Administració Pública.</note>
+            <note type="narrative">ORDRE DEL DIA DE LA CONVOCATÒRIA</note>
+            <note type="narrative">Punt únic: Procediment per a designar un senador o senadora que ha de representar la Generalitat al Senat (tram. 280-00002/12). Presidència del Parlament. Designació.</note>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.0" xml:lang="ca">Bon dia, diputats, diputades. Vagin ocupant els seus respectius escons, si us plau. Comencem la sessió.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.1" xml:lang="ca">Una sessió en la qual hi ha un únic punt de l'ordre del dia, que és el procediment per designar un senador o senadora que ha de representar la Generalitat de Catalunya al Senat.</seg>
+               <note>Salutació a un nou diputat</note>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.2" xml:lang="ca">En primer lloc, i abans de passar, justament a aquest punt, em plau donar la benvinguda al nou diputat del Subgrup Parlamentari del Partit Popular de Catalunya, el diputat senyor Daniel Serrano Coronado, que s'incorpora avui a les sessions plenàries. Per tant, benvingut, diputat, al Parlament de Catalunya.</seg>
+               <note>Procediment per a designar un senador o senadora que ha de representar la Generalitat al Senat</note>
+               <note>280-00002/12</note>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.3" xml:lang="ca">Dèiem que l'únic punt de l'ordre del dia és aquesta sessió específica, en la qual es procedeix a debatre i a votar el procediment per designar un senador o senadora que ha de representar la Generalitat al Senat, atesa la vacant produïda per la renúncia del molt honorable senyor José Montilla i Aguilera, del proppassat 8 de maig.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.4" xml:lang="ca">De conformitat amb els articles 4.5, 5.1 i 8 de la Llei 6/2010, del procediment de designació dels senadors que representen la Generalitat al Senat, en concordança amb l'article 174 del Reglament, el procediment, en cas que es produeixi una vacant, s'inicia per resolució de la presidència i a proposta del mateix grup que va proposar la persona que ha causat la vacant.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.5" xml:lang="ca">Atès que el Grup Parlamentari Socialistes i Units per Avançar va presentar, després de la renúncia del molt honorable senyor José Montilla i Aguilera, la candidatura del senyor Miquel Iceta i Llorens; atès també que la Comissió de l'Estatut dels Diputats ha dictaminat que no concorre cap causa d'inelegibilitat, i havent declarat el candidat formalment que, si és elegit, acceptarà el càrrec, passarem a la votació d'aquesta designació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.6" xml:lang="ca">En aquest sentit, els recordo que, atès que es tracta de sotmetre a votació una proposta tancada, l'article 5.1 de la Llei 6/2010, ho regula, i no d'una elecció, els vots que es formulin poden ser a favor, en contra o abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.7" xml:lang="ca">Tanmateix, abans de passar al procediment de votació, els faig avinent que la Mesa, d'acord amb l'article 86.1 del Reglament, i conjuntament d'acord amb la Junta de Portaveus, ha acordat obrir un torn d'intervencions dels grups parlamentaris a favor o en contra del tema que se substancia per un espai de cinc minuts els grups parlamentaris; dos minuts i mig, els subgrups.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.8" xml:lang="ca">Un cop fet aquest debat, passarem després a la votació que, atès el caràcter nominal, serà una votació de caràcter secret, que es farà a través del procediment de votació electrònica i secreta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.1.0.9" xml:lang="ca">Passem, per tant, doncs, al debat, iniciant, per aquest ordre, de menor a major representació dels grups parlamentaris, tal com s'ha estipulat a la Junta de Portaveus recentment celebrada. I, per tant, comença, en primer lloc, i en nom del Subgrup Parlamentari del Partit Popular de Catalunya, el diputat senyor Alejandro Fernández. Quan vulgui.</seg>
+            </u>
+            <note type="speaker">Alejandro Fernández Álvarez</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0" who="#FernándezAlejandro" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0.0" xml:lang="es">Muchísimas gracias, presidente. El pasado 3 de octubre de 2018, le reprochaba, señor Iceta, el hecho de que hubiera roto usted, a nuestro modo de ver, la unidad constitucionalista; había roto lo que también se había venido a denominar «el espíritu de los días 6 y 7 de septiembre, y se iniciaba una estrategia de distensión con el separatismo, que tenía consecuencias inmediatas: de un día para otro y sin solución de continuidad, Torra pasaba a provocarle a usted ternura y, en cambio, los constitucionalistas pasamos a ser derecha extrema de la que hay que librarse –cito textualmente.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0.1" xml:lang="es">De esa distensión tenía que emanar un diálogo, el diálogo del eje Iceta-Junqueras, y de ese diálogo teníamos que ser capaces de llegar, parecía ser, a una arcadia feliz, un balneario de paz y amor que acabaría con el conflicto que tantas heridas ha dejado abiertas en los catalanes en los últimos tiempos.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0.2" xml:lang="es">Cabe decir que los catalanes apoyaron masivamente en las últimas elecciones esa estrategia, les creyeron. Del mismo modo que cabe decir que castigaron en las urnas a aquellos que advertíamos que estábamos ante un diálogo trampa, que no se puede dialogar con aquel que no tiene ninguna intención de dialogar. Yo mismo, el día después de las elecciones, lo señalaba: aceptábamos la contundencia del resultado, pero yo seguía pensando que no pasarían ni dos años hasta que nos diéramos cuenta de que ese diálogo no tenía futuro. Me equivocaba: no han sido necesarios dos años, ha bastado con dos semanas; dos semanas ha necesitado el separatismo para demostrar en qué consiste, para ellos, el diálogo. Consiste básicamente en chantaje, chantaje y chantaje. Han sido capaces, incluso, de decirles que tenían que liberar a los políticos encarcelados para que usted pueda ser senador.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0.3" xml:lang="es">¿Y ahora qué, señor Iceta? ¿Y ahora qué? ¿Qué les va a decir a los centenares de miles de catalanes que le creyeron? ¿Qué les va a decir a los centenares de miles de catalanes a los que les intentó hacer creer que los constitucionalistas éramos el demonio y que, en cambio, los separatistas, el diálogo personificado y la buena voluntad?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0.4" xml:lang="es">Y usted podrá decir, haciéndose el ingenuo: «Al menos, lo he intentado. Sí, al menos lo habrá intentado, pero ¿de verdad merecía la pena romper la unidad constitucionalista para esto? Porque eso es lo que ha ocurrido y lo que ha hecho. Usted ha roto la unidad constitucionalista para nada, como se demuestra hoy, para nada. Puede estar usted muy orgulloso de lo que ha hecho en los últimos meses en Cataluña.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.2.0.5" xml:lang="es">Gracias.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.3.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.3.0.0" xml:lang="ca">Gràcies, diputat. En nom, ara, del Subgrup Parlamentari de la CUP - Crida Constituent, és el torn del diputat senyor Vidal Aragonès.</seg>
+            </u>
+            <note type="speaker">Vidal Aragonés Chicharro</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0" who="#AragonésVidal" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.0" xml:lang="ca">Avui, el que es sotmet a votació són tres qüestions diferents, com a mínim. La primera és si el senyor Iceta serà representant de la Generalitat de Catalunya al Senat espanyol. La segona, si un representant de la Generalitat de Catalunya s'acaba convertint en el president del Senat espanyol. I la tercera, si aquest Parlament, i de fet l'exercici d'autogovern que encara ens resta, molt «minsat, a Catalunya, s'acaba sotmetent al que decideix en qualsevol moment la direcció del PSOE.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.1" xml:lang="ca">Nosaltres hem vingut plantejant, davant d'aquesta votació o d'aquestes votacions on es traslladava la representació de la Generalitat de Catalunya al Senat, que no hem d'enviar representants. I mantindrem, evidentment, aquest element de coherència amb el nostre programa polític.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.2" xml:lang="ca">A més, avui el que estem és discutint sobre una determinada persona, sobre un representant polític. I sobre el representant polític, nosaltres volem fer algunes consideracions. Primera, que no oblidem que va estar a favor de l'aplicació del 155 i que aquesta setmana ha vingut recordant que, si l'ha de tornar a aplicar, el tornarà a aplicar.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.3" xml:lang="ca">La segona, no l'oblidarem tampoc: que l'octubre del 2017 va anar a capçaleres de manifestació acompanyat de l'extrema dreta, el que significa blanquejar el feixisme i l'extrema dreta.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.4" xml:lang="ca">I la tercera, que tampoc volem oblidar, és que, senyor Iceta, i li diem amb tot el respecte, però també amb caracterització política, vostè representa el que ha estat, el que és i el que continuarà sent, fins que acabem, el règim del 78. I, evidentment, no compti amb els nostres vots, ni en forma d'abstenció, ni en forma de sí, per cosificar i regenerar el règim del 78. Nosaltres pensem que el que el poble de Catalunya va voler obrir per baix no s'ha de tancar per dalt.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.5" xml:lang="ca">I volem també fer un trasllat als grups Republicà, per una banda..., i, per una altra banda, també a Junts per Cat. Mirin, el Grup Republicà fa dos anys –o Esquerra Republicana– plantejava que no es presentaria a cap eleccions espanyoles; el Grup de Junts per Cat, en la seva fórmula de presentació a les eleccions espanyoles, deia que anava a bloquejar. I volem pensar que això es mantindrà no únicament per la votació d'avui, sinó per un futur; és a dir, votació pel present i votació per un futur, perquè no entendríem de cap de les maneres que avui es fes una votació i que, en unes setmanes o en uns mesos, es canviés el sentit de la votació. No ho entendríem nosaltres i no ho entendria la majoria independentista, que preguntarien per què.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.6" xml:lang="ca">Per descomptat que nosaltres en un exercici de coherència..., el nostre vot és</seg>
+               <incident type="sound">
+                  <desc>(sona el senyal acústic que indica que s'ha exhaurit el temps d'intervenció)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.4.0.7" xml:lang="ca">per avui, per demà, per un futur, perquè considerem que a les institucions de l'Estat...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.5.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.5.0.0" xml:lang="ca">Gràcies, diputat.</seg>
+            </u>
+            <note type="speaker">Vidal Aragonés Chicharro</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.6.0" who="#AragonésVidal" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.6.0.0" xml:lang="ca">...espanyol no trobarem cap resolució del conflicte català..., ens reprimeix el dret d'autodeterminació i no garanteix els drets socials.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.7.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.7.0.0" xml:lang="ca">Diputat, ha acabat el temps.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.7.0.1" xml:lang="ca">Gràcies.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.7.0.2" xml:lang="ca">En nom, ara, del Grup Parlamentari de Catalunya en Comú Podem, és el torn de la diputada senyora Jéssica Albiach.</seg>
+            </u>
+            <note type="speaker">Jéssica Albiach Satorres</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0" who="#AlbiachJèssica" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.0" xml:lang="ca">Sí; gràcies, president. I bon dia a totes i a tots. Avui estem aquí per debatre i pronunciar-nos sobre el que fins fa poc era un simple tràmit parlamentari i ara resulta que sembla que s'ha convertit en una qüestió d'estat o en allò que decidirà el destí de Catalunya, i no és altra cosa que la designació del senyor Miquel Iceta com a senador per designació autonòmica.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.1" xml:lang="ca">Com totes ací sabem, fins ara era un simple tràmit que no generava major discussió; cada grup parlamentari escollia la persona que considerava més adient per a ocupar el càrrec i la resta de grups parlamentaris, en general, el ratificava. Ara ens trobem amb que els grups parlamentaris, alguns grups parlamentaris, estan al·ludint a qüestions de discrepància ideològica i a la situació d'excepcionalitat que està patint Catalunya per justificar una estratègia de bloqueig.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.2" xml:lang="ca">I jo em pregunte –em pregunte– si fa un any, quan Junts per Catalunya i Esquerra Republicana va votar a favor que la senyora Lorena Roldán</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.3" xml:lang="ca">portaveu de Ciutadans fos designada com a senadora autonòmica, no hi havia discrepància ideològica o no hi havia una situació d'excepcionalitat. Estem parlant de la portaveu de Ciutadans, que és el partit, és la força política que ha tret més rendibilitat de la situació del conflicte que està patint Catalunya; són els líders de l'oposició i, enlloc de buscar solucions, el que estan fent és atiar més foc..., més gasolina al foc, i que, a més, no han mostrat cap humanitat envers els presos i les preses polítiques.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.4" xml:lang="ca">I també vull recordar la data en què aquesta senyora va ser designada senadora autonòmica, que va ser el 4 de maig de l'any passat. Vull recordar que el 4 de maig de l'any passat Catalunya encara estava sotmesa a l'aplicació il·legal de l'article 155, que ens va segrestar les institucions i l'autogovern, que ja hi havia feia mesos presos i preses polítiques i que ja hi havia polítics exiliats.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.5" xml:lang="ca">Per tant, jo no entenc ara mateix aquesta situació que ens estem donant ací. I ens fa pensar que segurament té més a veure amb la campanya electoral de les eleccions municipals i europees que tindrem dins de dos diumenges que realment amb una discrepància ideològica, que, certament, n'hi ha, ni amb una situació d'excepcionalitat, que òbviament és brutal, i ho reconeixem. Fa només dos dies els caps de llista de Junts per Catalunya i d'Esquerra Republicana no podien assistir al debat de TV3, o ahir coneixíem que la fiscalia està perseguint per organització criminal a la cúpula de la Corporació Catalana de Mitjans Audiovisuals. Per tant, l'excepcionalitat és brutal, però és que fa un any estàvem sotmeses a l'aplicació del 155. Així que jo demanaria coherència i responsabilitat i que abandonen aquesta gesticulació. I ho diem reconeixent que el senyor Iceta s'està cobrint de glòria, s'ha de dir, amb les declaracions que està fent sobre l'aplicació del 155 i comparant Catalunya amb Sarajevo. Aquestes declaracions incendiàries, senyor Iceta, no són pròpies de vostè. Del senyor Borrell, les esperàvem; de vostè, li he de dir que no tant.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.6" xml:lang="ca">I també és cert que els socialistes s'han equivocat amb les formes i amb els «tempos. I estem veient que ja l'estaven nomenant a vostè president del Senat quan encara no formava part d'aquella cambra. Per tant, massa respecte a les institucions no estan demostrant. I han convertit aquest tema..., han alçat la veda perquè siga un tema electoral.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.7" xml:lang="ca">I també he de dir que ens indigna i ens sorprèn, a parts iguals, que dues forces polítiques com són el Partit dels Socialistes i Esquerra Republicana, que fa només quinze dies van traure molt bons resultats en unes eleccions generals, parlant de diàleg, d'acords i d'avançar, ara estiguen enfangats en la designació d'un senador autonòmic. Perquè, al final, vostès parlaven de diàleg, però hem vist que el primer que estan fent és bloquejar. Jo crec que, com a societat, com a país, tenim reptes molt més importants que afrontar, i avui mateix tenim una vaga educativa a tot el país per blindar l'educació pública, perquè des de la Generalitat no s'hi està donant respostes.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.8" xml:lang="ca">Nosaltres serem coherents amb el que hem vingut dient fins ara. Ara, també estaria bé que el Partit Socialista entenga que aquesta nova etapa que s'ha d'obrir, de diàleg, de distensió i d'acords, ha de deixar de banda el simbolisme. I està molt bé que el president del Senat siga una persona de Catalunya, però si finalment les seues accions i les seues paraules no van encaminades a una resolució pacífica i democràtica del conflicte, i per la via d'un referèndum, ens és igual que siga de Catalunya, de Soria o de Múrcia.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.9" xml:lang="ca">Jo crec que l'Espanya i la Catalunya que volem han de deixar de ser un eslògan..., i s'ha de convertir en un projecte de país. I per això Espanya ha d'avançar en el reconeixement del que és, que és un estat plurinacional, i ha de reconèixer a Catalunya com el que és, que és una nació amb el dret a decidir. Tenim molts reptes, com ja he dit, com a país; el primer seria la resolució democràtica del conflicte que estem patint per la via d'un referèndum, i el segon, com no podria ser d'una altra manera, també, una reforma del sistema de finançament, que està obsolet i que és injust; també, òbviament, cal blindar el català, no només a Catalunya, sinó també a l'Estat i a Europa, i, per fi, haurem de reformar el Senat perquè veritablement siga una cambra territorial.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.8.0.10" xml:lang="ca">Gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.9.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.9.0.0" xml:lang="ca">Gràcies, diputada. En nom ara del Grup Parlamentari Socialistes i Units per Avançar, és el torn de la senyora Eva Granados. Quan vulgui.</seg>
+            </u>
+            <note type="speaker">Eva Granados Galiano</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.10.0" who="#GranadosEva" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.10.0.0" xml:lang="ca">Gràcies, president. Diputats, avui, amb aquesta votació, decidim entre obrir portes o tancar-les, entre apostar per les solucions o continuar amb el bloqueig. Avui tenim una votació en la que hi ha molt més en joc del que pugui semblar de les relacions entre Catalunya i la resta d'Espanya. I vostès ho tornen a fer: tornen a vulnerar drets, tornen a volar ponts</seg>
+               <vocal type="murmuring">
+                  <desc>(remor de veus)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.10.0.1" xml:lang="ca">, tornen a anar contra l'interès...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.11.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.11.0.0" xml:lang="ca">Silenci!</seg>
+            </u>
+            <note type="speaker">Eva Granados Galiano</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0" who="#GranadosEva" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.0" xml:lang="ca">...general amplíssimament votat el 28 d'abril, que vam votar diàleg.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.1" xml:lang="ca">En primer lloc, s'estan saltant les lleis i vulnerant els drets de les minories, una vegada més: designar la persona que substitueix el diputat socialista és un dret del Grup Socialistes i garantir la proporcionalitat del que vam votar els catalans el 21 de desembre és l'obligació d'aquest Parlament, és un dret i és una obligació indiscutible. I una vegada més les majories volen xafar les minories. Sempre s'ha produït, les vint-i-nou vegades que hem ratificat senadors autonòmics en aquest Parlament, des de 1980, sempre. I el bloqueig que sembla que es produirà en uns minuts per part dels grups independentistes estarà vulnerant drets fonamentals, una vegada més, de representació política. Van en contra de la ciutadania, van en contra dels més de 600.000 ciutadans que van votar opcions socialistes i van en contra del meu grup parlamentari, i també alterarà la composició del Senat espanyol.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.2" xml:lang="ca">Senyors, això no va de confrontació ni de mercadeig; això va de representació, això va de substituir el nostre representant, que representa Catalunya al Senat. I votar-hi en contra és votar en contra de la pluralitat de Catalunya. Estan negant la representació d'un diputat en nom d'aquest Parlament. Una vegada més, degraden les institucions, que són de tots i a tots ens representen. I ho fan a conveniència.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.3" xml:lang="ca">En segon lloc, quin motiu hi ha per vetar Miquel Iceta ara? Diputats d'Esquerra i de Junts per Catalunya, mai en aquest Parlament, mai, s'havia vetat cap proposta de cap partit que proposava un senador. Mai. Vostès han donat suport a diputats del Partit Popular, com Garcia Albiol, el 2016, i diputats de Ciutadans l'any passat; els del 155 permanent. I si amb el 155 en vigor, persones fugades i altres en presó preventiva, vostès, com nosaltres, van votar tots els candidats, fossin independentistes, federalistes o centralistes, quin motiu sobrevingut hi ha ara? Avui no valen excuses.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.4" xml:lang="ca">Vetar Miquel Iceta és anar contra l'essència de la política, el diàleg. Vetar Miquel Iceta és posar pals a les rodes a una sortida política. Vetar Miquel Iceta és anar en contra de la coherència i la valentia que tant pregonen, de tenir al capdavant del Senat una persona que no entén la política sense el diàleg i el consens, una persona catalanista, una persona que es presta a fer ponts i disposat a parlar, una persona que és un polític que sempre ha respectat totes les posicions dins del marc constitucional i que el vol reformar, algú que pot aportar, i molt, des de la presidència del Senat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.5" xml:lang="ca">Senyors diputats, la pregunta que es fan molts catalans avui és què guanya Catalunya impedint que Miquel Iceta sigui president del Senat. I jo els hi trasllado també: què guanya Catalunya impedint que Miquel Iceta sigui president del Senat?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.6" xml:lang="ca">I, en tercer lloc, siguin valents, siguin coherents i siguin responsables. Senyors i senyores d'Esquerra i de Junts per Catalunya, en moments com aquests és quan s'ha de demostrar la valentia i la voluntat de solucionar problemes, i no el tacticisme. Som conscients que a diumenges vinents hi ha unes eleccions, però molts ciutadans valorarien la seva responsabilitat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.7" xml:lang="ca">I acabo. Serà ben fàcil saber si aquesta legislatura acaba amb èxit. I acabarà amb èxit si tenim una Catalunya més unida. I si no ens ho proposem tots, Catalunya estarà més dividida. La divisió en blocs i la seva competència per veure qui és més pur ens va portar al 6 i 7 de setembre, a la DUI i al veto al pressupostos i avui a la substitució del senador socialista. La seva dinàmica de competició continua tal com diu avui l'editorial de l'Ara: «Seria ingenu pensar que darrere del moviment d'Esquerra no hi ha un component de tacticisme electoral.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.8" xml:lang="ca">Senyors i senyores diputats d'Esquerra, sembla que no som els únics a qui costa veure la seva aposta pel diàleg. I el seu comodí és una falta de respecte a la ciutadania de Catalunya; és un recurs tan bàsic que ja fa riure fins i tot als seus electors.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.9" xml:lang="ca">A l'octubre del 2017 Miquel Iceta va fer</seg>
+               <incident type="sound">
+                  <desc>(sona el senyal acústic que indica que s'ha exhaurit el temps d'intervenció)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.12.0.10" xml:lang="ca">tot el que va saber per evitar arribar a la situació on estem avui i des d'aquest faristol...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.13.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.13.0.0" xml:lang="ca">Diputada....</seg>
+            </u>
+            <note type="speaker">Eva Granados Galiano</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.14.0" who="#GranadosEva" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.14.0.0" xml:lang="ca">...–acabo, president– va interpel·lar a tots nosaltres preguntant-nos què podíem fer per la unitat de la societat catalana. Això va preguntar Miquel Iceta el 2017 aquí. La pregunta continua oberta. I ara és l'hora de ser valents...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.15.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.15.0.0" xml:lang="ca">Diputada!</seg>
+            </u>
+            <note type="speaker">Eva Granados Galiano</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.16.0" who="#GranadosEva" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.16.0.0" xml:lang="ca">...i de ser coherents. Catalunya no es mereix..., Catalunya no s'ho mereix.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.17.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.17.0.0" xml:lang="ca">Gràcies, diputada. En nom del Grup Parlamentari Republicà, és el torn del diputat senyor Sergi Sabrià. Quan vulgui.</seg>
+            </u>
+            <note type="speaker">Sergi Sabrià i Benito</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0" who="#SabriàSergi" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.0" xml:lang="ca">Gràcies, president. Bon dia, president, conselleres, consellers, diputats, diputades. Tal com vam anunciar el primer dia, convençuts de que ho han fet absolutament inevitable, Esquerra avui diu que no. Han intentat sotmetre les institucions catalanes una altra vegada. Pretenien que el Parlament se subordinés, que els diputats claudiquessin als designis de Pedro Sánchez, a l'estratègia del PSOE, a un repartiment de cadires i de càrrecs, i a una estratègia electoral. I nosaltres, per això, ni hi passem ni hi passarem.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.1" xml:lang="ca">El nostre «no és rotund i nítid, i es contraposa a uns moviments –els seus– que són molt tèrbols. El nostre «no d'avui ha estat inevitable. De fet, el debat de fons segurament no és d'ara, ni molt menys de cortesia parlamentària. En l'últim pas, el de la darrera setmana, és veritat, es van corrompre les formes. La designació de senadors, sempre, com tothom ha explicat, s'havia fet amb consens, però ho van voler imposar a cop de titulars. I aquest Parlament no vota titulars. Especialment, si pretenien aparentar que el dia a dia d'aquest Parlament s'emmarca en una normalitat. Res més lluny de la realitat: som en una situació innegablement excepcional.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.2" xml:lang="ca">El no d'Esquerra, doncs, avui cau pel seu propi pes, i en bloc, convençuts. I no només per les formes. I no ens parlin de cortesia. On és la cortesia amb els diputats que són a la presó? Eren companys d'escó, seus, també. On és la cortesia amb aquells que han compartit escó, bregues parlamentàries, complicitat als passadissos? On és la cortesia amb les famílies dels presos i dels exiliats? Aixecar-se i mirar-los als ulls, a unes famílies que pateixen? Tan alt era el cost polític que va vèncer la humanitat? On era la cortesia parlamentària –i crec que avui ho hem de dir– quan ens van amenaçar de no votar un diputat interventor o senadors si estaven imputats per l'1 d'octubre? I aquesta votació, finalment, no es va produir, aquesta circumstància no es va produir. Però, l'amenaça, hi va ser o no hi va ser? On era, la cortesia parlamentària, llavors?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.3" xml:lang="ca">De tots aquests mesos de foscor, de vergonya, n'hem après moltes coses. Una, cabdal, que només avançarem com a societat quan el diàleg sincer derroti la tàctica electoral. Això no funcionarà amb xantatges, dient-nos que votem uns pressupostos perquè, si no, vindrà l'extrema dreta. Això no funcionarà amb Misters Marshalls, venint a Barcelona a canviar el nom de l'aeroport. Això no canviarà amb un nou president del Senat que sigui català.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.4" xml:lang="ca">No acceptem de ningú xantatges paternalistes per una suposada cortesia parlamentària. De nou, ara, l'element clau tornava a ser el diàleg a tot arreu i sempre. L'oferta, la d'Esquerra, que mantenim sempre sobre la taula. Perquè, com a soci més fidel de Catalunya, no renunciarem mai a parlar amb tothom. El diàleg per bandera. El mateix diàleg que no vau mantenir quan us van tremolar les cames per uns fatxes a Colón. El diàleg que vau voler dinamitar els darrers dies, quan el senyor Iceta va defensar una altra vegada aplicar el 155, sense cap mania, igual que Ciutadans, igual que el PP, igual que Vox. El diàleg que esmicoleu cada vegada que obre la boca l'advocacia de l'Estat o quan el PSOE veta debats a presos polítics com l'Oriol Junqueras, abans-d'ahir. El diàleg que esquiven des de la moció de censura i que neguen també ara, després del resultat del 28 d'abril. Ni els vostres cops de porta reiterats, ni els xantatges emocionals per càlculs partidistes, ni l'electoralisme ens en faran desdir. Ni les amenaces polítiques. Conseqüències de què, senyora Granados? Què dificultarà, aquest «no d'avui? Què és el que recollirem, sembrant? La collita del 155 és seva. Per tant, ara no ens amenacin, senyor Iceta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.5" xml:lang="ca">Nosaltres volem parlar de tot, i hi seguirem insistint. Són vostès qui ho veten tot, i sempre. Quantes amenaces més rebrem, per no fer-lo president del Senat? Els nostres amics són a la presó, l'hi torno a recordar, per fer un referèndum. Les togues ens apliquen venjances en formes de fiances. No se m'acut quina conseqüència més s'imaginen.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.6" xml:lang="ca">Mentre rumien, nosaltres persistim en el diàleg, en construir una república, en fer avançar el país. Avui, a banda de titulars, li feien falta vots. I els nostres no els tindrà. I de lliçons de cortesia</seg>
+               <incident type="sound">
+                  <desc>(sona el senyal acústic que indica que s'ha exhaurit el temps d'intervenció)</desc>
+               </incident>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.18.0.7" xml:lang="ca">, de parlamentarisme...</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.19.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.19.0.0" xml:lang="ca">Diputat...</seg>
+            </u>
+            <note type="speaker">Sergi Sabrià i Benito</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.20.0" who="#SabriàSergi" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.20.0.0" xml:lang="ca">...de lliçons de dignitat, a nosaltres, cap.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.21.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.21.0.0" xml:lang="ca">Gràcies, diputat. En nom, ara, del Grup Parlamentari de Junts per Catalunya, és el torn del diputat senyor Albert Batet.</seg>
+            </u>
+            <note type="speaker">Albert Batet i Canadell</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0" who="#BatetAlbert" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.0" xml:lang="ca">Moltes gràcies, president. President de la Generalitat, consellers, conselleres, diputats, diputades, en primer lloc, començar mostrant la solidaritat del nostre grup parlamentari amb el president de la Generalitat, el president Torra, que ahir va comparèixer a declarar al Tribunal Superior de Justícia de Catalunya</seg>
+               <kinesic type="applause">
+                  <desc>(aplaudiments)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.1" xml:lang="ca">, com també a tots els membres..., del Jutjat del 13, que han vist com se'ls incrementaven..., i ara se'ls persegueix per organització criminal. Veiem que la repressió continua, creix i es fa notar a Catalunya, governi el Partit Popular o governi el Partit Socialista.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.2" xml:lang="ca">Senyor Iceta, li confirmem que no, i que no en fons i formes; la política també són fons i formes. Avui volem parlar de respecte institucional a la sobirania del Parlament de Catalunya; volem parlar de respecte a la política, al diàleg i la negociació, i volem parlar de cortesia parlamentària. Ningú posa en dubte que al PSC li pertoca un senador, ningú posa en dubte que el PSC té dret a substituir el seu senador, però ningú pot posar en dubte que li pertoca al Parlament de Catalunya aprovar quin és el senador, o no.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.3" xml:lang="ca">En aquest sentit, volem parlar de sobirania parlamentària. Senyor Iceta, vostè està massa acostumat que Madrid mana i Catalunya obeeix, i si no li agrada: «El Tribunal Constitucional ja m'ho arreglarà. Doncs no, miri, nosaltres no som els del 155, no som els del Madrid mana i el Madrid imposa; nosaltres som els dels 135, que vol dir els de la democràcia, que vol dir els del resultat del 21 de desembre, que vol dir de diputats d'aquest Parlament que no poden exercir els seus drets polítics.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.4" xml:lang="ca">I amb la seva actitud durant aquests dies hem vist un cop més, de forma lamentable, com el PSC ha volgut tornar a aplicar l'intrusisme parlamentari del 155. No pertoca al Parlament de Catalunya decidir qui és el president del Senat –no pertoca al Parlament de Catalunya decidir qui és el president del Senat.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.5" xml:lang="ca">I volem parlar també de diàleg..., d'aquest fals diàleg, sovint cínic, que recorda que no hi ha un diàleg de debò, que no hi ha voluntat d'un diàleg de debò, que no hi ha voluntat, que hi ha una retòrica del diàleg, que és un diàleg fals. Perquè on era el diàleg quan es van vulnerar drets de diputats i de diputades? On era el diàleg el dia 1 d'octubre quan es pegava els ciutadans de Catalunya? On era el diàleg el dia 3 d'octubre quan el rei va fer un discurs infame? On era el diàleg el dia 10 d'octubre quan el president Puigdemont va vindre aquí i va suspendre la declaració del Parlament de Catalunya en ares d'un bon diàleg i no va ser possible?</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.6" xml:lang="ca">Potser vostès dialogaven molt amb el rei, amb el Mariano Rajoy, amb l'IBEX, amb els poders fàctics de l'Estat, però mai han tingut voluntat de diàleg amb les forces independentistes del Parlament de Catalunya. Sempre hem tingut la porta oberta. On era el diàleg quan ens van vetar els nostres candidats? Quan van vetar el president Puigdemont a ser investit president de la Generalitat? Quan van vetar el senyor Jordi Sànchez? Quan van vetar el senyor Jordi Turull, que aquí al mig d'un ple...? On era el diàleg durant tots aquests dies? On era el diàleg quan s'han vulnerat drets d'una forma flagrant? On era el diàleg quan volíem un diàleg de debò i hi posàvem unes condicions i vostès van preferir anar a eleccions, negant uns pressupostos? N'estem cansats, de la falsa retòrica del diàleg. Volem política en majúscules.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.7" xml:lang="ca">I, finalment, parlem de cortesia parlamentària. Miri, la més antiga de totes les cortesies parlamentàries, senyor Iceta, és que al Parlament de Catalunya hi puguin haver 135 diputats amb tots els seus drets i els seus deures.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.8" xml:lang="ca">Aquesta és la més antiga de totes les cortesies parlamentàries.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.9" xml:lang="ca">Parlem de cortesia? Doncs parlem de cortesia quan es banalitza el dolor, senyor Iceta, quan es banalitza el dolor dels presos i dels exiliats, quan se'n fa mofa, quan se'n riu. Parlem de cortesia parlamentària quan es menysprea l'exili. Parlem de cortesia parlamentària quan hi han actituds que ofenen, com l'actitud que hi va haver aquí, en aquell Ple del Jordi Turull, l'endemà de la presó, que hi va haver aquí, que hi havia els familiars, i vostè no va ser ni capaç de girar-se i mirar-los a la cara. Això és una falsa cortesia parlamentària, senyor Iceta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.10" xml:lang="ca">I miri, sí, senyor Iceta, vostè no ens pot demanar cortesia parlamentària. Senyor Iceta, vostè no ens pot demanar cortesia parlamentària, vostè no. I per això nosaltres votarem que no a la seva proposta com a senador.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.22.0.11" xml:lang="ca">Moltes gràcies, senyor president.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.23.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.23.0.0" xml:lang="ca">Gràcies, diputat. Digui'm, senyor Iceta, per què em demana la paraula?</seg>
+            </u>
+            <note type="speaker">Miquel Iceta i Llorens</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.24.0" who="#IcetaMiquel" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.24.0.0" xml:lang="ca">Volia demanar-li la paraula per al·lusions reiteradíssimes.</seg>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.25.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.25.0.0" xml:lang="ca">En tot cas, quan acabi el debat. Però, atès que, de fet, es tracta d'un procediment de designació de vostè com a senador, és normal que se l'al·ludeixi des de la tribuna.</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.25.0.1" xml:lang="ca">Però, en tot cas, no pateixi; tindrà després, quan acabi el debat, un torn per al·lusions.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.25.0.2" xml:lang="ca">En tot cas, abans té la paraula el diputat senyor Carlos Carrizosa, en nom del Grup Parlamentari de Ciutadans.</seg>
+            </u>
+            <note type="speaker">Carlos Carrizosa Torres</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0" who="#CarrizosaCarlos" ana="#regular" xml:lang="es">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.0" xml:lang="es">Gracias, señor presidente. Señoras y señores diputados, todos sabemos que la ley establece la forma de sustituir a un senador, lo establece el Reglamento de este Parlamento de Cataluña y también la Ley 6, de 2010, y no se puede votar que no a estas sustituciones, salvo que se incumplan estas leyes, salvo que uno esté dispuesto a que las mayorías dejen sin derechos a las minorías. Y eso es lo que está pasando hoy en este Parlamento, nuevamente, pero es normal que ocurra esto aquí, porque este es el Parlamento donde se ignoraron los derechos de los diputados, donde se declaró unilateralmente la independencia, desde donde se dividió a la sociedad catalana. Y las fuerzas separatistas que hoy vuelven a bloquear las instituciones no han pedido perdón por ello ni se dan por aludidas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.1" xml:lang="es">Este separatismo..., el grado de anormalidad se mide día a día, como lo que ocurrió ayer, donde tuvimos a un presidente que ha sido censurado por sus escritos racistas por los principales grupos del Parlamento Europeo que estuvo declarando ante el Tribunal Superior de Justicia por vulnerar las normas elementales que rigen los procesos electorales democráticos. Y ahí estaba nuestro presidente de la Generalitat, allí, declarando por algo tan grave. O que ayer mismo también conocimos que la fiscalía va a investigar a la cúpula de los medios de comunicación públicos de Cataluña precisamente por organización criminal para favorecer la realización de ilegalidades.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.2" xml:lang="es">Señor Iceta, con todo el respeto y hasta el aprecio personal que sabe que muchos de nosotros le tenemos, no podemos votar ni siquiera simbólicamente que sí, un sí que no tendría efecto alguno ante el bloqueo del separatismo, porque ustedes dependían de sus socios y simplemente sus socios les han dejado tirados. Ustedes ya escogieron socios, señor Iceta; ustedes ya dinamitaron los puentes con el constitucionalismo. Y esto es consecuencia de irse con según quien a hacer pactos, señor Iceta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.3" xml:lang="es">No podemos votar ese sí simbólico, también, porque nos enteramos por los periódicos y porque es fruto del dedazo del señor Pedro Sánchez este procedimiento en el que estamos hoy. Pero tampoco podemos bloquear..., no podemos bloquear. Ni tampoco dar ese sí simbólico a un socialismo que está defendiendo, para favorecer al separatismo, los indultos, que defendió un referéndum de independencia, que defendió y defiende un pacto con los separatistas en vez de con los constitucionalistas. No podemos dar un sí simbólico a ese socialismo que mira sistemáticamente a otro lado cuando los derechos de los catalanes se ven constantemente vulnerados en todo el territorio de Cataluña, también en muchos ayuntamientos, con la connivencia del Partido Socialista.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.4" xml:lang="es">Y también le he de decir, señor Iceta, que esta estrategia de apaciguamiento que lleva a cabo el socialismo con el separatismo está claro que es un fracaso, puesto que, al final, miren el pago que han tenido ustedes, con todas estas concesiones, con tanto rondar los pactos con aquellos que no son constitucionalistas. El separatismo no es de fiar; ellos tienen un plan a largo plazo, lo sabemos todo el mundo, no van a parar: ellos quieren un Brexit para Cataluña y quieren sacarnos de España. Y lógicamente eso nosotros, los de Ciudadanos, no lo podemos permitir.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.5" xml:lang="es">Yo creo que el fracaso de hoy, señor Iceta, le tiene que invitar a usted a reflexionar sobre el apoyo que el Partido Socialista está recabando y está pidiendo de los partidos separatistas.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.6" xml:lang="es">Por lo tanto, no vamos a poderles dar un apoyo simbólico e ineficaz con un sí que está abocado al fracaso, pero desde luego tampoco vamos a dejar de abstenernos en estas circunstancias, puesto que esta es la única posición lógica que cabe actualmente en la política catalana y ante la disyuntiva que se nos ha planteado hoy.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.26.0.7" xml:lang="es">Gracias.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.27.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.27.0.0" xml:lang="ca">Gràcies, diputat. Ara sí, senyor Iceta, si vol...</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.27.0.1" xml:lang="ca">Per al·lusions.</seg>
+            </u>
+            <note type="speaker">Miquel Iceta i Llorens</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.28.0" who="#IcetaMiquel" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.28.0.0" xml:lang="ca">Gràcies, senyor president. Seré molt breu i intentaré que la meva intervenció no necessàriament susciti la rèplica d'altres grups.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.28.0.1" xml:lang="ca">Volia dir només tres coses. Una, dimarts es constituirà el Senat d'Espanya; hi faltarà un representant de la Generalitat i hi faltarà un representant del Grup Socialista. Dos, manifestar el meu respecte absolut per totes les persones, per totes les idees, i recordar que la primera vegada que vaig parlar en aquesta cambra del Senat va ser quan em vaig oferir a acompanyar el president Puigdemont per evitar l'aplicació de l'article 155.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.28.0.2" xml:lang="ca">I tercer, dir-los que, sigui quin sigui el resultat de la votació, per dolorós que pugui semblar, no em restarà ni un bri de voluntat de trobar solucions acordades a partir de l'únic camí que tenim, que és el del diàleg, la negociació i el pacte.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.28.0.3" xml:lang="ca">Gràcies.</seg>
+               <kinesic type="applause">
+                  <desc>(Aplaudiments.)</desc>
+               </kinesic>
+            </u>
+            <note type="speaker">El president</note>
+            <u xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0" who="#TorrentRoger" ana="#regular" xml:lang="ca">
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.0" xml:lang="ca">Gràcies, diputat. Un cop fet el debat, passem, doncs, a la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.1" xml:lang="ca">D'acord amb l'article 5.2 de la Llei 6/2010 i l'article 101.c, del Reglament, la Mesa ha acordat que es procedeixi a fer una votació electrònica i secreta.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.2" xml:lang="ca">Els recordo que, atès que es tracta de sotmetre a votació una proposta –article 5.1 de la Llei 6/2010– i no d'una elecció, els vots que es formulin poden ser a favor, en contra o d'abstenció.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.3" xml:lang="ca">Abans de començar la votació, però, i d'acord amb l'article 95 del Reglament, els informo que el diputat Francesc Viaplana, amb motiu de permís de paternitat, ha delegat el seu vot per aquesta sessió plenària en el diputat Sergi Sabrià, president del Grup Parlamentari Republicà, i que els diputats Oriol Junqueras i Raül Romeva han designat el diputat Sergi Sabrià, president del Grup Parlamentari Republicà, perquè exerceixi els seus drets parlamentaris.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.4" xml:lang="ca">Passarem a la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.5" xml:lang="ca">Prego als serveis tècnics de la cambra que disposin el sistema de votació per tal de que sigui efectivament secret.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.6" xml:lang="ca">Cridem a votació.</seg>
+               <note>(Pausa llarga.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.7" xml:lang="ca">Bé, passarem, doncs, a la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.8" xml:lang="ca">Comença la votació...</seg>
+               <vocal type="murmuring">
+                  <desc>(Remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.9" xml:lang="ca">Es cancel·la la votació. Disculpin.</seg>
+               <note>(Pausa.)</note>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.10" xml:lang="ca">Ara sí.</seg>
+               <vocal type="murmuring">
+                  <desc>(Persisteix la remor de veus.)</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.11" xml:lang="ca">Tornem a fer la votació. Si us plau, silenci.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.12" xml:lang="ca">Comença la votació.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.13" xml:lang="ca">Atès que hi han hagut 25 vots favorables, 65 en contra i 39 abstencions, queda rebutjada la proposta de designació en representació de la Generalitat al Senat del senyor Miquel Iceta i Llorens.</seg>
+               <seg xml:id="ParlaMint-ES-CT_2019-05-16-3101.29.0.14" xml:lang="ca">S'aixeca la sessió. Gràcies.</seg>
+            </u>
+            <note type="narrative">La sessió s'aixeca a les deu del matí i cinc minuts.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

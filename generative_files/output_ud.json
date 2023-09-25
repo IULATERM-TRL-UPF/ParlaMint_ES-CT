@@ -1,0 +1,8 @@
+{
+ "model": "catalan-ancora-ud-2.10-220711",
+ "acknowledgements": [
+  "http://ufal.mff.cuni.cz/udpipe/2#udpipe2_acknowledgements",
+  "https://ufal.mff.cuni.cz/udpipe/2/models#universal_dependencies_210_models"
+ ],
+ "result": "# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe\n# udpipe_model = catalan-ancora-ud-2.10-220711\n# udpipe_model_licence = CC BY-NC-SA\n# newdoc\n# newpar\n# sent_id = 1\n1\tAcabada\t_\t_\t_\t_\t5\tadvcl\t_\t_\n2\taquesta\t_\t_\t_\t_\t3\tdet\t_\t_\n3\tinterpel·lació\t_\t_\t_\t_\t1\tnsubj\t_\t_\n4\t,\t_\t_\t_\t_\t1\tpunct\t_\t_\n5\tsuspenem\t_\t_\t_\t_\t0\troot\t_\t_\n6\tel\t_\t_\t_\t_\t7\tdet\t_\t_\n7\tPle\t_\t_\t_\t_\t5\tobj\t_\t_\n8\tfins\t_\t_\t_\t_\t9\tcase\t_\t_\n9\tdemà\t_\t_\t_\t_\t5\tadvmod\t_\t_\n10\ta\t_\t_\t_\t_\t12\tcase\t_\t_\n11\tles\t_\t_\t_\t_\t12\tdet\t_\t_\n12\tnou\t_\t_\t_\t_\t9\tobl\t_\t_\n13\tde\t_\t_\t_\t_\t16\tcase\t_\t_\n14\tel\t_\t_\t_\t_\t16\tdet\t_\t_\n15\tdel\t_\t_\t_\t_\t16\tcase\t_\t_\n16\tmatí\t_\t_\t_\t_\t12\tcompound\t_\t_\n17\t.\t_\t_\t_\t_\t5\tpunct\t_\t_\n\n# sent_id = 2\n1\tGràcies\t_\t_\t_\t_\t0\troot\t_\t_\n2\t.\t_\t_\t_\t_\t1\tpunct\t_\t_\n\n"
+}

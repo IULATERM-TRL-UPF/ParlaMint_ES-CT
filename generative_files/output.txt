@@ -1,0 +1,20 @@
+1  Acabada        acabar         VMP00SF VMP pos=verb|type=main|mood=participle|num=singular|gen=feminine         -     - - - - - -
+2  aquesta        aquest         DD0FS0  DD  pos=determiner|type=demonstrative|gen=feminine|num=singular          -     - - - - - -
+3  interpel·lació interpel·lació NCFS000 NC  pos=noun|type=common|gen=feminine|num=singular                       -     - - - - - -
+4  ,              ,              Fc      Fc  pos=punctuation|type=comma                                           -     - - - - - -
+5  suspenem       suspendre      VMIP1P0 VMI pos=verb|type=main|mood=indicative|tense=present|person=1|num=plural -     - - - - - -
+6  el             el             DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular               -     - - - - - -
+7  Ple            ple            NP00O00 NP  pos=noun|type=proper|neclass=organization                            B-ORG - - - - - -
+8  fins           fins           SP      SP  pos=adposition|type=preposition                                      -     - - - - - -
+9  demà           demà           RG      RG  pos=adverb|type=general                                              -     - - - - - -
+10 a              a              SP      SP  pos=adposition|type=preposition                                      -     - - - - - -
+11 les            el             DA0FP0  DA  pos=determiner|type=article|gen=feminine|num=plural                  -     - - - - - -
+12 nou            nou            AQ0MS00 AQ  pos=adjective|type=qualificative|gen=masculine|num=singular          -     - - - - - -
+13 de             de             SP      SP  pos=adposition|type=preposition                                      -     - - - - - -
+14 el             el             DA0MS0  DA  pos=determiner|type=article|gen=masculine|num=singular               -     - - - - - -
+15 matí           matí           NCMS000 NC  pos=noun|type=common|gen=masculine|num=singular                      -     - - - - - -
+16 .              .              Fp      Fp  pos=punctuation|type=period                                          -     - - - - - -
+
+1 Gràcies gràcies NP00SP0 NP pos=noun|type=proper|neclass=person B-PER - - - - - -
+2 .       .       Fp      Fp pos=punctuation|type=period         -     - - - - - -
+
