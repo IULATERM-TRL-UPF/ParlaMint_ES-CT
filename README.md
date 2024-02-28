@@ -7,6 +7,10 @@ Our Python code offers two functionalities:
 1. Corpus Statistics (-a s): This mode analyzes the corpus and provides statistics on the number of tokens in each language (Spanish, Catalan, and others).
 2. Document Processing (-a p): This mode processes DOCX files and converts them to XML and ANA files. It also attempts to fix date formatting issues in the resulting XML files.
 
+## Requirements
+- Python 3.x
+- Required libraries (install using pip install):
+
 ## Installation
 
 In order to clone this repository:
