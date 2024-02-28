@@ -4,23 +4,16 @@ GENERAL INFORMATION
 1. Dataset title:
 ParlaMintCAT corpus
 
-
 2. Authorship:
 
-	Name: Marilina Pisani
-	Institution: UPF
-	Email: marilinapisani@gmail.com
-	ORCID:  
+ Marilina Pisani,
+ Rodolfo Zevallos (rodolfojoel.zevallos@upf.edu) and 
+ Núria Bel (nuria.bel@upf.edu)
 
-	Name: Rodolfo Zevallos
-	Institution: UPF
-	Email: rodolfojoel.zevallos@upf.edu
-	ORCID:  
-
-	Name: Núria Bel
-	Institution: UPF
-	Email: nuria.bel@upf.edu
-	ORCID:  0000-0001-9346-7803
+ Universitat Pompeu Fabra
+ 
+ IULATERM-Technologies of Language Resources
+ [https://www.upf.edu/web/iulaterm](https://www.upf.edu/web/iulaterm)
 
 DESCRIPTION
 ----------
@@ -44,9 +37,9 @@ Catalan Parliament General Assembly sessions from 2015 to 2022 have been compile
 processed and annotated.
 Data can be accessed also from CLARIN.SI repository at this link:
 
-https://www.clarin.si/repository/xmlui/handle/11356/1859 
+[https://www.clarin.si/repository/xmlui/handle/11356/1859](https://www.clarin.si/repository/xmlui/handle/11356/1859)
 
-There are two packages for Parlaming-ES-CT: 
+There are two packages for Parlaming-ES-CT. Direct download links are: 
 - TEI encoded:
 https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1859/ParlaMint-ES-CT.tgz?sequence=9&isAllowed=y
 
@@ -96,8 +89,7 @@ Erjavec, Tomaž; et al., 2023, Multilingual comparable corpora of parliamentary 
 
 5. Link to related datasets:
 
-
-	DOI/URL: https://www.clarin.si/repository/xmlui/handle/11356/1486 
+[https://www.clarin.si/repository/xmlui/handle/11356/1486](https://www.clarin.si/repository/xmlui/handle/11356/1486 )
 
 
 
@@ -105,7 +97,7 @@ VERSIONING AND PROVENANCE
 ---------------
 
 1. Last modification date:
-[Recommended if applicable | Format DD-MM-YYYY] 
+30-10-2023
 
 
 2. Were data derived from another source?:
@@ -113,7 +105,7 @@ No
 
 
 3. Additional related data not included in this dataset:
-[Optional]
+
 
 
 METHODOLOGICAL INFORMATION
