@@ -1,7 +1,11 @@
 
 # ParlaMint Spanish Catalan
 
-This is the repository of the ParlaMint project for Spanish and Catalan. Here you can find the different scripts you need to get .ana and xml files. 
+This is the repository of the ParlaMint project for Spanish and Catalan. This repository contains the Python code for processing Parliament 2022 documents. Here you can find the different scripts you need to get .ana and xml files. 
+Our Python code offers two functionalities:
+
+Corpus Statistics (-a s): This mode analyzes the corpus and provides statistics on the number of tokens in each language (Spanish, Catalan, and others).
+Document Processing (-a p): This mode processes DOCX files and converts them to XML and ANA files. It also attempts to fix date formatting issues in the resulting XML files.
 
 ## Installation
 
